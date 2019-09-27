@@ -1,3 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Request" max_length="40" name="x_isgi_rr_request" type="collection"/>
+    <element audit="true" label="Request" max_length="40" name="x_isgi_rr_request" type="collection">
+        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
+        <element dependent="comments" dependent_on_field="comments" label="Comment List" max_length="4000" name="comment_list" type="journal_list" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="2000" name="des" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="100" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request for" mandatory="true" max_length="40" name="req_for" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Above and Beyond" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Dazzling Debut" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Best Team" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Chairman Club" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Spot On" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:gs.getUserID()" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Requestor Name" max_length="32" name="req_name" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Workflow State" max_length="40" name="workflow_state" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Request" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Approval" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Approved" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="req_name"/>
+        </index>
+    </element>
 </database>

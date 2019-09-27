@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_isgi_rr_above_beyond">x_isgi_rr_above_beyond</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1</number>
+        <prefix>A&amp;B</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 08:44:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>82514b8f1b88845076efea8dee4bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>A&amp;B</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sys_number_82514b8f1b88845076efea8dee4bcb73</sys_update_name>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 08:44:58</sys_updated_on>
+    </sys_number>
+</record_update>

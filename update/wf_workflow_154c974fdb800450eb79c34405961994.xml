@@ -1,0 +1,1421 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["154c974fdb800450eb79c34405961996"],"activities":{},"stages":{},"subflows":[]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition table="x_isgi_rr_above_beyond">workflow_state=1^EQ<item endquery="false" field="workflow_state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>9d4c974fdb800450eb79c34405961994,fb4c1f4fdb800450eb79c344059619c6,146cd74fdb800450eb79c34405961991,2f7c1f4fdb800450eb79c34405961933,d0ac538fdb800450eb79c34405961998,154c974fdb800450eb79c34405961996</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>9d4c974fdb800450eb79c34405961994,fb4c1f4fdb800450eb79c344059619c6,146cd74fdb800450eb79c34405961991,2f7c1f4fdb800450eb79c34405961933,ee8c138fdb800450eb79c34405961953,d0ac538fdb800450eb79c34405961998,1cfc538fdb800450eb79c34405961992,154c974fdb800450eb79c34405961996</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Above and Beyond</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">9d4c974fdb800450eb79c34405961994</start>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:42:36</sys_created_on>
+        <sys_id>b62c9b4fdb800450eb79c34405961994</sys_id>
+        <sys_mod_count>78</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:45:56</sys_updated_on>
+        <table>x_isgi_rr_above_beyond</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="Above and Beyond">154c974fdb800450eb79c34405961994</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Above and Beyond</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:42:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>154c974fdb800450eb79c34405961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Above and Beyond</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>wf_workflow_154c974fdb800450eb79c34405961994</sys_update_name>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:42:36</sys_updated_on>
+        <table>x_isgi_rr_above_beyond</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:42:36</sys_created_on>
+        <sys_id>9d4c974fdb800450eb79c34405961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:42:36</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Above and Beyond">b62c9b4fdb800450eb79c34405961994</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=9d4c974fdb800450eb79c34405961994"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">9d4c974fdb800450eb79c34405961994</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:42:36</sys_created_on>
+        <sys_id>994c974fdb800450eb79c34405961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:42:36</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:42:36</sys_created_on>
+        <sys_id>154c974fdb800450eb79c34405961996</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:42:41</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Above and Beyond">b62c9b4fdb800450eb79c34405961994</workflow_version>
+        <x>1070</x>
+        <y>561</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=154c974fdb800450eb79c34405961996"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>If Approved</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:41</sys_created_on>
+        <sys_id>2f7c1f4fdb800450eb79c34405961933</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Above and Beyond">b62c9b4fdb800450eb79c34405961994</workflow_version>
+        <x>628</x>
+        <y>80</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=2f7c1f4fdb800450eb79c34405961933"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2f7c1f4fdb800450eb79c34405961933</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:41</sys_created_on>
+        <sys_id>498cdf4fdb800450eb79c3440596192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:41</sys_updated_on>
+        <value>approved</value>
+        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2f7c1f4fdb800450eb79c34405961933</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:41</sys_created_on>
+        <sys_id>498cdf4fdb800450eb79c3440596192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:41</sys_updated_on>
+        <value>approved</value>
+        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="If Approved">2f7c1f4fdb800450eb79c34405961933</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:41</sys_created_on>
+        <sys_id>818cdf4fdb800450eb79c3440596192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:41</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>If Rejected</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:55</sys_created_on>
+        <sys_id>ee8c138fdb800450eb79c34405961953</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:44:00</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Above and Beyond">b62c9b4fdb800450eb79c34405961994</workflow_version>
+        <x>454</x>
+        <y>230</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=ee8c138fdb800450eb79c34405961953"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ee8c138fdb800450eb79c34405961953</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:55</sys_created_on>
+        <sys_id>e89c9b4fdb800450eb79c3440596197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:55</sys_updated_on>
+        <value>rejected</value>
+        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ee8c138fdb800450eb79c34405961953</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:55</sys_created_on>
+        <sys_id>e89c9b4fdb800450eb79c3440596197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:55</sys_updated_on>
+        <value>rejected</value>
+        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="If Rejected">ee8c138fdb800450eb79c34405961953</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:55</sys_created_on>
+        <sys_id>a09c9b4fdb800450eb79c3440596197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:55</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Send for Approval</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>146cd74fdb800450eb79c34405961991</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:31</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Above and Beyond">b62c9b4fdb800450eb79c34405961994</workflow_version>
+        <x>402</x>
+        <y>53</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=146cd74fdb800450eb79c34405961991"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>317c9b4fdb800450eb79c344059619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>357c9b4fdb800450eb79c344059619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>397c9b4fdb800450eb79c344059619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>3d7c9b4fdb800450eb79c344059619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>3d7cdf4fdb800450eb79c3440596194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>717c9b4fdb800450eb79c344059619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>757c9b4fdb800450eb79c344059619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>757cdf4fdb800450eb79c3440596194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>797c9b4fdb800450eb79c344059619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>797cdf4fdb800450eb79c3440596194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>7d7c9b4fdb800450eb79c344059619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>b17c9b4fdb800450eb79c344059619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>b17cdf4fdb800450eb79c3440596194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>b57c9b4fdb800450eb79c344059619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>workflow_state=2^EQ</value>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>b57cdf4fdb800450eb79c3440596194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>b97c9b4fdb800450eb79c344059619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>${rm_name}</value>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>bd7c9b4fdb800450eb79c344059619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>bd7c9b4fdb800450eb79c344059619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>f17c9b4fdb800450eb79c344059619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>f17cdf4fdb800450eb79c3440596194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>f57c9b4fdb800450eb79c344059619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>f97c9b4fdb800450eb79c344059619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>fd7cdf4fdb800450eb79c3440596194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>b57c9b4fdb800450eb79c344059619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>workflow_state=2^EQ</value>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>797cdf4fdb800450eb79c3440596194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>bd7c9b4fdb800450eb79c344059619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>717c9b4fdb800450eb79c344059619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>b57cdf4fdb800450eb79c3440596194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>bd7c9b4fdb800450eb79c344059619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>b17cdf4fdb800450eb79c3440596194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>357c9b4fdb800450eb79c344059619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>b97c9b4fdb800450eb79c344059619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>${rm_name}</value>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>317c9b4fdb800450eb79c344059619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>7d7c9b4fdb800450eb79c344059619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>3d7cdf4fdb800450eb79c3440596194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>f17cdf4fdb800450eb79c3440596194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>f17c9b4fdb800450eb79c344059619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>797c9b4fdb800450eb79c344059619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>3d7c9b4fdb800450eb79c344059619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>397c9b4fdb800450eb79c344059619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>757cdf4fdb800450eb79c3440596194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>f97c9b4fdb800450eb79c344059619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value/>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>f57c9b4fdb800450eb79c344059619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>757c9b4fdb800450eb79c344059619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>b17c9b4fdb800450eb79c344059619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>146cd74fdb800450eb79c34405961991</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>fd7cdf4fdb800450eb79c3440596194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Send for Approval">146cd74fdb800450eb79c34405961991</activity>
+        <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
+        <condition_default display_value="Approved">586e1fa60a0a0b5c008121ab894f2b06</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Approved</name>
+        <order>1</order>
+        <short_description>Approval request was approved</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>f97cdf4fdb800450eb79c3440596194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Send for Approval">146cd74fdb800450eb79c34405961991</activity>
+        <condition>activity.result == 'rejected'</condition>
+        <condition_default display_value="Rejected">586e4ef60a0a0b5c00440b56c014c8a5</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Rejected</name>
+        <order>2</order>
+        <short_description>Approval request was rejected</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:27</sys_created_on>
+        <sys_id>3d7cdf4fdb800450eb79c3440596194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:27</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Approved</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:44:21</sys_created_on>
+        <sys_id>d0ac538fdb800450eb79c34405961998</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:44:23</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Above and Beyond">b62c9b4fdb800450eb79c34405961994</workflow_version>
+        <x>864</x>
+        <y>152</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d0ac538fdb800450eb79c34405961998"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d0ac538fdb800450eb79c34405961998</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:44:21</sys_created_on>
+        <sys_id>0facd38fdb800450eb79c34405961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:44:21</sys_updated_on>
+        <value>workflow_state=3^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d0ac538fdb800450eb79c34405961998</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:44:21</sys_created_on>
+        <sys_id>0facd38fdb800450eb79c34405961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:44:21</sys_updated_on>
+        <value>workflow_state=3^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Approved">d0ac538fdb800450eb79c34405961998</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:44:21</sys_created_on>
+        <sys_id>47acd38fdb800450eb79c34405961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:44:21</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set as Rejected</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:45:45</sys_created_on>
+        <sys_id>1cfc538fdb800450eb79c34405961992</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:45:47</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Above and Beyond">b62c9b4fdb800450eb79c34405961994</workflow_version>
+        <x>700</x>
+        <y>262</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=1cfc538fdb800450eb79c34405961992"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1cfc538fdb800450eb79c34405961992</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:45:45</sys_created_on>
+        <sys_id>6bfc938fdb800450eb79c3440596199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:45:45</sys_updated_on>
+        <value>workflow_state=4^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1cfc538fdb800450eb79c34405961992</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:45:45</sys_created_on>
+        <sys_id>6bfc938fdb800450eb79c3440596199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:45:45</sys_updated_on>
+        <value>workflow_state=4^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set as Rejected">1cfc538fdb800450eb79c34405961992</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:45:45</sys_created_on>
+        <sys_id>6ffc1b8fdb800450eb79c34405961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:45:45</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for Condition</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:42:57</sys_created_on>
+        <sys_id>fb4c1f4fdb800450eb79c344059619c6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:00</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Above and Beyond">b62c9b4fdb800450eb79c34405961994</workflow_version>
+        <x>166</x>
+        <y>46</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=fb4c1f4fdb800450eb79c344059619c6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fb4c1f4fdb800450eb79c344059619c6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:42:57</sys_created_on>
+        <sys_id>625c1f4fdb800450eb79c3440596191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:42:57</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fb4c1f4fdb800450eb79c344059619c6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:42:57</sys_created_on>
+        <sys_id>6a5c1f4fdb800450eb79c3440596191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:42:57</sys_updated_on>
+        <value>workflow_state=2^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fb4c1f4fdb800450eb79c344059619c6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:42:57</sys_created_on>
+        <sys_id>6a5c1f4fdb800450eb79c3440596191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:42:57</sys_updated_on>
+        <value>workflow_state=2^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fb4c1f4fdb800450eb79c344059619c6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:42:57</sys_created_on>
+        <sys_id>625c1f4fdb800450eb79c3440596191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:42:57</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for Condition">fb4c1f4fdb800450eb79c344059619c6</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:42:57</sys_created_on>
+        <sys_id>625c1f4fdb800450eb79c3440596191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:42:57</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Approved">f97cdf4fdb800450eb79c3440596194e</condition>
+        <from display_value="Send for Approval">146cd74fdb800450eb79c34405961991</from>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:29</sys_created_on>
+        <sys_id>1a7c9f4fdb800450eb79c34405961926</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:43</sys_updated_on>
+        <to display_value="If Approved">2f7c1f4fdb800450eb79c34405961933</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">994c974fdb800450eb79c34405961995</condition>
+        <from display_value="Begin">9d4c974fdb800450eb79c34405961994</from>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:42:36</sys_created_on>
+        <sys_id>1d4c974fdb800450eb79c34405961996</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:00</sys_updated_on>
+        <to display_value="Wait for Condition">fb4c1f4fdb800450eb79c344059619c6</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">a09c9b4fdb800450eb79c3440596197b</condition>
+        <from display_value="If Rejected">ee8c138fdb800450eb79c34405961953</from>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:45:48</sys_created_on>
+        <sys_id>580dd78fdb800450eb79c3440596197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:45:48</sys_updated_on>
+        <to display_value="Set as Rejected">1cfc538fdb800450eb79c34405961992</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">625c1f4fdb800450eb79c3440596191d</condition>
+        <from display_value="Wait for Condition">fb4c1f4fdb800450eb79c344059619c6</from>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:00</sys_created_on>
+        <sys_id>875c1f4fdb800450eb79c34405961912</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:29</sys_updated_on>
+        <to display_value="Send for Approval">146cd74fdb800450eb79c34405961991</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Rejected">3d7cdf4fdb800450eb79c3440596194f</condition>
+        <from display_value="Send for Approval">146cd74fdb800450eb79c34405961991</from>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:43:58</sys_created_on>
+        <sys_id>9d9c138fdb800450eb79c3440596195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:43:58</sys_updated_on>
+        <to display_value="If Rejected">ee8c138fdb800450eb79c34405961953</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">47acd38fdb800450eb79c34405961905</condition>
+        <from display_value="Set Approved">d0ac538fdb800450eb79c34405961998</from>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:44:28</sys_created_on>
+        <sys_id>a8bc938fdb800450eb79c3440596195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:44:28</sys_updated_on>
+        <to display_value="End">154c974fdb800450eb79c34405961996</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">6ffc1b8fdb800450eb79c34405961994</condition>
+        <from display_value="Set as Rejected">1cfc538fdb800450eb79c34405961992</from>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:45:51</sys_created_on>
+        <sys_id>bc0d1b8fdb800450eb79c34405961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:45:51</sys_updated_on>
+        <to display_value="End">154c974fdb800450eb79c34405961996</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">818cdf4fdb800450eb79c3440596192c</condition>
+        <from display_value="If Approved">2f7c1f4fdb800450eb79c34405961933</from>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:44:25</sys_created_on>
+        <sys_id>fbac5f4fdb800450eb79c34405961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:44:25</sys_updated_on>
+        <to display_value="Set Approved">d0ac538fdb800450eb79c34405961998</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+        <sys_created_on>2019-09-27 10:42:36</sys_created_on>
+        <sys_id>5d4c974fdb800450eb79c34405961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 10:42:36</sys_updated_on>
+        <workflow_version display_value="Above and Beyond">b62c9b4fdb800450eb79c34405961994</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=154c974fdb800450eb79c34405961994^sys_id!=b62c9b4fdb800450eb79c34405961994">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>
