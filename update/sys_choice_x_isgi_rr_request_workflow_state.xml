@@ -76,6 +76,25 @@
             <sys_updated_on>2019-09-27 08:29:54</sys_updated_on>
             <value>4</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workflow_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_isgi_rr_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+            <sys_created_on>2019-09-30 12:35:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78f25380db14c450eb79c344059619e6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+            <sys_updated_on>2019-09-30 12:36:06</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>workflow_state</element>
             <name>x_isgi_rr_request</name>

@@ -9,9 +9,9 @@
                 <element inactive_on_update="false" label="Above and Beyond" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Dazzling Debut" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Best Team" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Chairman Club" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Best Manager" sequence="3" value="4"/>
                 <element inactive_on_update="false" label="Spot On" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="Other" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Chairman Club" sequence="5" value="6"/>
             </choice>
         </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:gs.getUserID()" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Requestor Name" max_length="32" name="req_name" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
@@ -21,6 +21,7 @@
                 <element inactive_on_update="false" label="Request" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Approval" sequence="2" value="3"/>
                 <element inactive_on_update="false" label="Approved" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="5"/>
             </choice>
         </element>
         <index name="index">

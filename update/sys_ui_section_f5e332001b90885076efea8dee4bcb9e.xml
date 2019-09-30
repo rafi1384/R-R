@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Reason For Nomination" section_id="f5e332001b90885076efea8dee4bcb9e" sys_domain="global" table="x_isgi_rr_dazzling_debut" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>operational_excellence</element>
+            <position>0</position>
+            <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+            <sys_created_on>2019-09-30 10:20:11</sys_created_on>
+            <sys_id>42e372001b90885076efea8dee4bcb23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_dazzling_debut" sys_domain="global" view="Default view">f5e332001b90885076efea8dee4bcb9e</sys_ui_section>
+            <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+            <sys_updated_on>2019-09-30 10:20:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>operational_excellence_just</element>
+            <position>1</position>
+            <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+            <sys_created_on>2019-09-30 10:20:11</sys_created_on>
+            <sys_id>c2e372001b90885076efea8dee4bcb23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_dazzling_debut" sys_domain="global" view="Default view">f5e332001b90885076efea8dee4bcb9e</sys_ui_section>
+            <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+            <sys_updated_on>2019-09-30 10:20:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_delight</element>
+            <position>2</position>
+            <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+            <sys_created_on>2019-09-30 10:20:11</sys_created_on>
+            <sys_id>46e372001b90885076efea8dee4bcb23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_dazzling_debut" sys_domain="global" view="Default view">f5e332001b90885076efea8dee4bcb9e</sys_ui_section>
+            <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+            <sys_updated_on>2019-09-30 10:20:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_delight_just</element>
+            <position>3</position>
+            <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+            <sys_created_on>2019-09-30 10:20:11</sys_created_on>
+            <sys_id>c6e372001b90885076efea8dee4bcb23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_dazzling_debut" sys_domain="global" view="Default view">f5e332001b90885076efea8dee4bcb9e</sys_ui_section>
+            <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+            <sys_updated_on>2019-09-30 10:20:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>success_contributors</element>
+            <position>4</position>
+            <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+            <sys_created_on>2019-09-30 10:20:11</sys_created_on>
+            <sys_id>4ae372001b90885076efea8dee4bcb23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_dazzling_debut" sys_domain="global" view="Default view">f5e332001b90885076efea8dee4bcb9e</sys_ui_section>
+            <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+            <sys_updated_on>2019-09-30 10:20:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>success_contributors_just</element>
+            <position>5</position>
+            <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+            <sys_created_on>2019-09-30 10:20:11</sys_created_on>
+            <sys_id>cae372001b90885076efea8dee4bcb23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_dazzling_debut" sys_domain="global" view="Default view">f5e332001b90885076efea8dee4bcb9e</sys_ui_section>
+            <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+            <sys_updated_on>2019-09-30 10:20:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>continuous_improvement</element>
+            <position>6</position>
+            <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+            <sys_created_on>2019-09-30 10:20:11</sys_created_on>
+            <sys_id>4ee372001b90885076efea8dee4bcb23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_dazzling_debut" sys_domain="global" view="Default view">f5e332001b90885076efea8dee4bcb9e</sys_ui_section>
+            <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+            <sys_updated_on>2019-09-30 10:20:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>continuous_improvement_just</element>
+            <position>7</position>
+            <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+            <sys_created_on>2019-09-30 10:20:11</sys_created_on>
+            <sys_id>cee372001b90885076efea8dee4bcb23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_dazzling_debut" sys_domain="global" view="Default view">f5e332001b90885076efea8dee4bcb9e</sys_ui_section>
+            <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+            <sys_updated_on>2019-09-30 10:20:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>citation</element>
+            <position>8</position>
+            <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+            <sys_created_on>2019-09-30 10:20:11</sys_created_on>
+            <sys_id>42e372001b90885076efea8dee4bcb24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_dazzling_debut" sys_domain="global" view="Default view">f5e332001b90885076efea8dee4bcb9e</sys_ui_section>
+            <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+            <sys_updated_on>2019-09-30 10:20:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Reason For Nomination</caption>
+            <header>false</header>
+            <name>x_isgi_rr_dazzling_debut</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
+            <sys_created_on>2019-09-30 10:20:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5e332001b90885076efea8dee4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Reason For Nomination</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+            <sys_update_name>sys_ui_section_f5e332001b90885076efea8dee4bcb9e</sys_update_name>
+            <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
+            <sys_updated_on>2019-09-30 10:20:10</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
