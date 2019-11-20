@@ -14,7 +14,7 @@
                 <element inactive_on_update="false" label="Chairman Club" sequence="5" value="6"/>
             </choice>
         </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:gs.getUserID()" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Requestor Name" max_length="32" name="req_name" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requestor Name" max_length="32" name="req_name" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Workflow State" max_length="40" name="workflow_state" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Draft" sequence="0" value="1"/>

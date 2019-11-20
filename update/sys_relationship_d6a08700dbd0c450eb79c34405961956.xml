@@ -7,11 +7,8 @@
         <insert_callback/>
         <name>Above &amp; Beyond Approval</name>
         <query_from/>
-        <query_with><![CDATA[current.addQuery('approval_source', "x_isgi_rr_above_beyond");
-current.addQuery('document_id', parent.sys_id);
-
-
-]]></query_with>
+        <query_with><![CDATA[//current.addQuery('table', "x_isgi_rr_above_beyond");
+current.addQuery('document_id', parent.sys_id);]]></query_with>
         <reference_field>sysapproval</reference_field>
         <related_list/>
         <simple_reference>false</simple_reference>
@@ -20,15 +17,15 @@ current.addQuery('document_id', parent.sys_id);
         <sys_created_on>2019-09-30 11:16:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>d6a08700dbd0c450eb79c34405961956</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Above &amp; Beyond Approval</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_relationship_d6a08700dbd0c450eb79c34405961956</sys_update_name>
-        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
-        <sys_updated_on>2019-09-30 12:44:25</sys_updated_on>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2019-10-01 07:32:21</sys_updated_on>
     </sys_relationship>
     <sys_translated_text action="delete_multiple" query="documentkey=d6a08700dbd0c450eb79c34405961956"/>
 </record_update>
