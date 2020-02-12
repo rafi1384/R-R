@@ -24,7 +24,7 @@
             <element>workflow_state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Pending Approval</label>
+            <label>Nominated</label>
             <language>en</language>
             <name>x_isgi_rr_best_team</name>
             <sequence>1</sequence>
@@ -33,9 +33,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>dfba6704db54c450eb79c344059619c7</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
-            <sys_updated_on>2019-09-30 14:20:53</sys_updated_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-02-05 05:33:06</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -75,6 +75,25 @@
             <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
             <sys_updated_on>2019-09-30 14:21:04</sys_updated_on>
             <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workflow_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_isgi_rr_best_team</name>
+            <sequence>4</sequence>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-02-05 05:33:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>199dfc551b3a449076efea8dee4bcbbd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-02-05 05:33:29</sys_updated_on>
+            <value>5</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>workflow_state</element>

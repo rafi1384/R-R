@@ -1,50 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Above &amp; Beyond" max_length="40" name="x_isgi_rr_above_beyond" type="collection">
+    <element audit="true" label="Above &amp; Beyond" max_length="40" name="x_isgi_rr_above_beyond" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Final Citation for certificate (50 words)" max_length="2000" name="citation" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="citation_just" type="string"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
         <element attributes="edge_encryption_enabled=true" default="o Adds efficiency and accuracy&#13;&#10;o Takes initiative/works on process improvement" label="Continuous Improvement/Initiatives" max_length="2000" name="continuous_improvement" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="continuous_improvement_just" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="o Demonstrates a conscientious approach towards satisfying or exceeding internal and external customers needs&#13;&#10;o Uses tact to resolve differences and explores opportunities for offering additional value-added services&#13;&#10;o Outstanding Performance recognized/appreciated by customer &#13;&#10;" label="Customer Delight" max_length="2000" name="customer_delight" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="customer_delight_just" type="string"/>
-        <element label="Date" mandatory="true" max_length="40" name="date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="Employee ID" mandatory="true" max_length="100" name="employee_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Function" mandatory="true" max_length="100" name="function" type="string"/>
-        <element label="Employee Name" mandatory="true" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee ID" max_length="100" name="employee_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Function" max_length="100" name="function" type="string"/>
+        <element default="ce9b6574dbdd4810eb79c344059619a8" label="HR Approver" max_length="32" name="hr_approver" reference="sys_user" type="reference"/>
+        <element label="Employee Name" max_length="32" name="name" reference="sys_user" type="reference"/>
         <element label="Nominator" max_length="32" name="nominator" read_only="true" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string" unique="true"/>
         <element attributes="edge_encryption_enabled=true" default="o Demonstartes outstanding performance and commitment to process adherence and meets quality standards in a consistent manner &#13;&#10;o Conscientiously and consistently completed all tasks accurately and on schedule Handled work independently&#13;&#10;" label="Operational Excellence" max_length="2000" name="operational_excellence" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="operational_excellence_just" type="string"/>
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;var Dates = current.date;&#13;&#10;Dates.getMonthUTC();&#9;&#13;&#10;&#9;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return Dates;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Quarter" max_length="150" name="quarter" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true"/>
-                <element inactive="true" inactive_on_update="true" label="Q1" sequence="0" value="1"/>
-                <element inactive="true" inactive_on_update="true" label="Q2" sequence="1" value="2"/>
-                <element inactive="true" inactive_on_update="true" label="Q3" sequence="2" value="3"/>
-                <element inactive="true" inactive_on_update="true" label="Q4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Q1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Q2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Q3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Q4" sequence="3" value="4"/>
             </choice>
         </element>
         <element label="Request ID" max_length="32" name="request_id" read_only="true" reference="x_isgi_rr_request" type="reference"/>
-        <element label="RM Name" mandatory="true" max_length="32" name="rm_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Rejection Comments" max_length="1000" name="rj_comm" type="string"/>
+        <element hint="Include your line manager to be notified" label="Relationship Manager" max_length="4000" name="rm_cc" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" default="o Maintains a positive attitude towards his/her job, customers and team members&#13;&#10;o Understands own and others' roles and works collaboratively with team members to achieve team goals&#13;&#10;o Self motivated and motivates others in the team&#13;&#10;o Responsible and accountable, takes on additional responsibilities&#13;&#10;o Regularly demonstrates behaviours reflecting diversity and inclusion" label="Attitude that contributes to the success of the team" max_length="2000" name="success_contributors" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="success_contributors_just" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Workflow State" max_length="40" name="workflow_state" type="string">
             <choice>
                 <element inactive_on_update="false" label="Draft" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Pending Approval" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Nominated" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Approved" sequence="2" value="3"/>
                 <element inactive_on_update="false" label="Rejected" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="5"/>
             </choice>
         </element>
         <index name="index">
-            <element name="name"/>
+            <element name="number"/>
         </index>
         <index name="index2">
-            <element name="rm_name"/>
+            <element name="name"/>
         </index>
         <index name="index3">
-            <element name="nominator"/>
+            <element name="hr_approver"/>
         </index>
         <index name="index4">
+            <element name="nominator"/>
+        </index>
+        <index name="index5">
             <element name="request_id"/>
         </index>
     </element>

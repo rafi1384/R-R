@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="workflow_state" table="x_isgi_rr_spot_on" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workflow_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>0</sequence>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-02-06 05:43:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>71990aad1bfa849076efea8dee4bcb9e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-02-06 05:43:28</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workflow_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending RM Approval</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>1</sequence>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-02-06 05:43:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28a902ed1bfa849076efea8dee4bcbb1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-02-06 05:44:00</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workflow_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>2</sequence>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-02-06 05:45:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0c94eed1bfa849076efea8dee4bcb2c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-02-06 05:46:16</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workflow_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>3</sequence>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-02-06 05:46:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>833acaed1bfa849076efea8dee4bcbd8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-02-06 05:46:22</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workflow_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spot On Issued</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>4</sequence>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-02-06 05:47:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e04a4eed1bfa849076efea8dee4bcb1d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-02-06 05:47:43</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workflow_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>5</sequence>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-02-06 06:31:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e394d6e91b3e849076efea8dee4bcb5c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-02-06 06:31:38</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>workflow_state</element>
+            <name>x_isgi_rr_spot_on</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-02-06 05:43:20</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a8a90aed1bfa849076efea8dee4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>workflow_state</sys_name>
+            <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+            <sys_update_name>sys_choice_x_isgi_rr_spot_on_workflow_state</sys_update_name>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-02-06 05:43:20</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

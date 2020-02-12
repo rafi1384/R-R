@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="rj_comm" label="Rejection Comments" language="en" table="x_isgi_rr_dazzling_debut">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>rj_comm</element>
+            <help/>
+            <hint/>
+            <label>Rejection Comments</label>
+            <language>en</language>
+            <name>x_isgi_rr_dazzling_debut</name>
+            <plural>Rejection Comments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2019-11-21 12:06:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>740ff6b8dbd18810eb79c34405961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Rejection Comments</sys_name>
+            <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+            <sys_update_name>sys_documentation_x_isgi_rr_dazzling_debut_rj_comm_en</sys_update_name>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2019-11-21 12:06:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Best Leader" max_length="40" name="x_isgi_rr_best_leader" type="collection">
+        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true" default="o Acts as advocate for the change at his/her level in the organization and won't let the change initiative die from lack of attention&#13;&#10;o Demonstrates the behaviors and attitudes that are expected of everyone else&#13;&#10;o Provides the motivation to change, creates a sense of urgency and importance about the change, and show commitment and passion about getting things done&#13;&#10;o Holds people in the organization accountable for the change" label="Change leader" max_length="2000" name="continuous_improvement" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="continuous_improvement_just" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="o Effectively communicates the vision, leads by example, serves as a role model to others to demonstrate commitment and trust in the organization's vision&#13;&#10;o Proactively identifies development needs of the team, anticipates need, actively seeks, adapts and implements global best practices in improving work practices and team performance&#13;&#10;o Creates a collaborative environment, openly encourages performance orientation, establishes norms of group behavior to promote a performance oriented culture&#13;&#10;o Invests in building leaders for the future &#13;&#10;" label="Impact and Influence on the team" max_length="2000" name="customer_delight" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="customer_delight_just" type="string"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Employee ID" max_length="100" name="employee_id" type="string"/>
+        <element label="Function" max_length="100" name="function" type="string"/>
+        <element default="ce9b6574dbdd4810eb79c344059619a8" label="HR Approver" max_length="32" name="hr_approver" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Employee Name" max_length="32" name="name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Nominator" max_length="32" name="nominator" read_only="true" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="o Creates significant potential for new business with the existing customer&#13;&#10;o Creates new opportunities for new business generation/ helped in establishing relationship with new customer&#13;&#10;o Develops a pilot project, which helped in new business generation with the existing customers/new customers" label="Significant sales or delivery effort" max_length="2000" name="operational_excellence" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="operational_excellence_just" type="string"/>
+        <element choice="3" default="4" label="Quarter" max_length="40" name="quarter" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Q4" sequence="0" value="4"/>
+            </choice>
+        </element>
+        <element label="Request ID" max_length="32" name="request_id" read_only="true" reference="x_isgi_rr_request" type="reference"/>
+        <element label="Rejection Comments" max_length="2000" name="rj_comm" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="o Champions sporadic change, experimentation and practical utilization of new ideas that shows promise, challenges others to recognize the bigger picture in a situation&#13;&#10;o Leads by example to adapt to the changing scenario by demonstrating commitment to learning and developing organizational practices that facilitates learning in high impact areas&#13;&#10;o Creates an entrepreneurial culture" label="Innovation and creativity through team" max_length="2000" name="success_contributors" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="success_contributors_just" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="o Owns and enforces ISG core values" label="Value champion" max_length="2000" name="value_champion" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="value_champion_just" type="string"/>
+        <element choice="3" default="1" label="Workflow State" max_length="40" name="workflow_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Nominated" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="name"/>
+        </index>
+        <index name="index2">
+            <element name="hr_approver"/>
+        </index>
+        <index name="index3">
+            <element name="nominator"/>
+        </index>
+        <index name="index4">
+            <element name="request_id"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_isgi_rr_dazzling_debut</collection>
+        <condition table="x_isgi_rr_dazzling_debut">workflow_stateCHANGESTO2^EQ<item endquery="false" field="workflow_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<center>
+<table style="border-collapse: collapse; font-family: 'Montserrat', sans-serif;">
+<tbody>
+<tr>
+<td style="border-top: 6px solid #fff;">
+<p style="background: #225281; color: #fff; border: 5px solid #225281; font-size: 14px; margin: 0px;">&nbsp;&nbsp;&nbsp;${workflow_state}</p>
+</td>
+</tr>
+<tr>
+<td style="border-top: 6px solid #fff; border-bottom: 6px solid #fff;">
+<div><span style="font-size: 13px;">&nbsp;</span><span style="font-size: 12pt; font-family: Calibre;">Hi ${hr_approver},<br /></span></div>
+<div><span style="font-size: 12pt;">&nbsp;</span></div>
+<div><span style="font-size: 12pt; font-family: Calibre;">This is to inform you that a nomination for&nbsp;Dazzling Debut have been submitted. </span></div>
+<div><span style="font-size: 12pt; font-family: Calibre;">Please review and approve.</span></div>
+</td>
+</tr>
+<tr>
+<td>
+<table style="border-collapse: collapse; border: 1px solid black; width: 100%;" cellpadding="10">
+<tbody>
+<tr>
+<td style="border: 1px solid #225281;" colspan="2">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #225281; font-size: 14px; font-weight: bold;"><span style="font-family: Calibre; font-size: 12pt;">DETAILS:</span></p>
+</td>
+</tr>
+<tr>
+<td style="border: 1px solid #225281;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;">Nominator</p>
+</td>
+<td style="border: 1px solid #225281;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"><span style="font-family: Calibre; font-size: 11pt;">${nominator}<br /></span></p>
+</td>
+</tr>
+<tr>
+<td style="border: 1px solid #225281;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"><span style="font-family: Calibre; font-size: 11pt;">Employee Name</span></p>
+</td>
+<td style="border: 1px solid #225281;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;">${name}</p>
+</td>
+</tr>
+<tr>
+<td style="border: 1px solid #225281;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"><span style="font-family: Calibre; font-size: 11pt;">Quarter<br /></span></p>
+</td>
+<td style="border: 1px solid #225281;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;">${quarter}</p>
+</td>
+</tr>
+<tr>
+<td style="border: 1px solid #225281;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"><span style="font-family: Calibre; font-size: 11pt;">Final Citation<br /></span></p>
+</td>
+<td style="border: 1px solid #225281;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;">${citation}</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table style="width: fit-content;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="background: #FFF; padding: 0pt;">
+<p style="text-align: left; background: #FFF; font-size: 14px; border: 1px solid #FFF; padding: 4px 0px; color: #000; margin-top: 8pt; margin-bottom: 0pt; width: fit-content;" align="left"><span style="color: #000000; font-family: Calibre; font-size: 12pt;">Take me to the request ${mail_script:award_id}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="border-top: 5px solid #fff;"><span style="font-size: 10pt; font-family: Calibre;"><span style="color: #767171;">Confidentiality note: The above email contains information that is confidential and/or privileged. The information is for the use of the individual or entity originally intended. If you are not the intended recipient, be aware that any disclosure, copying, distribution or use of this information is prohibited.</span></span></div>
+</center>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Nomination Submitted- HR Approval</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>rm_cc,hr_approver</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Nomination request for Dazzling Debut have been submitted for your approval.</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+        <sys_created_on>2019-11-21 10:16:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cbc562f4db918810eb79c3440596197d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Nomination Submitted- HR Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sysevent_email_action_cbc562f4db918810eb79c3440596197d</sys_update_name>
+        <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-02-05 05:22:47</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

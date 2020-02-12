@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="e1ab60b6dbea0850eb79c34405961979" sys_domain="global" table="x_isgi_rr_best_manager" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-01-28 09:49:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9ab60b6dbea0850eb79c3440596197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_isgi_rr_best_manager" name="x_isgi_rr_best_manager" sys_domain="global" view="Default view">e1ab60b6dbea0850eb79c34405961979</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_isgi_rr_best_manager" sys_domain="global" view="Default view">abf860f2dbea0850eb79c34405961905</sys_ui_section>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-01-28 09:49:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-01-28 09:49:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5ab60b6dbea0850eb79c3440596197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_isgi_rr_best_manager" name="x_isgi_rr_best_manager" sys_domain="global" view="Default view">e1ab60b6dbea0850eb79c34405961979</sys_ui_form>
+            <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_best_manager" sys_domain="global" view="Default view">a9ab60b6dbea0850eb79c34405961977</sys_ui_section>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-01-28 09:49:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-01-28 09:49:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5aba0b6dbea0850eb79c3440596193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_isgi_rr_best_manager" name="x_isgi_rr_best_manager" sys_domain="global" view="Default view">e1ab60b6dbea0850eb79c34405961979</sys_ui_form>
+            <sys_ui_section caption="Comments Log" display_value="Comments Log" name="x_isgi_rr_best_manager" sys_domain="global" view="Default view">61ab60b6dbea0850eb79c34405961978</sys_ui_section>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-01-28 09:49:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-01-28 09:49:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61aba0b6dbea0850eb79c3440596193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_isgi_rr_best_manager" name="x_isgi_rr_best_manager" sys_domain="global" view="Default view">e1ab60b6dbea0850eb79c34405961979</sys_ui_form>
+            <sys_ui_section caption="System Log" display_value="System Log" name="x_isgi_rr_best_manager" sys_domain="global" view="Default view">29ab60b6dbea0850eb79c34405961978</sys_ui_section>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-01-28 09:49:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_isgi_rr_best_manager</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-01-28 09:49:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1ab60b6dbea0850eb79c34405961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_isgi_rr_best_manager</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+            <sys_update_name>sys_ui_form_sections_e1ab60b6dbea0850eb79c34405961979</sys_update_name>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-01-28 09:49:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

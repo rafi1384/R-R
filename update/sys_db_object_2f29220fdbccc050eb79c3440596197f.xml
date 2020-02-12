@@ -13,7 +13,7 @@
         <label>Best Team</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_isgi_rr_best_team</name>
-        <number_ref display_value="BES">89deba481b90885076efea8dee4bcb89</number_ref>
+        <number_ref display_value="BT">89deba481b90885076efea8dee4bcb89</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <super_class/>

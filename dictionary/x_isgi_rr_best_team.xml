@@ -1,44 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Best Team" max_length="40" name="x_isgi_rr_best_team" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Impact On The Function/Business Performance" max_length="2000" name="business_performance" type="string"/>
+    <element audit="true" label="Best Team" max_length="40" name="x_isgi_rr_best_team" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="Work Schedule has always been met during the period under consideration&#13;&#10;Output of the team as a whole has surpassed the expected volumes and quality requirement&#13;&#10;Innovative approaches were successfully adopted resulting in substantial gains to the account/function&#13;&#10;" label="Impact On The Function/Business Performance" max_length="2000" name="business_performance" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="business_performance_just" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Collaboration" max_length="2000" name="collaboration" type="string"/>
+        <element label="Final Citation for Certificate(50 words)" max_length="2000" name="citation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Members of the team have displayed high level of mutual cooperation and team spirit" label="Collaboration" max_length="2000" name="collaboration" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="collaboration_just" type="string"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
         <element attributes="edge_encryption_enabled=true" label="Complexity of the Assignment" max_length="2000" name="complexityoftheassignment" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="complexityoftheassignment_just" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Customer delight – CSAT Score" max_length="2000" name="customer_delight" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="CSAT score as targeted&#13;&#10;Appreciation emails from clients customers&#13;&#10;" label="Customer delight – CSAT Score" max_length="2000" name="customer_delight" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="customer_delight_just" type="string"/>
         <element label="Date" max_length="40" name="date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Employee ID" max_length="100" name="employee_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Extent of Involvement of Senior Leadership" max_length="2000" name="extent_of_involvement" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Team worked independent and have performed well enough to be considered  for Best Team Award on their own without much supervision and involvement from a senior leadership team member" label="Extent of Involvement of Senior Leadership" max_length="2000" name="extent_of_involvement" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="extent_of_involvement_just" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Function" max_length="100" name="function" type="string"/>
-        <element label="Name" max_length="32" name="name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
-        <element label="Nominator" max_length="32" name="nominator" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="ce9b6574dbdd4810eb79c344059619a8" label="HR Approver" max_length="32" name="hr_approver" reference="sys_user" type="reference"/>
+        <element label="Employee Name" max_length="32" name="name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Nominator" max_length="32" name="nominator" read_only="true" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Quarter" max_length="40" name="quarter" type="string">
             <choice>
                 <element inactive_on_update="false" label="Q1" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Q2" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Q3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Q4" sequence="3" value="4"/>
             </choice>
         </element>
-        <element label="Request ID" max_length="32" name="request_id" reference="x_isgi_rr_request" type="reference"/>
-        <element label="RM Name" max_length="32" name="rm_name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Request ID" max_length="32" name="request_id" read_only="true" reference="x_isgi_rr_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Rejection Comments" max_length="1000" name="rj_comm" type="string"/>
+        <element label="Relationship Manager" max_length="4000" name="rm_cc" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
         <element label="Team size" max_length="40" name="team_size" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Workflow State" max_length="40" name="workflow_state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Draft" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Pending Approval" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Nominated" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Approved" sequence="2" value="3"/>
                 <element inactive_on_update="false" label="Rejected" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="5"/>
             </choice>
         </element>
         <index name="index">
             <element name="name"/>
         </index>
         <index name="index2">
-            <element name="rm_name"/>
+            <element name="hr_approver"/>
         </index>
         <index name="index3">
             <element name="nominator"/>

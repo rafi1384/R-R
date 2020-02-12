@@ -57,6 +57,25 @@
             <sys_updated_on>2019-09-30 11:18:23</sys_updated_on>
             <value>3</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>quarter</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Q4</label>
+            <language>en</language>
+            <name>x_isgi_rr_best_team</name>
+            <sequence>3</sequence>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2019-11-21 09:48:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>845f9e30db918810eb79c34405961999</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2019-11-21 09:48:44</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>quarter</element>
             <name>x_isgi_rr_best_team</name>
