@@ -7,9 +7,10 @@
         <element attributes="edge_encryption_enabled=true" default="o Managing to build a strong relationship with internal teams and clients, leading to a significant impact in a short duration of time" label="Stakeholder / Customer Delight" max_length="2000" name="customer_delight" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="customer_delight_just" type="string"/>
         <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Kindly Note the Eligibility" max_length="2000" name="eligibility" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Employee ID" max_length="100" name="employee_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Function" max_length="100" name="function" type="string"/>
-        <element default="ce9b6574dbdd4810eb79c344059619a8" label="HR Approver" max_length="32" name="hr_approver" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Business Unit" max_length="100" name="function" type="string"/>
+        <element default="ce9b6574dbdd4810eb79c344059619a8" label="HR Approver" max_length="32" name="hr_approver" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.hr^EQ" type="reference"/>
         <element label="Employee Name" max_length="32" name="name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Nominator" max_length="32" name="nominator" read_only="true" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
@@ -25,7 +26,7 @@
         </element>
         <element label="Request ID" max_length="32" name="request_id" read_only="true" reference="x_isgi_rr_request" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Rejection Comments" max_length="1000" name="rj_comm" type="string"/>
-        <element label="Relationship Manager" max_length="4000" name="rm_cc" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element label="Reporting Manager" max_length="4000" name="rm_cc" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.rlsm^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.rlsm^EQ" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" default="o Maintains a positive attitude towards his/her job, customers and team members&#13;&#10;o Understands own and others' roles and works collaboratively with team members to achieve team goals&#13;&#10;o Self motivated and motivates others in the team&#13;&#10;o Responsible and accountable, takes on additional responsibilities&#13;&#10;o Regularly demonstrates behaviours reflecting diversity and inclusion" label="Attitude that contributes to the success of the team" max_length="2000" name="success_contributors" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="success_contributors_just" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Workflow State" max_length="40" name="workflow_state" type="string">

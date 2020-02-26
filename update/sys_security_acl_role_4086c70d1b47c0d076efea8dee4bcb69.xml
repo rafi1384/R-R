@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+        <sys_created_on>2020-02-17 07:08:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4086c70d1b47c0d076efea8dee4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_isgi_rr_best_team.x_isgi_rr.empl</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_security_acl display_value="x_isgi_rr_best_team">2d392e0fdbccc050eb79c3440596193e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4086c70d1b47c0d076efea8dee4bcb69</sys_update_name>
+        <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-02-17 07:08:32</sys_updated_on>
+        <sys_user_role display_value="x_isgi_rr.empl" name="x_isgi_rr.empl">5587b172dbee0850eb79c344059619ea</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

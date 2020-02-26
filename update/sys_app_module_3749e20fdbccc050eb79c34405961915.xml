@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <application display_value="RR">3e0826cbdbccc050eb79c344059619c2</application>
+        <active>true</active>
+        <application display_value="Rewards and Recognition">3e0826cbdbccc050eb79c344059619c2</application>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -9,16 +9,16 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>SEPARATOR</link_type>
         <map_page/>
         <mobile_title>Chairman Clubs</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_isgi_rr_chairman_club</name>
-        <order/>
+        <order>197</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_isgi_rr.user</roles>
+        <roles>x_isgi_rr.empl,x_isgi_rr.hr,x_isgi_rr.mgr,x_isgi_rr.rlsm</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -28,8 +28,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3749e20fdbccc050eb79c34405961915</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Chairman Clubs</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Quarterly Awards</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
@@ -37,9 +37,9 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_app_module_3749e20fdbccc050eb79c34405961915</sys_update_name>
         <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-02-06 05:20:16</sys_updated_on>
+        <sys_updated_on>2020-02-18 09:55:02</sys_updated_on>
         <timeline_page/>
-        <title>Chairman Clubs</title>
+        <title>Quarterly Awards</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

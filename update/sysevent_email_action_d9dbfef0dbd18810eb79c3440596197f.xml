@@ -47,9 +47,9 @@
 </tr>
 <tr>
 <td style="border-top: 6px solid #fff; border-bottom: 6px solid #fff;">
-<div><span style="font-size: 13px;">&nbsp;</span><span style="font-size: 12pt; font-family: Calibre;">Hi ${sys_created_by},<br /></span></div>
+<div><span style="font-size: 13px;">&nbsp;</span><span style="font-size: 12pt; font-family: Calibre;">Hi ${nominator},<br /></span></div>
 <div><span style="font-size: 12pt;">&nbsp;</span></div>
-<div><span style="font-size: 12pt; font-family: Calibre;">This is to inform you that, your nomination for&nbsp;Best Team have been rejected by HR team.&nbsp;</span></div>
+<div><span style="font-size: 12pt; font-family: Calibre;">This is to inform you that, your nomination for&nbsp;Best Team has been rejected by HR team.&nbsp;</span></div>
 </td>
 </tr>
 <tr>
@@ -120,14 +120,14 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>rm_cc,sys_created_by</recipient_fields>
+        <recipient_fields>rm_cc,nominator</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Nomination request for Best Team have been rejected.</subject>
+        <subject>Nomination request for Best Team has been rejected.</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
@@ -136,7 +136,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d9dbfef0dbd18810eb79c3440596197f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Nomination Rejected</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -145,7 +145,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_d9dbfef0dbd18810eb79c3440596197f</sys_update_name>
         <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-02-05 06:15:30</sys_updated_on>
+        <sys_updated_on>2020-02-17 06:20:10</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
