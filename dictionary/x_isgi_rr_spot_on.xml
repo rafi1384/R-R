@@ -5,7 +5,7 @@
         <element label="Description" max_length="2000" name="description" type="string"/>
         <element label="Employee Id" max_length="100" name="employee_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Business Unit" max_length="100" name="function" type="string"/>
-        <element default="ce9b6574dbdd4810eb79c344059619a8" label="HR" max_length="32" name="hr_approver" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.hr^EQ" type="reference"/>
+        <element label="HR" max_length="32" name="hr_approver" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.hr^EQ" type="reference"/>
         <element label="Employee Name" max_length="32" name="name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Nominator" max_length="32" name="nominator" read_only="true" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dynamic_default="true"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>

@@ -12,7 +12,7 @@
         <column_label>HR Approver</column_label>
         <comments/>
         <create_roles/>
-        <default_value>ce9b6574dbdd4810eb79c344059619a8</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -53,7 +53,7 @@
         <sys_created_on>2019-11-20 09:32:31</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>591295e41b1dc85076efea8dee4bcb52</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>HR Approver</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
@@ -61,7 +61,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_dictionary_x_isgi_rr_above_beyond_hr_approver</sys_update_name>
         <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-02-17 05:48:08</sys_updated_on>
+        <sys_updated_on>2020-02-27 05:58:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -9,7 +9,7 @@
         <element label="Date" max_length="40" name="date" type="glide_date"/>
         <element label="Manager Employee ID" max_length="100" name="employee_id" type="string"/>
         <element label="Business Unit" max_length="100" name="function" type="string"/>
-        <element default="ce9b6574dbdd4810eb79c344059619a8" label="HR approver" max_length="32" name="hr_approver" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.hr^EQ" type="reference"/>
+        <element label="HR approver" max_length="32" name="hr_approver" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.hr^EQ" type="reference"/>
         <element label="Manager Name" max_length="32" name="name" reference="sys_user" type="reference"/>
         <element label="Nominator" max_length="32" name="nominator" read_only="true" reference="sys_user" type="reference"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
