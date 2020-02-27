@@ -8,7 +8,17 @@
         <element label="Justification" max_length="2000" name="customer_delight_just" type="string"/>
         <element label="Date" max_length="40" name="date" type="glide_date"/>
         <element label="Manager Employee ID" max_length="100" name="employee_id" type="string"/>
-        <element label="Business Unit" max_length="100" name="function" type="string"/>
+        <element choice="1" label="Business Unit" max_length="100" name="function" type="string">
+            <choice>
+                <element inactive_on_update="false" label="GovernX" sequence="0" value="GovernX"/>
+                <element inactive_on_update="false" label="Research" sequence="1" value="Research"/>
+                <element inactive_on_update="false" label="Automation" sequence="2" value="Automation"/>
+                <element inactive_on_update="false" label="Consulting" sequence="3" value="Consulting"/>
+                <element inactive_on_update="false" label="NaSa" sequence="4" value="NaSa"/>
+                <element inactive_on_update="false" label="OCM" sequence="5" value="OCM"/>
+                <element inactive_on_update="false" label="One Platform" sequence="6" value="One Platform"/>
+            </choice>
+        </element>
         <element label="HR approver" max_length="32" name="hr_approver" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.hr^EQ" type="reference"/>
         <element label="Manager Name" max_length="32" name="name" reference="sys_user" type="reference"/>
         <element label="Nominator" max_length="32" name="nominator" read_only="true" reference="sys_user" type="reference"/>

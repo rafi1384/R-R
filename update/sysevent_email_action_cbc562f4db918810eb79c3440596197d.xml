@@ -42,7 +42,7 @@
 <tbody>
 <tr>
 <td style="border-top: 6px solid #fff;">
-<p style="background: #225281; color: #fff; border: 5px solid #225281; font-size: 14px; margin: 0px;">&nbsp;&nbsp;&nbsp;${workflow_state}</p>
+<p style="background: #225281; color: #fff; border: 5px solid #225281; font-size: 14px; margin: 0px;">${workflow_state}</p>
 </td>
 </tr>
 <tr>
@@ -145,7 +145,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cbc562f4db918810eb79c3440596197d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Nomination Submitted- HR Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -153,8 +153,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_cbc562f4db918810eb79c3440596197d</sys_update_name>
-        <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-02-17 06:25:16</sys_updated_on>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-02-27 10:13:17</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

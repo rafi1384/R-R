@@ -14,7 +14,17 @@
         <element attributes="edge_encryption_enabled=true" label="Employee ID" max_length="100" name="employee_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="Team worked independent and have performed well enough to be considered  for Best Team Award on their own without much supervision and involvement from a senior leadership team member" label="Extent of Involvement of Senior Leadership" max_length="2000" name="extent_of_involvement" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="extent_of_involvement_just" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Business Unit" max_length="100" name="function" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Business Unit" max_length="100" name="function" type="string">
+            <choice>
+                <element inactive_on_update="false" label="GovernX" sequence="0" value="GovernX"/>
+                <element inactive_on_update="false" label="Research" sequence="1" value="Research"/>
+                <element inactive_on_update="false" label="Automation" sequence="2" value="Automation"/>
+                <element inactive_on_update="false" label="Consulting" sequence="3" value="Consulting"/>
+                <element inactive_on_update="false" label="NaSa" sequence="4" value="NaSa"/>
+                <element inactive_on_update="false" label="OCM" sequence="5" value="OCM"/>
+                <element inactive_on_update="false" label="One Platform" sequence="6" value="One Platform"/>
+            </choice>
+        </element>
         <element label="HR Approver" max_length="32" name="hr_approver" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.hr^EQ" type="reference"/>
         <element label="Employee Name" max_length="32" name="name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Nominator" max_length="32" name="nominator" read_only="true" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>

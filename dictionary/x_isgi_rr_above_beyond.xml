@@ -9,22 +9,24 @@
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="customer_delight_just" type="string"/>
         <element label="Date" max_length="40" name="date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Employee ID" max_length="100" name="employee_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Business Unit" max_length="100" name="function" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Business Unit" max_length="100" name="function" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Governx" sequence="0" value="Governx"/>
+                <element inactive_on_update="false" label="Research" sequence="1" value="Research"/>
+                <element inactive_on_update="false" label="Automation" sequence="2" value="Automation"/>
+                <element inactive_on_update="false" label="Consulting" sequence="3" value="Consulting"/>
+                <element inactive_on_update="false" label="NaSa" sequence="4" value="NaSa"/>
+                <element inactive_on_update="false" label="OCM" sequence="5" value="OCM"/>
+                <element inactive_on_update="false" label="One Platform" sequence="6" value="One Platform"/>
+            </choice>
+        </element>
         <element label="HR Approver" max_length="32" name="hr_approver" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.hr^EQ" type="reference"/>
         <element label="Employee Name" max_length="32" name="name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Nominator" max_length="32" name="nominator" read_only="true" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string" unique="true"/>
         <element attributes="edge_encryption_enabled=true" default="o Demonstartes outstanding performance and commitment to process adherence and meets quality standards in a consistent manner &#13;&#10;o Conscientiously and consistently completed all tasks accurately and on schedule Handled work independently&#13;&#10;" label="Operational Excellence" max_length="2000" name="operational_excellence" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="operational_excellence_just" type="string"/>
-        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;var Dates = current.date;&#13;&#10;Dates.getMonthUTC();&#9;&#13;&#10;&#9;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return Dates;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Quarter" max_length="150" name="quarter" type="string">
-            <choice>
-                <element inactive="true" inactive_on_update="true"/>
-                <element inactive_on_update="false" label="Q1" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Q2" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Q3" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Q4" sequence="3" value="4"/>
-            </choice>
-        </element>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;var Dates = current.date;&#13;&#10;Dates.getMonthUTC();&#9;&#13;&#10;&#9;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return Dates;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Quarter" max_length="150" name="quarter" type="string"/>
         <element label="Request ID" max_length="32" name="request_id" read_only="true" reference="x_isgi_rr_request" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Rejection Comments" max_length="1000" name="rj_comm" type="string"/>
         <element hint="Include your line manager to be notified" label="Reporting Manager" max_length="4000" name="rm_cc" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.rlsm^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.rlsm^EQ" type="glide_list"/>

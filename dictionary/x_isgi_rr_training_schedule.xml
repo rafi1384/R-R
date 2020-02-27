@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Training Schedule" max_length="40" name="x_isgi_rr_training_schedule" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="2000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Skill" max_length="40" name="skill" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Technical" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Non Technical" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Expected Number of Slot" mandatory="true" max_length="40" name="slots" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Training Title" mandatory="true" max_length="500" name="title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Workflow State" max_length="40" name="workflow_state" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="2"/>
+            </choice>
+        </element>
+    </element>
+</database>

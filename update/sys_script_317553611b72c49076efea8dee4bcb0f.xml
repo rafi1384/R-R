@@ -30,7 +30,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 var userId=gs.getUserID();
-var _query="nominator="+userId+"^ORrm_ccLIKE"+userId;
+var _query="nominator="+userId+"^ORrm_ccIN"+userId;
 current.addEncodedQuery(_query);
 
 })(current, previous);]]></script>
@@ -41,7 +41,7 @@ current.addEncodedQuery(_query);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>317553611b72c49076efea8dee4bcb0f</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Sys_Param Query</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -50,7 +50,7 @@ current.addEncodedQuery(_query);
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_script_317553611b72c49076efea8dee4bcb0f</sys_update_name>
         <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-02-17 06:57:33</sys_updated_on>
+        <sys_updated_on>2020-02-27 10:42:49</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
