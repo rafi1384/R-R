@@ -7,7 +7,7 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_isgi_rr_best_team</collection>
-        <condition table="x_isgi_rr_best_team">workflow_stateCHANGESTO3^EQ<item endquery="false" field="workflow_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+        <condition table="x_isgi_rr_best_team">workflow_stateCHANGESTO3^EQ<item display_value="Approved" endquery="false" field="workflow_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -71,10 +71,10 @@
 </tr>
 <tr>
 <td style="border: 1px solid #225281;">
-<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"><span style="font-family: Calibre; font-size: 11pt;">Employee Name</span></p>
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"><span style="font-family: Calibre; font-size: 11pt;">Team Name</span></p>
 </td>
 <td style="border: 1px solid #225281;">
-<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;">${name}</p>
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;">${employee_id}</p>
 </td>
 </tr>
 <tr>
@@ -136,7 +136,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d6cbf6b4dbd18810eb79c34405961912</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Nomination Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -145,7 +145,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_d6cbf6b4dbd18810eb79c34405961912</sys_update_name>
         <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-02-17 06:20:39</sys_updated_on>
+        <sys_updated_on>2020-04-14 10:58:34</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
