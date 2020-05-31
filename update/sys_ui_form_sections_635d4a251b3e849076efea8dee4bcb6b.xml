@@ -14,34 +14,6 @@
             <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
             <sys_updated_on>2020-02-06 05:59:39</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 05:59:39</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>275d4a251b3e849076efea8dee4bcb6e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_isgi_rr_spot_on" name="x_isgi_rr_spot_on" sys_domain="global" view="Default view">635d4a251b3e849076efea8dee4bcb6b</sys_ui_form>
-            <sys_ui_section caption="Comments Log" display_value="Comments Log" name="x_isgi_rr_spot_on" sys_domain="global" view="Default view">6b5d4a251b3e849076efea8dee4bcb69</sys_ui_section>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 05:59:39</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>2</position>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 05:59:39</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>235d4a251b3e849076efea8dee4bcb72</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_isgi_rr_spot_on" name="x_isgi_rr_spot_on" sys_domain="global" view="Default view">635d4a251b3e849076efea8dee4bcb6b</sys_ui_form>
-            <sys_ui_section caption="System Log" display_value="System Log" name="x_isgi_rr_spot_on" sys_domain="global" view="Default view">a75d4a251b3e849076efea8dee4bcb6a</sys_ui_section>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 05:59:39</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_isgi_rr_spot_on</name>
             <roles/>

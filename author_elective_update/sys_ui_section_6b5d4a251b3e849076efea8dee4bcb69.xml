@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Comments Log" section_id="6b5d4a251b3e849076efea8dee4bcb69" sys_domain="global" table="x_isgi_rr_spot_on" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-02-06 06:00:09</sys_created_on>
+            <sys_id>727dca251b3e849076efea8dee4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comments Log" display_value="Comments Log" name="x_isgi_rr_spot_on" sys_domain="global" view="Default view">6b5d4a251b3e849076efea8dee4bcb69</sys_ui_section>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-02-06 06:00:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-02-06 06:00:09</sys_created_on>
+            <sys_id>f27dca251b3e849076efea8dee4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Comments Log" display_value="Comments Log" name="x_isgi_rr_spot_on" sys_domain="global" view="Default view">6b5d4a251b3e849076efea8dee4bcb69</sys_ui_section>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-02-06 06:00:09</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Comments Log</caption>
+            <header>false</header>
+            <name>x_isgi_rr_spot_on</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+            <sys_created_on>2020-02-06 05:59:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b5d4a251b3e849076efea8dee4bcb69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Comments Log</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+            <sys_update_name>sys_ui_section_6b5d4a251b3e849076efea8dee4bcb69</sys_update_name>
+            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-02-06 05:59:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RR">ee08628bdbccc050eb79c34405961975</application>
+        <file_path/>
+        <instance_id>69a78f219b99cb447ac36b8af359ff47</instance_id>
+        <instance_name>isggoverndev4</instance_name>
+        <name>sys_ui_section_6b5d4a251b3e849076efea8dee4bcb69</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Comments Log" section_id="6b5d4a251b3e849076efea8dee4bcb69" sys_domain="global" table="x_isgi_rr_spot_on" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>0</position><sys_created_by>ramesh.r@isg-one.com</sys_created_by><sys_created_on>2020-02-06 06:00:09</sys_created_on><sys_id>727dca251b3e849076efea8dee4bcbd3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Comments Log" display_value="Comments Log" name="x_isgi_rr_spot_on" sys_domain="global" view="Default view">6b5d4a251b3e849076efea8dee4bcb69</sys_ui_section><sys_updated_by>ramesh.r@isg-one.com</sys_updated_by><sys_updated_on>2020-02-06 06:00:09</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>1</position><sys_created_by>ramesh.r@isg-one.com</sys_created_by><sys_created_on>2020-02-06 06:00:09</sys_created_on><sys_id>f27dca251b3e849076efea8dee4bcbd3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="Comments Log" display_value="Comments Log" name="x_isgi_rr_spot_on" sys_domain="global" view="Default view">6b5d4a251b3e849076efea8dee4bcb69</sys_ui_section><sys_updated_by>ramesh.r@isg-one.com</sys_updated_by><sys_updated_on>2020-02-06 06:00:09</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Comments Log</caption><header>false</header><name>x_isgi_rr_spot_on</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>ramesh.r@isg-one.com</sys_created_by><sys_created_on>2020-02-06 05:59:39</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6b5d4a251b3e849076efea8dee4bcb69</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Comments Log</sys_name><sys_overrides/><sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope><sys_update_name>sys_ui_section_6b5d4a251b3e849076efea8dee4bcb69</sys_update_name><sys_updated_by>ramesh.r@isg-one.com</sys_updated_by><sys_updated_on>2020-02-06 05:59:39</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>137758249</payload_hash>
+        <record_name>Spot On</record_name>
+        <reverted_from/>
+        <source>7e0866cbdbccc050eb79c3440596199f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+        <sys_created_on>2020-02-06 06:00:09</sys_created_on>
+        <sys_id>477d0e251b3e849076efea8dee4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170191595430000001</sys_recorded_at>
+        <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-02-06 06:00:09</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>0f7d0e25cc3e8490f955f1d0a2a3c962</update_guid>
+        <update_guid_history>0f7d0e25cc3e8490f955f1d0a2a3c962:137758249,635d8a25103e84902642054ca70a183e:-1658145487</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-05-28 12:08:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>92cb63551a694df09f2bde74f5592040</sys_id>
+        <sys_metadata>6b5d4a251b3e849076efea8dee4bcb69</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Comments Log</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_parent display_value="Spot On">9759ae0fdbccc050eb79c3440596193e</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_scope_delete display_value="">77069d9b78f8495d9d557a1f71415899</sys_scope_delete>
+        <sys_update_name>sys_ui_section_6b5d4a251b3e849076efea8dee4bcb69</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_6b5d4a251b3e849076efea8dee4bcb69">477d0e251b3e849076efea8dee4bcb63</sys_update_version>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-05-28 12:08:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

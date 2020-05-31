@@ -26,12 +26,12 @@
 	}
 	function setMandtory(){
 		g_form.setMandatory('date', true);
-		g_form.setMandatory('employee_id', true);
+		//g_form.setMandatory('employee_id', true);
 		g_form.setMandatory('name', true);
 		g_form.setMandatory('hr_approver', true);
 		g_form.setMandatory('rm_cc', true);	
 		g_form.setMandatory('description', true);
-		g_form.setMandatory('function', true);
+		//g_form.setMandatory('function', true);
 		if (g_user.hasRole('x_isgi_rr.rlsm'))
 		g_form.setMandatory('rm_cc', false);
 	}
@@ -50,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>45ed8e251b3e849076efea8dee4bcbec</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Mandatory-Readonly Policy</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -58,8 +58,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_script_client_45ed8e251b3e849076efea8dee4bcbec</sys_update_name>
-        <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-02-27 11:06:14</sys_updated_on>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-05-30 16:48:25</sys_updated_on>
         <table>x_isgi_rr_spot_on</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
