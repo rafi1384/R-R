@@ -4,10 +4,12 @@
         <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
         <element default="o Anticipates and manage operational risk by planning&#13;&#10;o Accepts risk when benefits outweigh the cost&#13;&#10;o Does not accepo unnecessary risk" label="Risk Management" max_length="2000" name="continuous_improvement" read_only="true" type="string"/>
         <element label="Justification" max_length="2000" name="continuous_improvement_just" type="string"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;var value = current.sys_created_by;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return value;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Created By" max_length="100" name="created_by" read_only="true" type="string" virtual="true"/>
         <element default="o Builds constructive relationships.&#13;&#10;o Enforces Accountability and Trustworthiness&#13;&#10;o Listens to and allows upward communication&#13;&#10;o Maintain maximum transparency to the extent possible so that there is no communication gap&#13;&#10;o Handles conflict effectively&#13;&#10;o Support and motivate for career development and improvement of efficiency.&#13;&#10;o Give value for suggestions and treat the suggestions with due respect and merit" label="People Management" max_length="2000" name="customer_delight" read_only="true" type="string"/>
         <element label="Justification" max_length="2000" name="customer_delight_just" type="string"/>
-        <element label="Date" max_length="40" name="date" type="glide_date"/>
-        <element label="Manager Employee ID" max_length="100" name="employee_id" type="string"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" max_length="40" name="date" read_only="true" type="glide_date" use_dynamic_default="true"/>
+        <element label="Department" max_length="32" name="department" read_only="true" reference="cmn_department" type="reference"/>
+        <element label="Manager Employee ID" max_length="100" name="employee_id" read_only="true" type="string"/>
         <element choice="1" label="Business Unit" max_length="100" name="function" type="string">
             <choice>
                 <element inactive_on_update="false" label="GovernX" sequence="0" value="GovernX"/>
@@ -19,7 +21,7 @@
                 <element inactive_on_update="false" label="One Platform" sequence="6" value="One Platform"/>
             </choice>
         </element>
-        <element label="HR approver" max_length="32" name="hr_approver" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.hr^EQ" type="reference"/>
+        <element label="HR approver" max_length="32" name="hr_approver" read_only="true" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.hr^EQ" type="reference"/>
         <element label="Manager Name" max_length="32" name="name" reference="sys_user" type="reference"/>
         <element label="Nominator" max_length="32" name="nominator" read_only="true" reference="sys_user" type="reference"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
@@ -27,15 +29,10 @@
         <element label="Justification" max_length="2000" name="operational_excellence_just" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="o Supports and participates in organization wide initiative" label="Organization Initiative" max_length="2000" name="organization_initiative" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="organization_initiative_just" type="string"/>
-        <element choice="1" label="Quarter" max_length="40" name="quarter" type="string">
-            <choice>
-                <element inactive="true" inactive_on_update="true" label="Q1" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Q2" sequence="0" value="2"/>
-                <element inactive_on_update="false" label="Q4" sequence="1" value="4"/>
-            </choice>
-        </element>
+        <element label="Quarter" max_length="40" name="quarter" read_only="true" type="string"/>
         <element label="Request ID" max_length="32" name="request_id" read_only="true" reference="x_isgi_rr_request" type="reference"/>
         <element label="Rejection Comments" max_length="2000" name="rj_comm" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="SLC Team" max_length="1024" name="slc_team" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.rlsm^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.rlsm^EQ" type="glide_list"/>
         <element default="o Communicates with direct reports about the change&#13;&#10;o Demonstrates support for the change&#13;&#10;o Coaches employees through the change process&#13;&#10;o Engages with and provides support to the project team&#13;&#10;o Identifies and manages resistance" label="Change Management" max_length="2000" name="success_contributors" read_only="true" type="string"/>
         <element label="Justification" max_length="2000" name="success_contributors_just" type="string"/>
         <element choice="3" default="1" label="Workflow State" max_length="40" name="workflow_state" type="string">
@@ -51,12 +48,15 @@
             <element name="name"/>
         </index>
         <index name="index2">
-            <element name="hr_approver"/>
+            <element name="department"/>
         </index>
         <index name="index3">
-            <element name="nominator"/>
+            <element name="hr_approver"/>
         </index>
         <index name="index4">
+            <element name="nominator"/>
+        </index>
+        <index name="index5">
             <element name="request_id"/>
         </index>
     </element>

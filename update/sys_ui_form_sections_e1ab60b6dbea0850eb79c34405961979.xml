@@ -42,20 +42,6 @@
             <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
             <sys_updated_on>2020-01-28 09:49:26</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>3</position>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-01-28 09:49:26</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>61aba0b6dbea0850eb79c3440596193e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_isgi_rr_best_manager" name="x_isgi_rr_best_manager" sys_domain="global" view="Default view">e1ab60b6dbea0850eb79c34405961979</sys_ui_form>
-            <sys_ui_section caption="System Log" display_value="System Log" name="x_isgi_rr_best_manager" sys_domain="global" view="Default view">29ab60b6dbea0850eb79c34405961978</sys_ui_section>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-01-28 09:49:26</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_isgi_rr_best_manager</name>
             <roles/>
