@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="slc_team" label="SLC Team" language="en" table="x_isgi_rr_best_team">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>slc_team</element>
+            <help/>
+            <hint/>
+            <label>SLC Team</label>
+            <language>en</language>
+            <name>x_isgi_rr_best_team</name>
+            <plural>SLC Teams</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-06-04 17:42:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1053e944db519410eb79c34405961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SLC Team</sys_name>
+            <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+            <sys_update_name>sys_documentation_x_isgi_rr_best_team_slc_team_en</sys_update_name>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-06-04 17:42:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

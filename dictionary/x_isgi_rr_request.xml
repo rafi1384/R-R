@@ -15,7 +15,7 @@
                 <element inactive="true" inactive_on_update="true" label="Chairman Club" sequence="6" value="7"/>
             </choice>
         </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requestor Name" max_length="32" name="req_name" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requestor Name" max_length="32" name="req_name" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Workflow State" max_length="40" name="workflow_state" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Draft" sequence="0" value="1"/>
@@ -31,6 +31,9 @@
         </index>
         <index name="index2">
             <element name="req_name"/>
+        </index>
+        <index name="index3">
+            <element name="number"/>
         </index>
     </element>
 </database>

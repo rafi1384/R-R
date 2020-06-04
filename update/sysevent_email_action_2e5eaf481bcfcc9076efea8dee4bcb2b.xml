@@ -7,7 +7,7 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_isgi_rr_spot_on</collection>
-        <condition table="x_isgi_rr_spot_on">workflow_stateCHANGESTO4^EQ<item display_value="Rejected" endquery="false" field="workflow_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="4"/>
+        <condition table="x_isgi_rr_spot_on">workflow_stateCHANGESTO4^EQ<item endquery="false" field="workflow_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="4"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -121,7 +121,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>nominator</recipient_fields>
+        <recipient_fields>nominator,slc_members</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -137,7 +137,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2e5eaf481bcfcc9076efea8dee4bcb2b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Nomination Rejected</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -145,8 +145,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_2e5eaf481bcfcc9076efea8dee4bcb2b</sys_update_name>
-        <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-04-17 09:29:34</sys_updated_on>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-04 09:36:34</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

@@ -3,107 +3,122 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_isgi_rr_dazzling_debut" element="NULL" name="x_isgi_rr_dazzling_debut" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">de6d7278dbd18810eb79c34405961942</list_id>
+            <list_id display_value="x_isgi_rr_dazzling_debut" element="NULL" name="x_isgi_rr_dazzling_debut" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">11f36984db519410eb79c3440596193a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2019-11-21 11:59:56</sys_created_on>
-            <sys_id>1a6d7278dbd18810eb79c34405961943</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-06-04 17:44:49</sys_created_on>
+            <sys_id>59f36984db519410eb79c3440596193a</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2019-11-21 11:59:56</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-06-04 17:44:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>request_id</element>
-            <list_id display_value="x_isgi_rr_dazzling_debut" element="NULL" name="x_isgi_rr_dazzling_debut" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">de6d7278dbd18810eb79c34405961942</list_id>
+            <list_id display_value="x_isgi_rr_dazzling_debut" element="NULL" name="x_isgi_rr_dazzling_debut" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">11f36984db519410eb79c3440596193a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2019-11-21 11:59:56</sys_created_on>
-            <sys_id>9a6d7278dbd18810eb79c34405961943</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-06-04 17:44:49</sys_created_on>
+            <sys_id>d9f36984db519410eb79c3440596193a</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2019-11-21 11:59:56</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-06-04 17:44:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_isgi_rr_dazzling_debut" element="NULL" name="x_isgi_rr_dazzling_debut" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">de6d7278dbd18810eb79c34405961942</list_id>
+            <list_id display_value="x_isgi_rr_dazzling_debut" element="NULL" name="x_isgi_rr_dazzling_debut" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">11f36984db519410eb79c3440596193a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2019-11-21 11:59:56</sys_created_on>
-            <sys_id>1e6d7278dbd18810eb79c34405961943</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-06-04 17:44:49</sys_created_on>
+            <sys_id>5df36984db519410eb79c3440596193a</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2019-11-21 11:59:56</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-06-04 17:44:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>employee_id</element>
-            <list_id display_value="x_isgi_rr_dazzling_debut" element="NULL" name="x_isgi_rr_dazzling_debut" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">de6d7278dbd18810eb79c34405961942</list_id>
+            <list_id display_value="x_isgi_rr_dazzling_debut" element="NULL" name="x_isgi_rr_dazzling_debut" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">11f36984db519410eb79c3440596193a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2019-11-21 11:59:56</sys_created_on>
-            <sys_id>9e6d7278dbd18810eb79c34405961943</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-06-04 17:44:49</sys_created_on>
+            <sys_id>ddf36984db519410eb79c3440596193a</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2019-11-21 11:59:56</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-06-04 17:44:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>nominator</element>
-            <list_id display_value="x_isgi_rr_dazzling_debut" element="NULL" name="x_isgi_rr_dazzling_debut" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">de6d7278dbd18810eb79c34405961942</list_id>
+            <list_id display_value="x_isgi_rr_dazzling_debut" element="NULL" name="x_isgi_rr_dazzling_debut" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">11f36984db519410eb79c3440596193a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2019-11-21 11:59:56</sys_created_on>
-            <sys_id>126d7278dbd18810eb79c34405961944</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-06-04 17:44:49</sys_created_on>
+            <sys_id>51f36984db519410eb79c3440596193b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2019-11-21 11:59:56</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-06-04 17:44:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>function</element>
-            <list_id display_value="x_isgi_rr_dazzling_debut" element="NULL" name="x_isgi_rr_dazzling_debut" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">de6d7278dbd18810eb79c34405961942</list_id>
+            <element>department</element>
+            <list_id display_value="x_isgi_rr_dazzling_debut" element="NULL" name="x_isgi_rr_dazzling_debut" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">11f36984db519410eb79c3440596193a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2019-11-21 11:59:56</sys_created_on>
-            <sys_id>926d7278dbd18810eb79c34405961944</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-06-04 17:44:49</sys_created_on>
+            <sys_id>d1f36984db519410eb79c3440596193b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2019-11-21 11:59:56</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-06-04 17:44:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>workflow_state</element>
-            <list_id display_value="x_isgi_rr_dazzling_debut" element="NULL" name="x_isgi_rr_dazzling_debut" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">de6d7278dbd18810eb79c34405961942</list_id>
+            <element>slc_team</element>
+            <list_id display_value="x_isgi_rr_dazzling_debut" element="NULL" name="x_isgi_rr_dazzling_debut" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">11f36984db519410eb79c3440596193a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2019-11-21 11:59:56</sys_created_on>
-            <sys_id>166d7278dbd18810eb79c34405961944</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-06-04 17:44:49</sys_created_on>
+            <sys_id>55f36984db519410eb79c3440596193b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2019-11-21 11:59:56</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-06-04 17:44:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>workflow_state</element>
+            <list_id display_value="x_isgi_rr_dazzling_debut" element="NULL" name="x_isgi_rr_dazzling_debut" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">11f36984db519410eb79c3440596193a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-06-04 17:44:49</sys_created_on>
+            <sys_id>d5f36984db519410eb79c3440596193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-06-04 17:44:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -116,12 +131,12 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2019-11-21 11:59:56</sys_created_on>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-06-04 17:44:49</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>de6d7278dbd18810eb79c34405961942</sys_id>
+            <sys_id>11f36984db519410eb79c3440596193a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_isgi_rr_dazzling_debut</sys_name>
             <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -129,8 +144,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
             <sys_update_name>sys_ui_list_x_isgi_rr_dazzling_debut_null</sys_update_name>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2019-11-21 11:59:56</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-06-04 17:44:49</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

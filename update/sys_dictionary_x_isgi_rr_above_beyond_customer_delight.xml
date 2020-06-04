@@ -14,8 +14,7 @@
         <create_roles/>
         <default_value>o Demonstrates a conscientious approach towards satisfying or exceeding internal and external customers needs&#13;
 o Uses tact to resolve differences and explores opportunities for offering additional value-added services&#13;
-o Outstanding Performance recognized/appreciated by customer &#13;
-</default_value>
+o Outstanding Performance recognized/appreciated by customer</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -52,16 +51,16 @@ o Outstanding Performance recognized/appreciated by customer &#13;
         <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
         <sys_created_on>2019-09-27 08:53:37</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>bc534b431bc8845076efea8dee4bcbb8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_id>699c173fdbc55410eb79c34405961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Customer Delight</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_dictionary_x_isgi_rr_above_beyond_customer_delight</sys_update_name>
-        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
-        <sys_updated_on>2019-09-27 09:59:09</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-06-04 07:53:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

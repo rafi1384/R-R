@@ -9,13 +9,12 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label> Process or Quality Improvement/Initiatives</column_label>
+        <column_label>Process or Quality Improvement/Initiatives</column_label>
         <comments/>
         <create_roles/>
         <default_value>o Leveraging the past knowledge and experience in creating efficiencies/developing new avenues for growth in a short duration of time&#13;
 o Adds efficiency and accuracy&#13;
-o Introduction of new / innovative ideas for the benefit of the team&#13;
-</default_value>
+o Introduction of new / innovative ideas for the benefit of the team</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -52,16 +51,16 @@ o Introduction of new / innovative ideas for the benefit of the team&#13;
         <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
         <sys_created_on>2019-09-30 10:13:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>43527a8c1b50885076efea8dee4bcba7</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name> Process or Quality Improvement/Initiatives</sys_name>
+        <sys_id>a49c933fdbc55410eb79c34405961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Process or Quality Improvement/Initiatives</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_dictionary_x_isgi_rr_dazzling_debut_continuous_improvement</sys_update_name>
-        <sys_updated_by>SaiThulasi.Kaditham@isg-one.com</sys_updated_by>
-        <sys_updated_on>2019-09-30 12:57:41</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-06-04 07:53:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

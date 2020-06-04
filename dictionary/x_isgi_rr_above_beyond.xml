@@ -5,9 +5,11 @@
         <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
         <element attributes="edge_encryption_enabled=true" default="o Adds efficiency and accuracy&#13;&#10;o Takes initiative/works on process improvement" label="Continuous Improvement/Initiatives" max_length="2000" name="continuous_improvement" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="continuous_improvement_just" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="o Demonstrates a conscientious approach towards satisfying or exceeding internal and external customers needs&#13;&#10;o Uses tact to resolve differences and explores opportunities for offering additional value-added services&#13;&#10;o Outstanding Performance recognized/appreciated by customer &#13;&#10;" label="Customer Delight" max_length="2000" name="customer_delight" read_only="true" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;var value = current.sys_created_by;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return value;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Created by" max_length="100" name="created_by" read_only="true" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" default="o Demonstrates a conscientious approach towards satisfying or exceeding internal and external customers needs&#13;&#10;o Uses tact to resolve differences and explores opportunities for offering additional value-added services&#13;&#10;o Outstanding Performance recognized/appreciated by customer" label="Customer Delight" max_length="2000" name="customer_delight" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="customer_delight_just" type="string"/>
-        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" max_length="40" name="date" read_only="true" type="glide_date" use_dynamic_default="true"/>
+        <element label="Department" max_length="32" name="department" read_only="true" reference="cmn_department" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Employee ID" max_length="100" name="employee_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Business Unit" max_length="100" name="function" type="string">
             <choice>
@@ -24,12 +26,13 @@
         <element label="Employee Name" max_length="32" name="name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Nominator" max_length="32" name="nominator" read_only="true" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string" unique="true"/>
-        <element attributes="edge_encryption_enabled=true" default="o Demonstartes outstanding performance and commitment to process adherence and meets quality standards in a consistent manner &#13;&#10;o Conscientiously and consistently completed all tasks accurately and on schedule Handled work independently&#13;&#10;" label="Operational Excellence" max_length="2000" name="operational_excellence" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="o Demonstartes outstanding performance and commitment to process adherence and meets quality standards in a consistent manner &#13;&#10;o Conscientiously and consistently completed all tasks accurately and on schedule Handled work independently" label="Operational Excellence" max_length="2000" name="operational_excellence" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="operational_excellence_just" type="string"/>
-        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;var Dates = current.date;&#13;&#10;Dates.getMonthUTC();&#9;&#13;&#10;&#9;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return Dates;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Quarter" max_length="150" name="quarter" type="string"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;var Dates = current.date;&#10;Dates.getMonthUTC();&#9;&#10;&#9;&#10;&#9;// Add your code here&#10;&#9;return Dates;  // return the calculated value&#10;&#10;})(current);" label="Quarter" max_length="150" name="quarter" type="string"/>
         <element label="Request ID" max_length="32" name="request_id" read_only="true" reference="x_isgi_rr_request" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Rejection Comments" max_length="1000" name="rj_comm" type="string"/>
-        <element hint="Include your line manager to be notified" label="Reporting Manager" max_length="4000" name="rm_cc" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.rlsm^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.rlsm^EQ" type="glide_list"/>
+        <element hint="Include your line manager to be notified" label="Reporting Manager" max_length="4000" name="rm_cc" read_only="true" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.rlsm^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.rlsm^EQ" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="SLC Team" max_length="1024" name="slc_team" reference="sys_user" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" default="o Maintains a positive attitude towards his/her job, customers and team members&#13;&#10;o Understands own and others' roles and works collaboratively with team members to achieve team goals&#13;&#10;o Self motivated and motivates others in the team&#13;&#10;o Responsible and accountable, takes on additional responsibilities&#13;&#10;o Regularly demonstrates behaviours reflecting diversity and inclusion" label="Attitude that contributes to the success of the team" max_length="2000" name="success_contributors" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="success_contributors_just" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Workflow State" max_length="40" name="workflow_state" type="string">
@@ -45,15 +48,21 @@
             <element name="number"/>
         </index>
         <index name="index2">
-            <element name="name"/>
+            <element name="number"/>
         </index>
         <index name="index3">
-            <element name="hr_approver"/>
+            <element name="name"/>
         </index>
         <index name="index4">
-            <element name="nominator"/>
+            <element name="department"/>
         </index>
         <index name="index5">
+            <element name="hr_approver"/>
+        </index>
+        <index name="index6">
+            <element name="nominator"/>
+        </index>
+        <index name="index7">
             <element name="request_id"/>
         </index>
     </element>
