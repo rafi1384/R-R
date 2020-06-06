@@ -7,7 +7,7 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_isgi_rr_spot_on</collection>
-        <condition table="x_isgi_rr_spot_on">workflow_stateCHANGESTO5^EQ<item endquery="false" field="workflow_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="5"/>
+        <condition table="x_isgi_rr_spot_on">workflow_stateCHANGESTO5^EQ<item display_value="Spot On Issued" endquery="false" field="workflow_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="5"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
