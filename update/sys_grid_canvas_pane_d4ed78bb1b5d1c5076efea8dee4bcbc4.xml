@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Rewards and Recognit - New Tab">1c7c3cb71b5d1c5076efea8dee4bcb81</grid_canvas>
+        <height>4</height>
+        <portal_widget display_value="Created 16-Jun-2020 12.05.40 PM">14ed78bb1b5d1c5076efea8dee4bcbc1</portal_widget>
+        <posx>3</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-06-16 06:35:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d4ed78bb1b5d1c5076efea8dee4bcbc4</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>1c7c3cb71b5d1c5076efea8dee4bcb81</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_d4ed78bb1b5d1c5076efea8dee4bcbc4</sys_update_name>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-16 07:30:13</sys_updated_on>
+        <width>3</width>
+    </sys_grid_canvas_pane>
+</record_update>
