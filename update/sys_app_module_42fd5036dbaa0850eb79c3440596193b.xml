@@ -18,7 +18,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_isgi_rr.hr,x_isgi_rr.mgr,x_isgi_rr.empl</roles>
+        <roles>x_isgi_rr.hr,x_isgi_rr.mgr,x_isgi_rr.empl,x_isgi_rr.slc</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>42fd5036dbaa0850eb79c3440596193b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>All Best Manager</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -36,8 +36,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_app_module_42fd5036dbaa0850eb79c3440596193b</sys_update_name>
-        <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-02-18 09:53:28</sys_updated_on>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-20 10:03:29</sys_updated_on>
         <timeline_page/>
         <title>All Best Manager</title>
         <uncancelable>false</uncancelable>

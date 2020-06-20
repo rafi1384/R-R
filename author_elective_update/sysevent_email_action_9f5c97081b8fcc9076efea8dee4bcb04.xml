@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_isgi_rr_spot_on</collection>
+        <condition table="x_isgi_rr_spot_on">workflow_stateCHANGESTO2^EQ<item display_value="Pending RM Approval" endquery="false" field="workflow_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<style><!--
+.whiteclass a{ 
+ text-decoration: none;
+ color: #fff;
+}
+--></style>
+<center>
+<table style="border-collapse: collapse; font-family: Montserrat, sans-serif; height: 431px;" width="658">
+<tbody>
+<tr style="height: 26px;">
+<td style="border-top: 6px solid #ffffff; height: 26px; width: 654.667px;">
+<p style="background: #225281; color: #fff; border: 5px solid #225281; font-size: 14px; margin: 0px;"><span style="font-family: georgia, palatino; font-size: 10pt;">${workflow_state}</span></p>
+</td>
+</tr>
+<tr style="height: 71px;">
+<td style="border-top: 6px solid #ffffff; border-bottom: 6px solid #ffffff; height: 71px; width: 654.667px;">
+<div><span style="font-family: georgia, palatino; font-size: 10pt;"><span style="font-size: 12pt;">Hi ${approver},<br /></span><br /></span></div>
+<div><span style="font-size: 12pt; font-family: georgia, palatino;">&nbsp;</span></div>
+<div><span style="font-size: 12pt; font-family: georgia, palatino;">This is to inform you that a nomination request for Spot On has been submitted. </span></div>
+<div><span style="font-size: 12pt; font-family: georgia, palatino;">Please review and action.</span></div>
+<div>&nbsp;</div>
+</td>
+</tr>
+<tr style="height: 254px;">
+<td style="height: 254px; width: 654.667px;">
+<table style="border-collapse: collapse; border: 1px solid black; width: 100%; height: 151px;" cellpadding="10">
+<tbody>
+<tr style="height: 31px;">
+<td style="border: 1px solid #225281; height: 31px;" colspan="2">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #225281; font-size: 14px; font-weight: bold;"><span style="font-family: georgia, palatino; font-size: 10pt;">DETAILS:</span></p>
+</td>
+</tr>
+<tr style="height: 30px;">
+<td style="border: 1px solid #225281; height: 30px;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"><span style="font-family: georgia, palatino; font-size: 10pt;">Nominator</span></p>
+</td>
+<td style="border: 1px solid #225281; height: 30px;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"><span style="font-family: georgia, palatino; font-size: 10pt;">${nominator}<br /></span></p>
+</td>
+</tr>
+<tr style="height: 30px;">
+<td style="border: 1px solid #225281; height: 30px;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"><span style="font-family: georgia, palatino; font-size: 10pt;">Employee Name</span></p>
+</td>
+<td style="border: 1px solid #225281; height: 30px;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"><span style="font-family: georgia, palatino; font-size: 10pt;">${name}</span></p>
+</td>
+</tr>
+<tr style="height: 30px;">
+<td style="border: 1px solid #225281; height: 30px;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"><span style="font-family: georgia, palatino; font-size: 10pt;">Department</span></p>
+</td>
+<td style="border: 1px solid #225281; height: 30px;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"><span style="font-family: georgia, palatino; font-size: 10pt;">${department}</span></p>
+</td>
+</tr>
+<tr style="height: 30px;">
+<td style="border: 1px solid #225281; height: 30px;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"><span style="font-family: georgia, palatino; font-size: 10pt;">Description</span></p>
+</td>
+<td style="border: 1px solid #225281; height: 30px;">
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"><span style="font-family: georgia, palatino; font-size: 10pt;">${description}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style="height: 40px;">
+<td style="height: 40px; width: 654.667px;">
+<table style="width: fit-content;" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="bobackground: #FFF; padding: 0pt; border-right: 6px solid #fff;">
+<p style="text-align: left; background: #225281; font-size: 14px; border: 1px solid #225281; padding: 4px; color: #fff; margin-top: 8pt; margin-bottom: 0pt; width: fit-content;" align="left"><span style="font-family: georgia, palatino; font-size: 10pt;">&nbsp;&nbsp;<span class="whiteclass" style="color: white;">${mailto:mailto.spoapprove}</span>&nbsp;&nbsp;</span></p>
+</td>
+<td style="background: #FFF; padding: 0pt; border-left: 6px solid #fff; border-right: 6px solid #fff;">
+<p style="text-align: left; background: #225281; font-size: 14px; border: 1px solid #225281; padding: 4px; color: #fff; margin-top: 8pt; margin-bottom: 0pt; width: fit-content;" align="left"><span style="font-family: georgia, palatino; font-size: 10pt;">&nbsp;&nbsp;&nbsp;&nbsp;<span class="whiteclass" style="color: white;">${mailto:mailto.sporeject}</span>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style="height: 40px;">
+<td style="height: 40px; width: 654.667px;">
+<table style="width: fit-content;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="background: #FFF; padding: 0pt;">
+<p style="text-align: left; background: #FFF; font-size: 14px; border: 1px solid #FFF; padding: 4px 0px; color: #000; margin-top: 8pt; margin-bottom: 0pt; width: fit-content;" align="left"><span style="color: #000000; font-family: georgia, palatino; font-size: 10pt;">Take me to the request ${mail_script:award_id}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="border-top: 5px solid #fff;"><span style="font-size: 8pt; font-family: georgia, palatino;"><span style="color: #767171;">Confidentiality note: The above email contains information that is confidential and/or privileged. The information is for the use of the individual or entity originally intended. If you are not the intended recipient, be aware that any disclosure, copying, distribution or use of this information is prohibited.</span></span></div>
+</center>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Nomination Submitted- RM Approval</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>rm_cc,approver,slc_members,hr_approver</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Nomination request for Spot On has been submitted for your action.</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
+        <sys_created_on>2020-02-14 06:09:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f5c97081b8fcc9076efea8dee4bcb04</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Nomination Submitted- RM Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sysevent_email_action_9f5c97081b8fcc9076efea8dee4bcb04</sys_update_name>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-18 08:41:59</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RR">ee08628bdbccc050eb79c34405961975</application>
+        <file_path/>
+        <instance_id>69a78f219b99cb447ac36b8af359ff47</instance_id>
+        <instance_name>isggoverndev4</instance_name>
+        <name>sysevent_email_action_9f5c97081b8fcc9076efea8dee4bcb04</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_isgi_rr_spot_on&lt;/collection&gt;&lt;condition table="x_isgi_rr_spot_on"&gt;workflow_stateCHANGESTO2^EQ&lt;item display_value="Pending RM Approval" endquery="false" field="workflow_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="2"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;approval.cancelled&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;style&gt;&lt;!--
+.whiteclass a{ 
+ text-decoration: none;
+ color: #fff;
+}
+--&gt;&lt;/style&gt;
+&lt;center&gt;
+&lt;table style="border-collapse: collapse; font-family: Montserrat, sans-serif; height: 431px;" width="658"&gt;
+&lt;tbody&gt;
+&lt;tr style="height: 26px;"&gt;
+&lt;td style="border-top: 6px solid #ffffff; height: 26px; width: 654.667px;"&gt;
+&lt;p style="background: #225281; color: #fff; border: 5px solid #225281; font-size: 14px; margin: 0px;"&gt;&lt;span style="font-family: georgia, palatino; font-size: 10pt;"&gt;${workflow_state}&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 71px;"&gt;
+&lt;td style="border-top: 6px solid #ffffff; border-bottom: 6px solid #ffffff; height: 71px; width: 654.667px;"&gt;
+&lt;div&gt;&lt;span style="font-family: georgia, palatino; font-size: 10pt;"&gt;&lt;span style="font-size: 12pt;"&gt;Hi ${approver},&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 12pt; font-family: georgia, palatino;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 12pt; font-family: georgia, palatino;"&gt;This is to inform you that a nomination request for Spot On has been submitted. &lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 12pt; font-family: georgia, palatino;"&gt;Please review and action.&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 254px;"&gt;
+&lt;td style="height: 254px; width: 654.667px;"&gt;
+&lt;table style="border-collapse: collapse; border: 1px solid black; width: 100%; height: 151px;" cellpadding="10"&gt;
+&lt;tbody&gt;
+&lt;tr style="height: 31px;"&gt;
+&lt;td style="border: 1px solid #225281; height: 31px;" colspan="2"&gt;
+&lt;p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #225281; font-size: 14px; font-weight: bold;"&gt;&lt;span style="font-family: georgia, palatino; font-size: 10pt;"&gt;DETAILS:&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 30px;"&gt;
+&lt;td style="border: 1px solid #225281; height: 30px;"&gt;
+&lt;p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"&gt;&lt;span style="font-family: georgia, palatino; font-size: 10pt;"&gt;Nominator&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="border: 1px solid #225281; height: 30px;"&gt;
+&lt;p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"&gt;&lt;span style="font-family: georgia, palatino; font-size: 10pt;"&gt;${nominator}&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 30px;"&gt;
+&lt;td style="border: 1px solid #225281; height: 30px;"&gt;
+&lt;p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"&gt;&lt;span style="font-family: georgia, palatino; font-size: 10pt;"&gt;Employee Name&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="border: 1px solid #225281; height: 30px;"&gt;
+&lt;p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"&gt;&lt;span style="font-family: georgia, palatino; font-size: 10pt;"&gt;${name}&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 30px;"&gt;
+&lt;td style="border: 1px solid #225281; height: 30px;"&gt;
+&lt;p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"&gt;&lt;span style="font-family: georgia, palatino; font-size: 10pt;"&gt;Department&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="border: 1px solid #225281; height: 30px;"&gt;
+&lt;p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"&gt;&lt;span style="font-family: georgia, palatino; font-size: 10pt;"&gt;${department}&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 30px;"&gt;
+&lt;td style="border: 1px solid #225281; height: 30px;"&gt;
+&lt;p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"&gt;&lt;span style="font-family: georgia, palatino; font-size: 10pt;"&gt;Description&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="border: 1px solid #225281; height: 30px;"&gt;
+&lt;p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"&gt;&lt;span style="font-family: georgia, palatino; font-size: 10pt;"&gt;${description}&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 40px;"&gt;
+&lt;td style="height: 40px; width: 654.667px;"&gt;
+&lt;table style="width: fit-content;" cellspacing="0" cellpadding="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="bobackground: #FFF; padding: 0pt; border-right: 6px solid #fff;"&gt;
+&lt;p style="text-align: left; background: #225281; font-size: 14px; border: 1px solid #225281; padding: 4px; color: #fff; margin-top: 8pt; margin-bottom: 0pt; width: fit-content;" align="left"&gt;&lt;span style="font-family: georgia, palatino; font-size: 10pt;"&gt;&amp;nbsp;&amp;nbsp;&lt;span class="whiteclass" style="color: white;"&gt;${mailto:mailto.spoapprove}&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="background: #FFF; padding: 0pt; border-left: 6px solid #fff; border-right: 6px solid #fff;"&gt;
+&lt;p style="text-align: left; background: #225281; font-size: 14px; border: 1px solid #225281; padding: 4px; color: #fff; margin-top: 8pt; margin-bottom: 0pt; width: fit-content;" align="left"&gt;&lt;span style="font-family: georgia, palatino; font-size: 10pt;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span class="whiteclass" style="color: white;"&gt;${mailto:mailto.sporeject}&lt;/span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 40px;"&gt;
+&lt;td style="height: 40px; width: 654.667px;"&gt;
+&lt;table style="width: fit-content;" border="0" cellspacing="0" cellpadding="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background: #FFF; padding: 0pt;"&gt;
+&lt;p style="text-align: left; background: #FFF; font-size: 14px; border: 1px solid #FFF; padding: 4px 0px; color: #000; margin-top: 8pt; margin-bottom: 0pt; width: fit-content;" align="left"&gt;&lt;span style="color: #000000; font-family: georgia, palatino; font-size: 10pt;"&gt;Take me to the request ${mail_script:award_id}&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div style="border-top: 5px solid #fff;"&gt;&lt;span style="font-size: 8pt; font-family: georgia, palatino;"&gt;&lt;span style="color: #767171;"&gt;Confidentiality note: The above email contains information that is confidential and/or privileged. The information is for the use of the individual or entity originally intended. If you are not the intended recipient, be aware that any disclosure, copying, distribution or use of this information is prohibited.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/center&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Nomination Submitted- RM Approval&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;rm_cc,approver,slc_members,hr_approver&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Nomination request for Spot On has been submitted for your action.&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ramesh.r@isg-one.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-02-14 06:09:36&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9f5c97081b8fcc9076efea8dee4bcb04&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;Nomination Submitted- RM Approval&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="RR" source="x_isgi_rr"&gt;ee08628bdbccc050eb79c34405961975&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="RR"&gt;ee08628bdbccc050eb79c34405961975&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_9f5c97081b8fcc9076efea8dee4bcb04&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mohamed.rafiulla@isg-one.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-06-18 08:41:59&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1690621320</payload_hash>
+        <record_name>Nomination Submitted- RM Approval</record_name>
+        <reverted_from/>
+        <source>feb2ebb7db095410eb79c344059619be</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-06-18 08:41:59</sys_created_on>
+        <sys_id>c2fda3d81ba1141076efea8dee4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172c69788c20000001</sys_recorded_at>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-18 08:41:59</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>cafda3d840a11410316ad59b9a888a13</update_guid>
+        <update_guid_history>cafda3d840a11410316ad59b9a888a13:-1690621320,a4ecc8541f119410acae38c55fae66a0:1302326036,75a80a8cffd194107489d7a72bc9a0df:-1919828762,9035337fac495410b1429677497b033a:-1823316134,19cc1b7f13c554106401e6182a514e2c:0,167cdbfbfac5541024a75689a4a4dba7:-764724164,0a60aa005253481405f4252eaefb2429:-1883118608</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-06-20 08:21:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>059301561ae84190b0dcae0d21b96100</sys_id>
+        <sys_metadata>9f5c97081b8fcc9076efea8dee4bcb04</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nomination Submitted- RM Approval</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_parent display_value="Spot On">9759ae0fdbccc050eb79c3440596193e</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_scope_delete display_value="">77069d9b78f8495d9d557a1f71415899</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_9f5c97081b8fcc9076efea8dee4bcb04</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_9f5c97081b8fcc9076efea8dee4bcb04">c2fda3d81ba1141076efea8dee4bcb14</sys_update_version>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-20 08:21:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

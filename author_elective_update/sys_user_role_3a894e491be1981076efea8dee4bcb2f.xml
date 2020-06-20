@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>x_isgi_rr.slc</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_isgi_rr.x_isgi_rr.slc</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>x_isgi_rr.slc</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-06-20 09:18:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3a894e491be1981076efea8dee4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_isgi_rr.x_isgi_rr.slc</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sys_user_role_3a894e491be1981076efea8dee4bcb2f</sys_update_name>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-20 09:18:56</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RR">ee08628bdbccc050eb79c34405961975</application>
+        <file_path/>
+        <instance_id>69a78f219b99cb447ac36b8af359ff47</instance_id>
+        <instance_name>isggoverndev4</instance_name>
+        <name>sys_user_role_3a894e491be1981076efea8dee4bcb2f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>x_isgi_rr.slc</description><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_isgi_rr.x_isgi_rr.slc</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>x_isgi_rr.slc</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by><sys_created_on>2020-06-20 09:18:56</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3a894e491be1981076efea8dee4bcb2f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_isgi_rr.x_isgi_rr.slc</sys_name><sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope><sys_update_name>sys_user_role_3a894e491be1981076efea8dee4bcb2f</sys_update_name><sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by><sys_updated_on>2020-06-20 09:18:56</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-1734626210</payload_hash>
+        <record_name>x_isgi_rr.x_isgi_rr.slc</record_name>
+        <reverted_from/>
+        <source>feb2ebb7db095410eb79c344059619be</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-06-20 09:18:56</sys_created_on>
+        <sys_id>7e99ca491be1981076efea8dee4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172d10615080000001</sys_recorded_at>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-20 09:18:56</sys_updated_on>
+        <type>Role</type>
+        <update_guid>3699ca4928e198105645cf02a8b76469</update_guid>
+        <update_guid_history>3699ca4928e198105645cf02a8b76469:-1734626210</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 20-Jun-2020 02.49.07 PM">61a982891be1981076efea8dee4bcbaa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-06-20 09:19:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>8ee1b982cfc44d61b45ca9abe22b7209</sys_id>
+        <sys_metadata>3a894e491be1981076efea8dee4bcb2f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_isgi_rr.x_isgi_rr.slc</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_scope_delete display_value="">77069d9b78f8495d9d557a1f71415899</sys_scope_delete>
+        <sys_update_name>sys_user_role_3a894e491be1981076efea8dee4bcb2f</sys_update_name>
+        <sys_update_version display_value="sys_user_role_3a894e491be1981076efea8dee4bcb2f">7e99ca491be1981076efea8dee4bcb69</sys_update_version>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-20 09:19:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

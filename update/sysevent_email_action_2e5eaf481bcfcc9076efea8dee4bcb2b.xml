@@ -119,7 +119,7 @@
         <message_text/>
         <name>Nomination Rejected</name>
         <omit_watermark>false</omit_watermark>
-        <order>100</order>
+        <order>250</order>
         <push_message_only>false</push_message_only>
         <recipient_fields>nominator,slc_members</recipient_fields>
         <recipient_groups/>
@@ -137,7 +137,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2e5eaf481bcfcc9076efea8dee4bcb2b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Nomination Rejected</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -146,7 +146,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_2e5eaf481bcfcc9076efea8dee4bcb2b</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-06-04 09:36:34</sys_updated_on>
+        <sys_updated_on>2020-06-20 08:16:35</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

@@ -53,10 +53,9 @@
 </tr>
 <tr style="height: 71px;">
 <td style="border-top: 6px solid #ffffff; border-bottom: 6px solid #ffffff; height: 71px; width: 654.667px;">
-<div><span style="font-family: georgia, palatino; font-size: 10pt;"><span style="font-size: 12pt;">Hi ${approver},<br /></span><br /></span></div>
+<div><span style="font-family: georgia, palatino; font-size: 10pt;"><span style="font-size: 12pt;">Hi All,<br /></span><br /></span></div>
 <div><span style="font-size: 12pt; font-family: georgia, palatino;">&nbsp;</span></div>
-<div><span style="font-size: 12pt; font-family: georgia, palatino;">This is to inform you that a nomination request for Spot On has been submitted. </span></div>
-<div><span style="font-size: 12pt; font-family: georgia, palatino;">Please review and action.</span></div>
+<div><span style="font-size: 12pt; font-family: georgia, palatino;">This is to inform you that a nomination request for Spot On has been submitted to Approver. </span></div>
 <div>&nbsp;</div>
 </td>
 </tr>
@@ -106,20 +105,7 @@
 </td>
 </tr>
 <tr style="height: 40px;">
-<td style="height: 40px; width: 654.667px;">
-<table style="width: fit-content;" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td style="bobackground: #FFF; padding: 0pt; border-right: 6px solid #fff;">
-<p style="text-align: left; background: #225281; font-size: 14px; border: 1px solid #225281; padding: 4px; color: #fff; margin-top: 8pt; margin-bottom: 0pt; width: fit-content;" align="left"><span style="font-family: georgia, palatino; font-size: 10pt;">&nbsp;&nbsp;<span class="whiteclass" style="color: white;">${mailto:mailto.spoapprove}</span>&nbsp;&nbsp;</span></p>
-</td>
-<td style="background: #FFF; padding: 0pt; border-left: 6px solid #fff; border-right: 6px solid #fff;">
-<p style="text-align: left; background: #225281; font-size: 14px; border: 1px solid #225281; padding: 4px; color: #fff; margin-top: 8pt; margin-bottom: 0pt; width: fit-content;" align="left"><span style="font-family: georgia, palatino; font-size: 10pt;">&nbsp;&nbsp;&nbsp;&nbsp;<span class="whiteclass" style="color: white;">${mailto:mailto.sporeject}</span>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
+<td style="height: 40px; width: 654.667px;">&nbsp;</td>
 </tr>
 <tr style="height: 40px;">
 <td style="height: 40px; width: 654.667px;">
@@ -144,32 +130,32 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>approver,slc_members,hr_approver</recipient_fields>
+        <recipient_fields>rm_cc,slc_members,hr_approver</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Nomination request for Spot On has been submitted for your action.</subject>
+        <subject>Nomination request for Spot On has been submitted for Approval.</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
-        <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-        <sys_created_on>2020-02-14 06:09:36</sys_created_on>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-06-20 08:17:09</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9f5c97081b8fcc9076efea8dee4bcb04</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_id>8e7b7dc51b61981076efea8dee4bcb8a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Nomination Submitted- RM Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
-        <sys_update_name>sysevent_email_action_9f5c97081b8fcc9076efea8dee4bcb04</sys_update_name>
+        <sys_update_name>sysevent_email_action_8e7b7dc51b61981076efea8dee4bcb8a</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-06-05 06:02:52</sys_updated_on>
+        <sys_updated_on>2020-06-20 08:21:12</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
