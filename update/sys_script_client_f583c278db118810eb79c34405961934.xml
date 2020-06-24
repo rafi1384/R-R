@@ -43,7 +43,7 @@
 		g_form.setMandatory('citation', true);
 		//g_form.setMandatory('rm_cc', true);
 		if (g_user.hasRole('x_isgi_rr.rlsm'))
-		g_form.setMandatory('rm_cc', false);
+		g_form.setMandatory('reporting_manager', false);
 	}
 
 	function readOnly(true_false){
@@ -60,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f583c278db118810eb79c34405961934</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Mandatory-Readonly Policy</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -69,7 +69,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_script_client_f583c278db118810eb79c34405961934</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-06-04 17:25:25</sys_updated_on>
+        <sys_updated_on>2020-06-24 08:24:49</sys_updated_on>
         <table>x_isgi_rr_above_beyond</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

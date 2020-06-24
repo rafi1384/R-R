@@ -30,9 +30,10 @@
         <element attributes="edge_encryption_enabled=true" default="o Supports and participates in organization wide initiative" label="Organization Initiative" max_length="2000" name="organization_initiative" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="organization_initiative_just" type="string"/>
         <element label="Quarter" max_length="40" name="quarter" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Reporting Manager" max_length="32" name="reporting_manager" read_only="true" reference="sys_user" type="reference"/>
         <element label="Request ID" max_length="32" name="request_id" read_only="true" reference="x_isgi_rr_request" type="reference"/>
         <element label="Rejection Comments" max_length="2000" name="rj_comm" type="string"/>
-        <element attributes="encode_utf8=false" label="Reporting Manager" max_length="32" name="rm_cc" read_only="true" reference="sys_user" type="reference"/>
+        <element active="false" attributes="encode_utf8=false" label="Reporting Manager" max_length="32" name="rm_cc" read_only="true" reference="sys_user" type="reference"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="SLC Team" max_length="1024" name="slc_team" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.slc^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.slc^EQ" type="glide_list"/>
         <element default="o Communicates with direct reports about the change&#13;&#10;o Demonstrates support for the change&#13;&#10;o Coaches employees through the change process&#13;&#10;o Engages with and provides support to the project team&#13;&#10;o Identifies and manages resistance" label="Change Management" max_length="2000" name="success_contributors" read_only="true" type="string"/>
         <element label="Justification" max_length="2000" name="success_contributors_just" type="string"/>
@@ -46,21 +47,24 @@
             </choice>
         </element>
         <index name="index">
-            <element name="name"/>
+            <element name="reporting_manager"/>
         </index>
         <index name="index2">
-            <element name="department"/>
+            <element name="name"/>
         </index>
         <index name="index3">
-            <element name="hr_approver"/>
+            <element name="department"/>
         </index>
         <index name="index4">
-            <element name="nominator"/>
+            <element name="hr_approver"/>
         </index>
         <index name="index5">
-            <element name="request_id"/>
+            <element name="nominator"/>
         </index>
         <index name="index6">
+            <element name="request_id"/>
+        </index>
+        <index name="index7">
             <element name="rm_cc"/>
         </index>
     </element>

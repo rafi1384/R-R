@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="reporting_manager" label="Reporting Manager" language="en" table="x_isgi_rr_above_beyond">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>reporting_manager</element>
+            <help/>
+            <hint/>
+            <label>Reporting Manager</label>
+            <language>en</language>
+            <name>x_isgi_rr_above_beyond</name>
+            <plural>Reporting Managers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-06-24 08:23:43</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4153e2561bed545076efea8dee4bcb31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Reporting Manager</sys_name>
+            <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+            <sys_update_name>sys_documentation_x_isgi_rr_above_beyond_reporting_manager_en</sys_update_name>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-06-24 08:23:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
