@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id display_value="R&amp;R Approvers" name="R&amp;R Approvers">727677e2dbd7cc1025e125894b961941</group_id>
+        <report_id display_value="SPOT On Pending Approval">084b5d021bed905076efea8dee4bcb26</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-06-23 09:08:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>44f369861b21d05076efea8dee4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>084b5d021bed905076efea8dee4bcb26</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sys_report_users_groups_44f369861b21d05076efea8dee4bcbc8</sys_update_name>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-23 09:08:17</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RR">ee08628bdbccc050eb79c34405961975</application>
+        <file_path/>
+        <instance_id>69a78f219b99cb447ac36b8af359ff47</instance_id>
+        <instance_name>isggoverndev4</instance_name>
+        <name>sys_report_users_groups_44f369861b21d05076efea8dee4bcbc8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id display_value="R&amp;R Approvers" name="R&amp;R Approvers">727677e2dbd7cc1025e125894b961941</group_id><report_id display_value="SPOT On Pending Approval">084b5d021bed905076efea8dee4bcb26</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by><sys_created_on>2020-06-23 09:08:17</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>44f369861b21d05076efea8dee4bcbc8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>084b5d021bed905076efea8dee4bcb26</sys_name><sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope><sys_update_name>sys_report_users_groups_44f369861b21d05076efea8dee4bcbc8</sys_update_name><sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by><sys_updated_on>2020-06-23 09:08:17</sys_updated_on><user_id/></sys_report_users_groups></record_update>]]></payload>
+        <payload_hash>10125429</payload_hash>
+        <record_name>084b5d021bed905076efea8dee4bcb26</record_name>
+        <reverted_from/>
+        <source>feb2ebb7db095410eb79c344059619be</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-06-23 09:08:17</sys_created_on>
+        <sys_id>48f369861b21d05076efea8dee4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e06f68c00000001</sys_recorded_at>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-23 09:08:17</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>40f369862221d0505daae242d64f4cca</update_guid>
+        <update_guid_history>40f369862221d0505daae242d64f4cca:10125429</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-06-23 09:31:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>d813cfc57f014222b3106fae78259ba1</sys_id>
+        <sys_metadata>44f369861b21d05076efea8dee4bcbc8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>084b5d021bed905076efea8dee4bcb26</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_scope_delete display_value="">77069d9b78f8495d9d557a1f71415899</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_44f369861b21d05076efea8dee4bcbc8</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_44f369861b21d05076efea8dee4bcbc8">48f369861b21d05076efea8dee4bcbca</sys_update_version>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-23 09:31:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

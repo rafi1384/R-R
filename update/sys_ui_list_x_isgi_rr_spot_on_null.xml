@@ -3,137 +3,152 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ed3e584db519410eb79c34405961904</list_id>
+            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83dd510a1bed905076efea8dee4bcb47</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-06-04 17:44:21</sys_created_on>
-            <sys_id>5ed3e584db519410eb79c34405961905</sys_id>
+            <sys_created_on>2020-06-23 08:41:43</sys_created_on>
+            <sys_id>cbdd510a1bed905076efea8dee4bcb47</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-06-04 17:44:21</sys_updated_on>
+            <sys_updated_on>2020-06-23 08:41:43</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>nominator</element>
-            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ed3e584db519410eb79c34405961904</list_id>
+            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83dd510a1bed905076efea8dee4bcb47</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-06-04 17:44:21</sys_created_on>
-            <sys_id>16d3e584db519410eb79c34405961906</sys_id>
+            <sys_created_on>2020-06-23 08:41:43</sys_created_on>
+            <sys_id>4fdd510a1bed905076efea8dee4bcb47</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-06-04 17:44:21</sys_updated_on>
+            <sys_updated_on>2020-06-23 08:41:43</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ed3e584db519410eb79c34405961904</list_id>
+            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83dd510a1bed905076efea8dee4bcb47</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-06-04 17:44:21</sys_created_on>
-            <sys_id>96d3e584db519410eb79c34405961906</sys_id>
+            <sys_created_on>2020-06-23 08:41:43</sys_created_on>
+            <sys_id>cfdd510a1bed905076efea8dee4bcb47</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-06-04 17:44:21</sys_updated_on>
+            <sys_updated_on>2020-06-23 08:41:43</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>employee_id</element>
-            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ed3e584db519410eb79c34405961904</list_id>
+            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83dd510a1bed905076efea8dee4bcb47</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-06-04 17:44:21</sys_created_on>
-            <sys_id>1ad3e584db519410eb79c34405961906</sys_id>
+            <sys_created_on>2020-06-23 08:41:43</sys_created_on>
+            <sys_id>43dd510a1bed905076efea8dee4bcb48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-06-04 17:44:21</sys_updated_on>
+            <sys_updated_on>2020-06-23 08:41:43</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>rm_cc</element>
-            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ed3e584db519410eb79c34405961904</list_id>
+            <element>date</element>
+            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83dd510a1bed905076efea8dee4bcb47</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-06-04 17:44:21</sys_created_on>
-            <sys_id>9ad3e584db519410eb79c34405961906</sys_id>
+            <sys_created_on>2020-06-23 08:41:43</sys_created_on>
+            <sys_id>c3dd510a1bed905076efea8dee4bcb48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-06-04 17:44:21</sys_updated_on>
+            <sys_updated_on>2020-06-23 08:41:43</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>approver</element>
-            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ed3e584db519410eb79c34405961904</list_id>
+            <element>rm_cc</element>
+            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83dd510a1bed905076efea8dee4bcb47</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-06-04 17:44:21</sys_created_on>
-            <sys_id>1ed3e584db519410eb79c34405961906</sys_id>
+            <sys_created_on>2020-06-23 08:41:43</sys_created_on>
+            <sys_id>47dd510a1bed905076efea8dee4bcb48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-06-04 17:44:21</sys_updated_on>
+            <sys_updated_on>2020-06-23 08:41:43</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>hr_approver</element>
-            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ed3e584db519410eb79c34405961904</list_id>
+            <element>approver</element>
+            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83dd510a1bed905076efea8dee4bcb47</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-06-04 17:44:21</sys_created_on>
-            <sys_id>9ed3e584db519410eb79c34405961906</sys_id>
+            <sys_created_on>2020-06-23 08:41:43</sys_created_on>
+            <sys_id>c7dd510a1bed905076efea8dee4bcb48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-06-04 17:44:21</sys_updated_on>
+            <sys_updated_on>2020-06-23 08:41:43</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>slc_members</element>
-            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ed3e584db519410eb79c34405961904</list_id>
+            <element>hr_approver</element>
+            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83dd510a1bed905076efea8dee4bcb47</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-06-04 17:44:21</sys_created_on>
-            <sys_id>12d3e584db519410eb79c34405961907</sys_id>
+            <sys_created_on>2020-06-23 08:41:43</sys_created_on>
+            <sys_id>4bdd510a1bed905076efea8dee4bcb48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-06-04 17:44:21</sys_updated_on>
+            <sys_updated_on>2020-06-23 08:41:43</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>workflow_state</element>
-            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ed3e584db519410eb79c34405961904</list_id>
+            <element>slc_members</element>
+            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83dd510a1bed905076efea8dee4bcb47</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-06-04 17:44:21</sys_created_on>
-            <sys_id>92d3e584db519410eb79c34405961907</sys_id>
+            <sys_created_on>2020-06-23 08:41:43</sys_created_on>
+            <sys_id>cbdd510a1bed905076efea8dee4bcb48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-06-04 17:44:21</sys_updated_on>
+            <sys_updated_on>2020-06-23 08:41:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>workflow_state</element>
+            <list_id display_value="x_isgi_rr_spot_on" element="NULL" name="x_isgi_rr_spot_on" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">83dd510a1bed905076efea8dee4bcb47</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-06-23 08:41:43</sys_created_on>
+            <sys_id>4fdd510a1bed905076efea8dee4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-06-23 08:41:43</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -147,11 +162,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-06-04 17:44:21</sys_created_on>
+            <sys_created_on>2020-06-23 08:41:43</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9ed3e584db519410eb79c34405961904</sys_id>
+            <sys_id>83dd510a1bed905076efea8dee4bcb47</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_isgi_rr_spot_on</sys_name>
             <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -160,7 +175,7 @@
             <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
             <sys_update_name>sys_ui_list_x_isgi_rr_spot_on_null</sys_update_name>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-06-04 17:44:21</sys_updated_on>
+            <sys_updated_on>2020-06-23 08:41:43</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

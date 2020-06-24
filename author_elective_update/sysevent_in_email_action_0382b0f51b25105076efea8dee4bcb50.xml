@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="DELETE">
+        <action>record_action</action>
+        <active>false</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">subjectLIKEApproved^EQ<item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="false" value="Approved"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>Spot - Approval</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+if(current.approver==email.from){
+		current.workflow_state="3";
+current.update();
+	}
+	
+	else if(current.approver!=email.from)
+		{
+		current.workflow_state="5";
+current.update();	
+		}
+	
+})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>sushma.muttalli@isg-one.com</sys_created_by>
+        <sys_created_on>2020-06-22 10:54:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0382b0f51b25105076efea8dee4bcb50</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Spot - Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sysevent_in_email_action_0382b0f51b25105076efea8dee4bcb50</sys_update_name>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-23 07:51:33</sys_updated_on>
+        <table>x_isgi_rr_spot_on</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RR">ee08628bdbccc050eb79c34405961975</application>
+        <file_path/>
+        <instance_id>69a78f219b99cb447ac36b8af359ff47</instance_id>
+        <instance_name>isggoverndev4</instance_name>
+        <name>sysevent_in_email_action_0382b0f51b25105076efea8dee4bcb50</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_in_email_action"&gt;&lt;sysevent_in_email_action action="INSERT_OR_UPDATE"&gt;&lt;action&gt;record_action&lt;/action&gt;&lt;active&gt;false&lt;/active&gt;&lt;assignment_operator/&gt;&lt;condition_script/&gt;&lt;description/&gt;&lt;event_name&gt;email.read&lt;/event_name&gt;&lt;filter_condition table="sys_email"&gt;subjectLIKEApproved^EQ&lt;item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="false" value="Approved"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;from/&gt;&lt;name&gt;Spot - Approval&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;reply_email/&gt;&lt;required_roles/&gt;&lt;script&gt;&lt;![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+if(current.approver==email.from){
+		current.workflow_state="3";
+current.update();
+	}
+	
+	else if(current.approver!=email.from)
+		{
+		current.workflow_state="5";
+current.update();	
+		}
+	
+})(current, event, email, logger, classifier);]]&gt;&lt;/script&gt;&lt;stop_processing&gt;false&lt;/stop_processing&gt;&lt;sys_class_name&gt;sysevent_in_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sushma.muttalli@isg-one.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-06-22 10:54:42&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0382b0f51b25105076efea8dee4bcb50&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Spot - Approval&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="RR" source="x_isgi_rr"&gt;ee08628bdbccc050eb79c34405961975&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="RR"&gt;ee08628bdbccc050eb79c34405961975&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_in_email_action_0382b0f51b25105076efea8dee4bcb50&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mohamed.rafiulla@isg-one.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-06-23 07:51:33&lt;/sys_updated_on&gt;&lt;table&gt;x_isgi_rr_spot_on&lt;/table&gt;&lt;template/&gt;&lt;type&gt;reply&lt;/type&gt;&lt;/sysevent_in_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2043857820</payload_hash>
+        <record_name>Spot - Approval</record_name>
+        <reverted_from/>
+        <source>feb2ebb7db095410eb79c344059619be</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-06-23 07:51:33</sys_created_on>
+        <sys_id>4462dd4a1b6d905076efea8dee4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e02929ba0000001</sys_recorded_at>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-23 07:51:33</sys_updated_on>
+        <type>Inbound Email Actions</type>
+        <update_guid>0c62dd4ac26d90505ac831e33ed9f1f1</update_guid>
+        <update_guid_history>0c62dd4ac26d90505ac831e33ed9f1f1:-2043857820,80c105f993a510506bd73935b8acd488:296638111,463fbc3111a510506fe9e2c717843f42:-465924151,4e78f8f196651050976c53b4fd32424d:1839166525,49a4343d66251050305c22c9b21538ae:-1879584499,49b2f0f53725105044ac1f86f0489d6b:1571385803</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-06-23 07:52:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sysevent_in_email_action">sysevent_in_email_action</sys_db_object>
+        <sys_id>d53bfd7654de4928adb2799e72268fa4</sys_id>
+        <sys_metadata>0382b0f51b25105076efea8dee4bcb50</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Spot - Approval</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_parent display_value="Spot On">9759ae0fdbccc050eb79c3440596193e</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_scope_delete display_value="">77069d9b78f8495d9d557a1f71415899</sys_scope_delete>
+        <sys_update_name>sysevent_in_email_action_0382b0f51b25105076efea8dee4bcb50</sys_update_name>
+        <sys_update_version display_value="sysevent_in_email_action_0382b0f51b25105076efea8dee4bcb50">4462dd4a1b6d905076efea8dee4bcbf2</sys_update_version>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-23 07:52:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

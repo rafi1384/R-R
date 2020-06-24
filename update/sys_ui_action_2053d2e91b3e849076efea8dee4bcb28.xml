@@ -3,7 +3,9 @@
         <action_name>cancel_sp</action_name>
         <active>true</active>
         <client>true</client>
-        <client_script_v2/>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
         <comments/>
         <condition>current.workflow_state=="1" &amp;&amp; current.nominator==gs.getUserID()</condition>
         <form_action>true</form_action>
@@ -15,12 +17,12 @@
         <form_style/>
         <hint/>
         <isolate_script>true</isolate_script>
-        <list_action>false</list_action>
+        <list_action>true</list_action>
         <list_banner_button>false</list_banner_button>
         <list_button>false</list_button>
         <list_choice>false</list_choice>
         <list_context_menu>false</list_context_menu>
-        <list_link>false</list_link>
+        <list_link>true</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <name>Cancel</name>
@@ -59,7 +61,7 @@ action.setRedirectURL(current);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2053d2e91b3e849076efea8dee4bcb28</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Cancel</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -67,8 +69,8 @@ action.setRedirectURL(current);
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_ui_action_2053d2e91b3e849076efea8dee4bcb28</sys_update_name>
-        <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-02-18 12:43:01</sys_updated_on>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-23 08:19:08</sys_updated_on>
         <table>x_isgi_rr_spot_on</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

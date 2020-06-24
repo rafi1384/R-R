@@ -5,6 +5,7 @@
         <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" max_length="40" name="date" read_only="true" type="glide_date" use_dynamic_default="true"/>
         <element label="Department" max_length="32" name="department" read_only="true" reference="cmn_department" type="reference"/>
         <element label="Your Accomplishment" max_length="2000" name="description" type="string"/>
+        <element label="Duration" max_length="40" name="duration" read_only="true" type="glide_duration"/>
         <element calculation="(function calculatedFieldValue(current){&#10;var ID = current.name;&#10;var user = new GlideRecord('sys_user');&#10;user.addQuery('sys_id',ID);&#10;user.query();&#10;if ( user.next() ) {&#10;var answer = current.setValue('employee_id', user.department);&#10;}&#10;&#10;return answer;  // return the calculated value&#10;&#10;})(current);" label="Employee Id" max_length="100" name="employee_id" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Department" max_length="100" name="function" type="string"/>
         <element label="HR" max_length="32" name="hr_approver" read_only="true" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.hr^EQ" type="reference"/>

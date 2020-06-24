@@ -3,9 +3,11 @@
         <action_name>rm_reject</action_name>
         <active>true</active>
         <client>false</client>
-        <client_script_v2/>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
         <comments/>
-        <condition>current.workflow_state=="2" &amp;&amp; gs.hasRole('x_isgi_rr.rlsm')</condition>
+        <condition>current.workflow_state=="2" &amp;&amp; current.approver==gs.getUserID()</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -15,12 +17,12 @@
         <form_style/>
         <hint/>
         <isolate_script>false</isolate_script>
-        <list_action>false</list_action>
+        <list_action>true</list_action>
         <list_banner_button>false</list_banner_button>
         <list_button>false</list_button>
         <list_choice>false</list_choice>
         <list_context_menu>false</list_context_menu>
-        <list_link>false</list_link>
+        <list_link>true</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <name>Reject</name>
@@ -41,7 +43,7 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>77621aa91b3e849076efea8dee4bcb6d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Reject</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -49,8 +51,8 @@ action.setRedirectURL(current);]]></script>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_ui_action_77621aa91b3e849076efea8dee4bcb6d</sys_update_name>
-        <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-02-18 12:44:29</sys_updated_on>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-23 08:19:20</sys_updated_on>
         <table>x_isgi_rr_spot_on</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
