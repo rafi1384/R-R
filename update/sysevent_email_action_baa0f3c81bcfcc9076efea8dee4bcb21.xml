@@ -43,15 +43,14 @@
 <tbody>
 <tr>
 <td style="border-top: 6px solid #fff;">
-<p style="background: #225281; color: #fff; border: 5px solid #225281; font-size: 14px; margin: 0px;"><span style="font-family: georgia, palatino; font-size: 10pt;">${workflow_state}</span></p>
+<p style="background: #225281; color: #fff; border: 5px solid #225281; font-size: 14px; margin: 0px;"><span style="font-family: georgia, palatino; font-size: 10pt;">Pending HR Action</span></p>
 </td>
 </tr>
 <tr>
 <td style="border-top: 6px solid #fff; border-bottom: 6px solid #fff;">
 <div><span style="font-family: georgia, palatino; font-size: 12pt;">Hi ${hr_approver},<br /></span></div>
 <div><span style="font-size: 12pt; font-family: georgia, palatino;">&nbsp;</span></div>
-<div><span style="font-size: 12pt; font-family: georgia, palatino;">This is to inform you that, a nomination request for&nbsp;Spot On&nbsp;has been submitted.&nbsp;</span></div>
-<div><span style="font-size: 12pt; font-family: georgia, palatino;">Please review and action.&nbsp;</span></div>
+<div><span style="font-size: 12pt; font-family: georgia, palatino;">This is to inform you that, a nomination request for Spot On has been approved. Please action accordingly.</span></div>
 <div>&nbsp;</div>
 </td>
 </tr>
@@ -148,7 +147,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>baa0f3c81bcfcc9076efea8dee4bcb21</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>HR- Nomination Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -157,7 +156,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_baa0f3c81bcfcc9076efea8dee4bcb21</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-06-20 08:16:28</sys_updated_on>
+        <sys_updated_on>2020-06-24 11:12:48</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
