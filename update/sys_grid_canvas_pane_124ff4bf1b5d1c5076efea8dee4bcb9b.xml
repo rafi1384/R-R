@@ -10,7 +10,7 @@
         <sys_created_on>2020-06-16 06:41:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>124ff4bf1b5d1c5076efea8dee4bcb9b</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>1c7c3cb71b5d1c5076efea8dee4bcb81</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
@@ -18,7 +18,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_grid_canvas_pane_124ff4bf1b5d1c5076efea8dee4bcb9b</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-06-16 07:30:12</sys_updated_on>
-        <width>3</width>
+        <sys_updated_on>2020-06-26 06:44:05</sys_updated_on>
+        <width>2</width>
     </sys_grid_canvas_pane>
 </record_update>

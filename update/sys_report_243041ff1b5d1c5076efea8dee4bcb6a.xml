@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
-        <additional_groupby/>
+        <additional_groupby>workflow_state</additional_groupby>
         <aggregate>COUNT</aggregate>
         <allow_data_label_overlap>false</allow_data_label_overlap>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
@@ -44,8 +44,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>workflow_state</field>
         <field_list/>
-        <filter table="x_isgi_rr_spot_on">departmentISNOTEMPTY<item endquery="false" field="department" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-        </filter>
+        <filter/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -83,11 +82,11 @@
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>several_colors</set_color>
+        <set_color>color_palette</set_color>
         <show_chart_border>false</show_chart_border>
-        <show_chart_data_label>false</show_chart_data_label>
+        <show_chart_data_label>true</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
-        <show_chart_total>false</show_chart_total>
+        <show_chart_total>true</show_chart_total>
         <show_data_label_position_middle>false</show_data_label_position_middle>
         <show_empty>false</show_empty>
         <show_geographical_label>false</show_geographical_label>
@@ -104,22 +103,22 @@
         <sys_created_on>2020-06-16 06:45:47</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>243041ff1b5d1c5076efea8dee4bcb6a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Spot on Details</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Spot on by Workflow</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_report_243041ff1b5d1c5076efea8dee4bcb6a</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-06-16 06:58:48</sys_updated_on>
+        <sys_updated_on>2020-06-26 07:13:45</sys_updated_on>
         <table>x_isgi_rr_spot_on</table>
-        <title>Spot on Details</title>
+        <title>Spot on by Workflow</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>department</trend_field>
-        <type>horizontal_bar</type>
+        <trend_field>approver...</trend_field>
+        <type>donut</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
         <use_color_palette>false</use_color_palette>

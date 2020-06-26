@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
-        <additional_groupby/>
+        <additional_groupby>workflow_state,department</additional_groupby>
         <aggregate>COUNT</aggregate>
         <allow_data_label_overlap>false</allow_data_label_overlap>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
@@ -26,7 +26,7 @@
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
-        <column>sys_created_on</column>
+        <column>approver</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <created_by_user display_value="Mohamed Rafiulla">bfdc2ff4dba613009a635858dc961933</created_by_user>
@@ -42,16 +42,15 @@
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>sys_created_on</field>
+        <field>workflow_state</field>
         <field_list/>
-        <filter table="x_isgi_rr_request">workflow_stateIN1,2<item display_value="1,2" endquery="false" field="workflow_state" goto="false" newquery="false" operator="IN" or="false" value="1,2"/>
-        </filter>
+        <filter/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
         <group/>
         <import_table/>
-        <interval>year</interval>
+        <interval>quarter</interval>
         <is_published>false</is_published>
         <is_real_time>false</is_real_time>
         <is_scheduled>false</is_scheduled>
@@ -76,50 +75,50 @@
         <report_drilldown/>
         <report_source/>
         <roles>snc_internal</roles>
-        <row>sys_created_on</row>
+        <row>approver</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color/>
+        <set_color>color_palette</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>never</show_chart_title>
-        <show_chart_total>false</show_chart_total>
+        <show_chart_total>true</show_chart_total>
         <show_data_label_position_middle>false</show_data_label_position_middle>
         <show_empty>false</show_empty>
         <show_geographical_label>false</show_geographical_label>
         <show_legend>true</show_legend>
         <show_legend_border>false</show_legend_border>
         <show_marker>true</show_marker>
-        <show_zero>true</show_zero>
+        <show_zero>false</show_zero>
         <source_type>table</source_type>
         <start_time/>
         <style_config/>
-        <sumfield>req_name...</sumfield>
+        <sumfield>approver...</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-        <sys_created_on>2020-06-16 06:32:38</sys_created_on>
+        <sys_created_on>2020-06-26 07:07:30</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>cc3df83b1b5d1c5076efea8dee4bcb0b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Pending Submission</sys_name>
+        <sys_id>dc15a8cbdbe550d0eb79c34405961934</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Spot on Quarterly Trend</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
-        <sys_update_name>sys_report_cc3df83b1b5d1c5076efea8dee4bcb0b</sys_update_name>
+        <sys_update_name>sys_report_dc15a8cbdbe550d0eb79c34405961934</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-06-26 06:49:59</sys_updated_on>
-        <table>x_isgi_rr_request</table>
-        <title>Pending Submission</title>
+        <sys_updated_on>2020-06-26 07:10:09</sys_updated_on>
+        <table>x_isgi_rr_spot_on</table>
+        <title>Spot on Quarterly Trend</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>sys_created_on</trend_field>
-        <type>single_score</type>
+        <trend_field>date</trend_field>
+        <type>trend</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
         <use_color_palette>false</use_color_palette>
@@ -135,7 +134,7 @@
         <x_axis_label_size>11</x_axis_label_size>
         <x_axis_label_tilt>0</x_axis_label_tilt>
         <x_axis_opposite>false</x_axis_opposite>
-        <x_axis_title/>
+        <x_axis_title>Quarter</x_axis_title>
         <x_axis_title_bold>true</x_axis_title_bold>
         <x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color>
         <x_axis_title_size>12</x_axis_title_size>
@@ -150,7 +149,7 @@
         <y_axis_label_size>11</y_axis_label_size>
         <y_axis_label_tilt>0</y_axis_label_tilt>
         <y_axis_opposite>false</y_axis_opposite>
-        <y_axis_title/>
+        <y_axis_title>Count of Spot On</y_axis_title>
         <y_axis_title_bold>true</y_axis_title_bold>
         <y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color>
         <y_axis_title_size>12</y_axis_title_size>

@@ -104,17 +104,17 @@
         <sys_created_on>2020-06-16 06:33:20</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0e5db83b1b5d1c5076efea8dee4bcb23</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Total Requests - Nominated</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Nominated</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_report_0e5db83b1b5d1c5076efea8dee4bcb23</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-06-16 06:40:29</sys_updated_on>
+        <sys_updated_on>2020-06-26 06:39:12</sys_updated_on>
         <table>x_isgi_rr_request</table>
-        <title>Total Requests - Nominated</title>
+        <title>Nominated</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>

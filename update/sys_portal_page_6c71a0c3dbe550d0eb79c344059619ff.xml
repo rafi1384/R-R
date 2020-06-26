@@ -1,0 +1,1774 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-06-26 07:45:53">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-06-26 06:51:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c71a0c3dbe550d0eb79c344059619ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PA Spot On</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sys_portal_page_6c71a0c3dbe550d0eb79c344059619ff</sys_update_name>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-06-26 06:51:54</sys_updated_on>
+        <title>PA Spot On</title>
+        <user/>
+        <view>pa_rewards_and_recognit_-_new_tab_2</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Spot On">6c71a0c3dbe550d0eb79c344059619ff</page>
+                <summary>Spot on by Department</summary>
+                <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                <sys_created_on>2020-06-26 07:12:40</sys_created_on>
+                <sys_id>0846608fdbe550d0eb79c34405961997</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                <sys_updated_on>2020-06-26 07:12:40</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.42.40 PM">0846608fdbe550d0eb79c34405961997</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:12:40</sys_created_on>
+                        <sys_id>0446608fdbe550d0eb79c34405961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:12:40</sys_updated_on>
+                        <value>horizontal_bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.42.40 PM">0846608fdbe550d0eb79c34405961997</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:15</sys_created_on>
+                        <sys_id>1017eccfdbe550d0eb79c344059619a4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.42.40 PM">0846608fdbe550d0eb79c34405961997</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:15</sys_created_on>
+                        <sys_id>1017eccfdbe550d0eb79c344059619a5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:15</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.42.40 PM">0846608fdbe550d0eb79c34405961997</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:15</sys_created_on>
+                        <sys_id>1417eccfdbe550d0eb79c344059619a3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.42.40 PM">0846608fdbe550d0eb79c34405961997</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:15</sys_created_on>
+                        <sys_id>1417eccfdbe550d0eb79c344059619a4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:15</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.42.40 PM">0846608fdbe550d0eb79c34405961997</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:15</sys_created_on>
+                        <sys_id>1817eccfdbe550d0eb79c344059619a3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.42.40 PM">0846608fdbe550d0eb79c34405961997</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:15</sys_created_on>
+                        <sys_id>1817eccfdbe550d0eb79c344059619a4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.42.40 PM">0846608fdbe550d0eb79c34405961997</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:15</sys_created_on>
+                        <sys_id>1c17eccfdbe550d0eb79c344059619a3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:15</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.42.40 PM">0846608fdbe550d0eb79c34405961997</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:15</sys_created_on>
+                        <sys_id>1c17eccfdbe550d0eb79c344059619a4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.42.40 PM">0846608fdbe550d0eb79c34405961997</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:12:40</sys_created_on>
+                        <sys_id>4046608fdbe550d0eb79c34405961998</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:12:40</sys_updated_on>
+                        <value>86f5644fdbe550d0eb79c34405961981</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.42.40 PM">0846608fdbe550d0eb79c34405961997</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:12:40</sys_created_on>
+                        <sys_id>4046608fdbe550d0eb79c34405961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:12:40</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.42.40 PM">0846608fdbe550d0eb79c34405961997</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:12:40</sys_created_on>
+                        <sys_id>8c46608fdbe550d0eb79c34405961998</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:12:40</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.42.40 PM">0846608fdbe550d0eb79c34405961997</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:12:40</sys_created_on>
+                        <sys_id>c446608fdbe550d0eb79c34405961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:12:40</sys_updated_on>
+                        <value>Spot on by Department</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.42.40 PM">0846608fdbe550d0eb79c34405961997</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:12:40</sys_created_on>
+                        <sys_id>c846608fdbe550d0eb79c34405961998</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:12:40</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Spot On">6c71a0c3dbe550d0eb79c344059619ff</page>
+                <summary>Spot On in Approval</summary>
+                <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                <sys_created_on>2020-06-26 07:03:45</sys_created_on>
+                <sys_id>1534ac4bdbe550d0eb79c34405961996</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                <sys_updated_on>2020-06-26 07:03:45</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:45</sys_created_on>
+                        <sys_id>1134ac4bdbe550d0eb79c34405961997</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:45</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:45</sys_created_on>
+                        <sys_id>1934ac4bdbe550d0eb79c34405961996</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:45</sys_updated_on>
+                        <value>568364c7dbe550d0eb79c344059619ac</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:45</sys_created_on>
+                        <sys_id>1d34ac4bdbe550d0eb79c34405961997</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:45</sys_updated_on>
+                        <value>Spot On in Approval</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_color</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:14:57</sys_created_on>
+                        <sys_id>29c668cfdbe550d0eb79c3440596195d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:14:57</sys_updated_on>
+                        <value>#181a6c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>header_color</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:14:57</sys_created_on>
+                        <sys_id>2dc668cfdbe550d0eb79c3440596195d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:14:57</sys_updated_on>
+                        <value>#dfc7c7</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:08</sys_created_on>
+                        <sys_id>4344e04bdbe550d0eb79c3440596194e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:08</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:08</sys_created_on>
+                        <sys_id>4344e04bdbe550d0eb79c3440596194f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:08</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:08</sys_created_on>
+                        <sys_id>4744e04bdbe550d0eb79c3440596194d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:08</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:08</sys_created_on>
+                        <sys_id>4744e04bdbe550d0eb79c3440596194e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:08</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:08</sys_created_on>
+                        <sys_id>4b44e04bdbe550d0eb79c3440596194d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:08</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:08</sys_created_on>
+                        <sys_id>4b44e04bdbe550d0eb79c3440596194e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:08</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:08</sys_created_on>
+                        <sys_id>4f44e04bdbe550d0eb79c3440596194d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:08</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:08</sys_created_on>
+                        <sys_id>4f44e04bdbe550d0eb79c3440596194e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:08</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:45</sys_created_on>
+                        <sys_id>5934ac4bdbe550d0eb79c34405961997</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:45</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:45</sys_created_on>
+                        <sys_id>5d34ac4bdbe550d0eb79c34405961996</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:45</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:45</sys_created_on>
+                        <sys_id>9134ac4bdbe550d0eb79c34405961998</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:45</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:45</sys_created_on>
+                        <sys_id>9534ac4bdbe550d0eb79c34405961997</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:45</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.45 PM">1534ac4bdbe550d0eb79c34405961996</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:45</sys_created_on>
+                        <sys_id>d134ac4bdbe550d0eb79c34405961997</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:45</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Spot On">6c71a0c3dbe550d0eb79c344059619ff</page>
+                <summary>Total Spot On Raised</summary>
+                <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                <sys_created_on>2020-06-26 06:58:43</sys_created_on>
+                <sys_id>2303e087dbe550d0eb79c34405961901</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                <sys_updated_on>2020-06-26 06:59:41</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.43 PM">2303e087dbe550d0eb79c34405961901</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 06:58:43</sys_created_on>
+                        <sys_id>2303e087dbe550d0eb79c34405961902</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 06:58:43</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.43 PM">2303e087dbe550d0eb79c34405961901</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 06:58:43</sys_created_on>
+                        <sys_id>2703e087dbe550d0eb79c34405961901</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 06:59:41</sys_updated_on>
+                        <value>a5436487dbe550d0eb79c3440596196f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.43 PM">2303e087dbe550d0eb79c34405961901</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 06:58:43</sys_created_on>
+                        <sys_id>6f03e087dbe550d0eb79c34405961901</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 06:58:43</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.43 PM">2303e087dbe550d0eb79c34405961901</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:32</sys_created_on>
+                        <sys_id>8224e04bdbe550d0eb79c344059619ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.43 PM">2303e087dbe550d0eb79c34405961901</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:32</sys_created_on>
+                        <sys_id>8224e04bdbe550d0eb79c344059619cb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:32</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.43 PM">2303e087dbe550d0eb79c34405961901</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:32</sys_created_on>
+                        <sys_id>8624e04bdbe550d0eb79c344059619ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.43 PM">2303e087dbe550d0eb79c34405961901</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:32</sys_created_on>
+                        <sys_id>8624e04bdbe550d0eb79c344059619cb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.43 PM">2303e087dbe550d0eb79c34405961901</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:32</sys_created_on>
+                        <sys_id>8a24e04bdbe550d0eb79c344059619ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:32</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.43 PM">2303e087dbe550d0eb79c34405961901</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:32</sys_created_on>
+                        <sys_id>8a24e04bdbe550d0eb79c344059619cb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.43 PM">2303e087dbe550d0eb79c34405961901</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:32</sys_created_on>
+                        <sys_id>8e24e04bdbe550d0eb79c344059619ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.43 PM">2303e087dbe550d0eb79c34405961901</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:32</sys_created_on>
+                        <sys_id>8e24e04bdbe550d0eb79c344059619cb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:32</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.43 PM">2303e087dbe550d0eb79c34405961901</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 06:58:43</sys_created_on>
+                        <sys_id>ab03e087dbe550d0eb79c34405961901</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 06:58:43</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>header_color</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.43 PM">2303e087dbe550d0eb79c34405961901</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:14:26</sys_created_on>
+                        <sys_id>b1a6608fdbe550d0eb79c3440596193b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:14:26</sys_updated_on>
+                        <value>#dfc7c7</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_color</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.43 PM">2303e087dbe550d0eb79c34405961901</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:14:26</sys_created_on>
+                        <sys_id>bda6608fdbe550d0eb79c3440596193a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:14:26</sys_updated_on>
+                        <value>#181a6c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.43 PM">2303e087dbe550d0eb79c34405961901</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 06:58:43</sys_created_on>
+                        <sys_id>e303e087dbe550d0eb79c34405961902</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 06:59:41</sys_updated_on>
+                        <value>Total Spot On Raised</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Spot On">6c71a0c3dbe550d0eb79c344059619ff</page>
+                <summary>Spot on Quarterly Trend</summary>
+                <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                <sys_created_on>2020-06-26 07:08:47</sys_created_on>
+                <sys_id>4755a00fdbe550d0eb79c344059619ee</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                <sys_updated_on>2020-06-26 07:08:47</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.38.47 PM">4755a00fdbe550d0eb79c344059619ee</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:08:47</sys_created_on>
+                        <sys_id>0755a00fdbe550d0eb79c344059619f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:08:47</sys_updated_on>
+                        <value>Spot on Quarterly Trend</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.38.47 PM">4755a00fdbe550d0eb79c344059619ee</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:08:47</sys_created_on>
+                        <sys_id>0b55a00fdbe550d0eb79c344059619ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:08:47</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.38.47 PM">4755a00fdbe550d0eb79c344059619ee</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:59</sys_created_on>
+                        <sys_id>2007e0cfdbe550d0eb79c344059619d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:59</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.38.47 PM">4755a00fdbe550d0eb79c344059619ee</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:59</sys_created_on>
+                        <sys_id>2007e0cfdbe550d0eb79c344059619d3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:59</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.38.47 PM">4755a00fdbe550d0eb79c344059619ee</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:59</sys_created_on>
+                        <sys_id>2407e0cfdbe550d0eb79c344059619d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:59</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.38.47 PM">4755a00fdbe550d0eb79c344059619ee</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:59</sys_created_on>
+                        <sys_id>2407e0cfdbe550d0eb79c344059619d3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:59</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.38.47 PM">4755a00fdbe550d0eb79c344059619ee</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:59</sys_created_on>
+                        <sys_id>2807e0cfdbe550d0eb79c344059619d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:59</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.38.47 PM">4755a00fdbe550d0eb79c344059619ee</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:59</sys_created_on>
+                        <sys_id>2807e0cfdbe550d0eb79c344059619d3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:59</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.38.47 PM">4755a00fdbe550d0eb79c344059619ee</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:59</sys_created_on>
+                        <sys_id>2c07e0cfdbe550d0eb79c344059619d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:59</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.38.47 PM">4755a00fdbe550d0eb79c344059619ee</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:59</sys_created_on>
+                        <sys_id>2c07e0cfdbe550d0eb79c344059619d3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:59</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.38.47 PM">4755a00fdbe550d0eb79c344059619ee</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:08:47</sys_created_on>
+                        <sys_id>4355a00fdbe550d0eb79c344059619f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:08:47</sys_updated_on>
+                        <value>trend</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.38.47 PM">4755a00fdbe550d0eb79c344059619ee</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:08:47</sys_created_on>
+                        <sys_id>8f55a00fdbe550d0eb79c344059619ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:08:47</sys_updated_on>
+                        <value>dc15a8cbdbe550d0eb79c34405961934</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.38.47 PM">4755a00fdbe550d0eb79c344059619ee</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:08:47</sys_created_on>
+                        <sys_id>8f55a00fdbe550d0eb79c344059619ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:08:47</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.38.47 PM">4755a00fdbe550d0eb79c344059619ee</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:08:47</sys_created_on>
+                        <sys_id>cb55a00fdbe550d0eb79c344059619ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:08:47</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Spot On">6c71a0c3dbe550d0eb79c344059619ff</page>
+                <summary>Spot On Rejected</summary>
+                <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                <sys_created_on>2020-06-26 07:04:38</sys_created_on>
+                <sys_id>5e64608bdbe550d0eb79c3440596192f</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                <sys_updated_on>2020-06-26 07:04:38</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:38</sys_created_on>
+                        <sys_id>1e64608bdbe550d0eb79c34405961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:38</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:38</sys_created_on>
+                        <sys_id>5264608bdbe550d0eb79c34405961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:38</sys_updated_on>
+                        <value>13b3acc7dbe550d0eb79c34405961903</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:17</sys_created_on>
+                        <sys_id>52d62c8fdbe550d0eb79c3440596197d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:17</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:17</sys_created_on>
+                        <sys_id>52d62c8fdbe550d0eb79c3440596197e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:17</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:38</sys_created_on>
+                        <sys_id>5664608bdbe550d0eb79c34405961931</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:38</sys_updated_on>
+                        <value>Spot On Rejected</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:17</sys_created_on>
+                        <sys_id>56d62c8fdbe550d0eb79c3440596197c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:17</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:17</sys_created_on>
+                        <sys_id>56d62c8fdbe550d0eb79c3440596197d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:17</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_color</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:17</sys_created_on>
+                        <sys_id>56d62c8fdbe550d0eb79c3440596197e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:17</sys_updated_on>
+                        <value>#181a6c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:38</sys_created_on>
+                        <sys_id>5a64608bdbe550d0eb79c34405961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:38</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:17</sys_created_on>
+                        <sys_id>5ad62c8fdbe550d0eb79c3440596197c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:17</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:17</sys_created_on>
+                        <sys_id>5ad62c8fdbe550d0eb79c3440596197d</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:35</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>header_color</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:17</sys_created_on>
+                        <sys_id>5ad62c8fdbe550d0eb79c3440596197e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:17</sys_updated_on>
+                        <value>#dfc7c7</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:17</sys_created_on>
+                        <sys_id>5ed62c8fdbe550d0eb79c3440596197c</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:35</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:17</sys_created_on>
+                        <sys_id>5ed62c8fdbe550d0eb79c3440596197d</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:35</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:38</sys_created_on>
+                        <sys_id>9264608bdbe550d0eb79c34405961931</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:38</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:38</sys_created_on>
+                        <sys_id>9664608bdbe550d0eb79c34405961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:38</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:38</sys_created_on>
+                        <sys_id>da64608bdbe550d0eb79c34405961931</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:38</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.38 PM">5e64608bdbe550d0eb79c3440596192f</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:38</sys_created_on>
+                        <sys_id>de64608bdbe550d0eb79c34405961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:38</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Spot On">6c71a0c3dbe550d0eb79c344059619ff</page>
+                <summary>Spot On Approved</summary>
+                <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                <sys_created_on>2020-06-26 07:04:23</sys_created_on>
+                <sys_id>a2542c4bdbe550d0eb79c3440596190e</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                <sys_updated_on>2020-06-26 07:04:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:23</sys_created_on>
+                        <sys_id>2254648bdbe550d0eb79c34405961957</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:23</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:33</sys_created_on>
+                        <sys_id>3064248bdbe550d0eb79c34405961900</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:33</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:32</sys_created_on>
+                        <sys_id>3064e08bdbe550d0eb79c344059619ff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:32</sys_created_on>
+                        <sys_id>3464e08bdbe550d0eb79c344059619fe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:33</sys_created_on>
+                        <sys_id>3464e08bdbe550d0eb79c344059619ff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:33</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:32</sys_created_on>
+                        <sys_id>3864e08bdbe550d0eb79c344059619fe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:33</sys_created_on>
+                        <sys_id>3864e08bdbe550d0eb79c344059619ff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:33</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:32</sys_created_on>
+                        <sys_id>3c64e08bdbe550d0eb79c344059619fe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:32</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:33</sys_created_on>
+                        <sys_id>3c64e08bdbe550d0eb79c344059619ff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:33</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:23</sys_created_on>
+                        <sys_id>6a54648bdbe550d0eb79c34405961957</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:23</sys_created_on>
+                        <sys_id>6e54648bdbe550d0eb79c34405961956</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>header_color</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:08</sys_created_on>
+                        <sys_id>80d6608fdbe550d0eb79c344059619f3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:08</sys_updated_on>
+                        <value>#dfc7c7</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_color</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:08</sys_created_on>
+                        <sys_id>8cd6608fdbe550d0eb79c344059619f2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:08</sys_updated_on>
+                        <value>#181a6c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:23</sys_created_on>
+                        <sys_id>a6542c4bdbe550d0eb79c3440596190e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:23</sys_updated_on>
+                        <value>c1a3ecc7dbe550d0eb79c34405961979</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:23</sys_created_on>
+                        <sys_id>aa54648bdbe550d0eb79c34405961956</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:23</sys_created_on>
+                        <sys_id>e254648bdbe550d0eb79c34405961957</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:23</sys_updated_on>
+                        <value>Spot On Approved</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:23</sys_created_on>
+                        <sys_id>e654648bdbe550d0eb79c34405961956</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.34.23 PM">a2542c4bdbe550d0eb79c3440596190e</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:04:23</sys_created_on>
+                        <sys_id>ea542c4bdbe550d0eb79c3440596190e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:04:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Spot On">6c71a0c3dbe550d0eb79c344059619ff</page>
+                <summary>Spot on Details</summary>
+                <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                <sys_created_on>2020-06-26 06:58:32</sys_created_on>
+                <sys_id>cd03e487dbe550d0eb79c344059619ed</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                <sys_updated_on>2020-06-26 06:58:32</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.32 PM">cd03e487dbe550d0eb79c344059619ed</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 06:58:32</sys_created_on>
+                        <sys_id>0903e487dbe550d0eb79c344059619ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 06:58:32</sys_updated_on>
+                        <value>Spot on Details</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.32 PM">cd03e487dbe550d0eb79c344059619ed</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 06:58:32</sys_created_on>
+                        <sys_id>0d03e487dbe550d0eb79c344059619ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 06:58:32</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.32 PM">cd03e487dbe550d0eb79c344059619ed</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 06:58:32</sys_created_on>
+                        <sys_id>4503e487dbe550d0eb79c344059619ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 06:58:32</sys_updated_on>
+                        <value>donut</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.32 PM">cd03e487dbe550d0eb79c344059619ed</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:07</sys_created_on>
+                        <sys_id>62072c8fdbe550d0eb79c3440596190e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:07</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.32 PM">cd03e487dbe550d0eb79c344059619ed</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:07</sys_created_on>
+                        <sys_id>62072c8fdbe550d0eb79c3440596190f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:07</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.32 PM">cd03e487dbe550d0eb79c344059619ed</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:07</sys_created_on>
+                        <sys_id>66072c8fdbe550d0eb79c3440596190e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:07</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.32 PM">cd03e487dbe550d0eb79c344059619ed</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:07</sys_created_on>
+                        <sys_id>66072c8fdbe550d0eb79c3440596190f</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:11</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.32 PM">cd03e487dbe550d0eb79c344059619ed</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:07</sys_created_on>
+                        <sys_id>6a072c8fdbe550d0eb79c3440596190e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:07</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.32 PM">cd03e487dbe550d0eb79c344059619ed</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:07</sys_created_on>
+                        <sys_id>6a072c8fdbe550d0eb79c3440596190f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:07</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.32 PM">cd03e487dbe550d0eb79c344059619ed</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:07</sys_created_on>
+                        <sys_id>6e072c8fdbe550d0eb79c3440596190d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:07</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.32 PM">cd03e487dbe550d0eb79c344059619ed</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:16:07</sys_created_on>
+                        <sys_id>6e072c8fdbe550d0eb79c3440596190e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:16:07</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.32 PM">cd03e487dbe550d0eb79c344059619ed</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 06:58:32</sys_created_on>
+                        <sys_id>8103e487dbe550d0eb79c344059619ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 06:58:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.32 PM">cd03e487dbe550d0eb79c344059619ed</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 06:58:32</sys_created_on>
+                        <sys_id>c503e487dbe550d0eb79c344059619ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 06:58:32</sys_updated_on>
+                        <value>243041ff1b5d1c5076efea8dee4bcb6a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.28.32 PM">cd03e487dbe550d0eb79c344059619ed</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 06:58:32</sys_created_on>
+                        <sys_id>cd03e487dbe550d0eb79c344059619ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 06:58:32</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Spot On">6c71a0c3dbe550d0eb79c344059619ff</page>
+                <summary>Spot On Cancelled</summary>
+                <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                <sys_created_on>2020-06-26 07:05:02</sys_created_on>
+                <sys_id>d884e04bdbe550d0eb79c344059619ba</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                <sys_updated_on>2020-06-26 07:05:02</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:05:02</sys_created_on>
+                        <sys_id>1084e04bdbe550d0eb79c344059619bc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:05:02</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:05:02</sys_created_on>
+                        <sys_id>1484e04bdbe550d0eb79c344059619bb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:05:02</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:05:02</sys_created_on>
+                        <sys_id>5884e04bdbe550d0eb79c344059619bc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:05:02</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:05:02</sys_created_on>
+                        <sys_id>5c84e04bdbe550d0eb79c344059619bb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:05:02</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:30</sys_created_on>
+                        <sys_id>61e668cfdbe550d0eb79c34405961960</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:30</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:30</sys_created_on>
+                        <sys_id>61e668cfdbe550d0eb79c34405961961</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:30</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_color</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:30</sys_created_on>
+                        <sys_id>61e668cfdbe550d0eb79c34405961962</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:30</sys_updated_on>
+                        <value>#181a6c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:30</sys_created_on>
+                        <sys_id>65e668cfdbe550d0eb79c34405961960</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:30</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:30</sys_created_on>
+                        <sys_id>65e668cfdbe550d0eb79c34405961961</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:30</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>header_color</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:30</sys_created_on>
+                        <sys_id>65e668cfdbe550d0eb79c34405961962</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:30</sys_updated_on>
+                        <value>#dfc7c7</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:30</sys_created_on>
+                        <sys_id>69e668cfdbe550d0eb79c34405961960</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:30</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:30</sys_created_on>
+                        <sys_id>69e668cfdbe550d0eb79c34405961961</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:30</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:30</sys_created_on>
+                        <sys_id>6de668cfdbe550d0eb79c34405961960</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:30</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:15:30</sys_created_on>
+                        <sys_id>6de668cfdbe550d0eb79c34405961961</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:15:30</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:05:02</sys_created_on>
+                        <sys_id>9884e04bdbe550d0eb79c344059619bb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:05:02</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:05:02</sys_created_on>
+                        <sys_id>d084e04bdbe550d0eb79c344059619bc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:05:02</sys_updated_on>
+                        <value>Spot On Cancelled</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:05:02</sys_created_on>
+                        <sys_id>d484e04bdbe550d0eb79c344059619bb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:05:02</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.35.02 PM">d884e04bdbe550d0eb79c344059619ba</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:05:02</sys_created_on>
+                        <sys_id>dc84e04bdbe550d0eb79c344059619ba</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:05:02</sys_updated_on>
+                        <value>3de3280bdbe550d0eb79c34405961908</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Spot On">6c71a0c3dbe550d0eb79c344059619ff</page>
+                <summary>Spot On in Draft State</summary>
+                <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                <sys_created_on>2020-06-26 07:03:04</sys_created_on>
+                <sys_id>df04644bdbe550d0eb79c344059619d9</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                <sys_updated_on>2020-06-26 07:03:04</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:36</sys_created_on>
+                        <sys_id>1324284bdbe550d0eb79c344059619a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:36</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:36</sys_created_on>
+                        <sys_id>1324284bdbe550d0eb79c344059619a2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:36</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:04</sys_created_on>
+                        <sys_id>1704644bdbe550d0eb79c344059619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:04</sys_updated_on>
+                        <value>4a63a0c7dbe550d0eb79c34405961997</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:36</sys_created_on>
+                        <sys_id>1724284bdbe550d0eb79c344059619a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:36</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:36</sys_created_on>
+                        <sys_id>1724284bdbe550d0eb79c344059619a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:36</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:04</sys_created_on>
+                        <sys_id>1b04644bdbe550d0eb79c344059619db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:04</sys_updated_on>
+                        <value>Spot On in Draft State</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:36</sys_created_on>
+                        <sys_id>1b24284bdbe550d0eb79c344059619a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:36</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:36</sys_created_on>
+                        <sys_id>1b24284bdbe550d0eb79c344059619a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:36</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:04</sys_created_on>
+                        <sys_id>1f04644bdbe550d0eb79c344059619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:04</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:36</sys_created_on>
+                        <sys_id>1f24284bdbe550d0eb79c344059619a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:36</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:36</sys_created_on>
+                        <sys_id>1f24284bdbe550d0eb79c344059619a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:36</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:04</sys_created_on>
+                        <sys_id>5704644bdbe550d0eb79c344059619db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:04</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:04</sys_created_on>
+                        <sys_id>5b04644bdbe550d0eb79c344059619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:04</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_color</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:14:47</sys_created_on>
+                        <sys_id>76b66c8fdbe550d0eb79c3440596197e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:14:47</sys_updated_on>
+                        <value>#181a6c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>header_color</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:14:47</sys_created_on>
+                        <sys_id>7ab66c8fdbe550d0eb79c3440596197e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:14:47</sys_updated_on>
+                        <value>#dfc7c7</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:04</sys_created_on>
+                        <sys_id>9304644bdbe550d0eb79c344059619db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:04</sys_created_on>
+                        <sys_id>9f04644bdbe550d0eb79c344059619db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:04</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 26-Jun-2020 12.33.04 PM">df04644bdbe550d0eb79c344059619d9</portal_section>
+                        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+                        <sys_created_on>2020-06-26 07:03:04</sys_created_on>
+                        <sys_id>df04644bdbe550d0eb79c344059619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+                        <sys_updated_on>2020-06-26 07:03:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>
