@@ -36,7 +36,7 @@
         <element label="Request ID" max_length="32" name="request_id" read_only="true" reference="x_isgi_rr_request" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Rejection Comments" max_length="1000" name="rj_comm" type="string"/>
         <element active="false" attributes="encode_utf8=false" label="Reporting Manager" max_length="32" name="rm_cc" read_only="true" reference="sys_user" type="reference"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="SLC Team" max_length="1024" name="slc_team" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.slc^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.slc^EQ" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="SLC Team" mandatory="true" max_length="1024" name="slc_team" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.slc^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.slc^EQ" type="glide_list"/>
         <element label="Team size" max_length="40" name="team_size" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Workflow State" max_length="40" name="workflow_state" type="choice">
             <choice>

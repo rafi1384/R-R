@@ -32,7 +32,7 @@ var xpDate = current.date;
 var dt = new GlideDateTime(xpDate);
 var month = dt.getMonthUTC();
 var year = dt.getYearUTC();
-var qtr = Math.ceil(month/3);
+var qtr = (Math.ceil(month/3)-1);
 current.quarter=qtr+ "-" + "Qtr"+"-"+year;
 
 	// Add your code here
@@ -45,7 +45,7 @@ current.quarter=qtr+ "-" + "Qtr"+"-"+year;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>26af9d00db519410eb79c3440596196b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Compute Quarter</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -54,7 +54,7 @@ current.quarter=qtr+ "-" + "Qtr"+"-"+year;
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_script_26af9d00db519410eb79c3440596196b</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-06-04 17:26:19</sys_updated_on>
+        <sys_updated_on>2020-07-03 18:41:35</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
