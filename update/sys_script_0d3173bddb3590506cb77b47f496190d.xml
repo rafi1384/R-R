@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_isgi_rr_spot_on</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update SLC</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+var IEBValue = current.department.getDisplayValue();
+var SLCid="";	
+if(IEBValue=="GSD India–Advisory Support Cen"||IEBValue=="India ESO – Americas"||IEBValue=="India Leverage - Americas"||IEBValue=="India Leverage - SEMEA"||IEBValue=="Sourcing Solutions Billable"){
+var gr= new GlideRecord('sys_user');
+gr.addQuery('email','Aasheesh.Mittal@isg-one.com');
+gr.query();
+if(gr.next())
+current.slc_members=gr.sys_id;
+}
+else if(IEBValue=="Network Advisory Billable"){
+var gr1= new GlideRecord('sys_user');
+gr1.addQuery('email','Awanish.Pandey@isg-one.com');
+gr1.query();
+if(gr1.next())
+current.slc_members=gr1.sys_id;
+}
+else if(IEBValue=="ISG Insights Non-Billable"||IEBValue=="ISG Provider Lens Billable"||IEBValue=="ISG Provider Lens Non-Billable"||
+IEBValue=="ProBenchmark Non-Billable"||IEBValue=="Provider Services Billable"||IEBValue=="Provider Services Non-Billable"||
+IEBValue=="Research"||IEBValue=="Research Advisory OH"||IEBValue=="Research Non-Bill"||IEBValue=="Research Sales OH"){
+var gr2= new GlideRecord('sys_user');
+gr2.addQuery('email','Namratha.Dharshan@isg-one.com');
+gr2.query();
+if(gr2.next())
+current.slc_members=gr2.sys_id;
+}
+else if(IEBValue=="Data and Analytics Billable"||IEBValue=="Tech GovernX"||IEBValue=="Tech ProB"||IEBValue=="Technology Platform"){
+var gr3= new GlideRecord('sys_user');
+gr3.addQuery('email','Padmalatha.Giridhar@isg-one.com');
+gr3.query();
+if(gr3.next())
+current.slc_members=gr3.sys_id;
+}
+else if(IEBValue=="Automation-Services Billable"||IEBValue=="Automation-Services Non-bill"){
+var gr4= new GlideRecord('sys_user');
+gr4.addQuery('email','Seshadri.Krishna@isg-one.com');
+gr4.query();
+if(gr4.next())
+current.slc_members=gr4.sys_id;
+}
+else if(IEBValue=="Human Resources"){
+var gr5= new GlideRecord('sys_user');
+gr5.addQuery('email','siddharth.chaturvedi@isg-one.com');
+gr5.query();
+if(gr5.next())
+current.slc_members=gr5.sys_id;
+}
+else if(IEBValue=="GM Supplier and CL Mgt"||IEBValue=="Governance Services"||IEBValue=="Governance Supplier Analytics"||EBValue=="Governance Svcs-Managed Svcs"||IEBValue=="MS Overhead Non-Billable"||IEBValue=="OCM Billable"||
+IEBValue=="Supplier & CL Mgmt - NB"||IEBValue=="Supplier & CL Mgmt Bill"){
+var gr6= new GlideRecord('sys_user');
+gr6.addQuery('email','Sriram.Rangachary@isg-one.com');
+gr6.query();
+if(gr6.next())
+current.slc_members=gr6.sys_id;
+}
+else if(IEBValue=="Legal"){
+var gr7= new GlideRecord('sys_user');
+gr7.addQuery('email','Sunita.Bhardwaj@isg-one.com');
+gr7.query();
+if(gr7.next())
+current.slc_members=gr7.sys_id;
+}
+else if(IEBValue=="Finance"||IEBValue=="Global Marketing"||IEBValue=="Information Technology"||IEBValue=="Office Administration"){
+var gr8= new GlideRecord('sys_user');
+gr8.addQuery('email','Vishwakumar.Nandagopal@isg-one.com');
+gr8.query();
+if(gr8.next())
+current.slc_members=gr8.sys_id;
+}	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-07-05 11:46:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0d3173bddb3590506cb77b47f496190d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Update SLC</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sys_script_0d3173bddb3590506cb77b47f496190d</sys_update_name>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-07-05 11:53:08</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=0d3173bddb3590506cb77b47f496190d"/>
+</record_update>
