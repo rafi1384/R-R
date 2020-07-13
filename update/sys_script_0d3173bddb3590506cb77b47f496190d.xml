@@ -28,68 +28,65 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-var IEBValue = current.department.getDisplayValue();
-var SLCid="";	
-if(IEBValue=="GSD India–Advisory Support Cen"||IEBValue=="India ESO – Americas"||IEBValue=="India Leverage - Americas"||IEBValue=="India Leverage - SEMEA"||IEBValue=="Sourcing Solutions Billable"){
+var Departments = current.department.getDisplayValue();
+var ieb = current.ieb;	
+if((Departments=="India ESO – Americas"||Departments=="India Leverage - Americas"&&ieb=="2")||(Departments=="Sourcing Solutions Billable"&&ieb=="10")||(Departments=="GSD India–Advisory Support Cen"&&ieb=="11")||(Departments=="India Leverage - SEMEA"&&ieb=="8")){
 var gr= new GlideRecord('sys_user');
 gr.addQuery('email','Aasheesh.Mittal@isg-one.com');
 gr.query();
 if(gr.next())
 current.slc_members=gr.sys_id;
 }
-else if(IEBValue=="Network Advisory Billable"){
+else if((Departments=="Network Advisory Billable"&& ieb=="5")){
 var gr1= new GlideRecord('sys_user');
 gr1.addQuery('email','Awanish.Pandey@isg-one.com');
 gr1.query();
 if(gr1.next())
 current.slc_members=gr1.sys_id;
 }
-else if(IEBValue=="ISG Insights Non-Billable"||IEBValue=="ISG Provider Lens Billable"||IEBValue=="ISG Provider Lens Non-Billable"||
-IEBValue=="ProBenchmark Non-Billable"||IEBValue=="Provider Services Billable"||IEBValue=="Provider Services Non-Billable"||
-IEBValue=="Research"||IEBValue=="Research Advisory OH"||IEBValue=="Research Non-Bill"||IEBValue=="Research Sales OH"){
+else if((Departments=="Research"&& ieb=="2")||(Departments=="ISG Insights Non-Billable"&& ieb=="3")||(Departments=="ISG Provider Lens Billable"&& ieb=="3")||(Departments=="ISG Provider Lens Non-Billable"&& ieb=="3")||(Departments=="ProBenchmark Non-Billable"&& ieb=="3")||(Departments=="Provider Services Billable"&& ieb=="3")||(Departments=="Provider Services Non-Billable"&& ieb=="3")||(Departments=="Research Advisory OH"&& ieb=="3")||(Departments=="Research Sales OH"&& ieb=="3")){
 var gr2= new GlideRecord('sys_user');
 gr2.addQuery('email','Namratha.Dharshan@isg-one.com');
 gr2.query();
 if(gr2.next())
 current.slc_members=gr2.sys_id;
 }
-else if(IEBValue=="Data and Analytics Billable"||IEBValue=="Tech GovernX"||IEBValue=="Tech ProB"||IEBValue=="Technology Platform"){
+else if((Departments=="Data and Analytics Billable"&& ieb=="2")||(Departments=="Tech GovernX"&& ieb=="1")||(Departments=="Technology Platform"&& ieb=="1")||(Departments=="Tech ProB"&& ieb=="7")){
 var gr3= new GlideRecord('sys_user');
 gr3.addQuery('email','Padmalatha.Giridhar@isg-one.com');
 gr3.query();
 if(gr3.next())
 current.slc_members=gr3.sys_id;
 }
-else if(IEBValue=="Automation-Services Billable"||IEBValue=="Automation-Services Non-bill"){
+else if((Departments=="Automation-Services Billable"&& ieb=="4")||(Departments=="Automation-Services Non-bill"&& ieb=="4")){
 var gr4= new GlideRecord('sys_user');
 gr4.addQuery('email','Seshadri.Krishna@isg-one.com');
 gr4.query();
 if(gr4.next())
 current.slc_members=gr4.sys_id;
 }
-else if(IEBValue=="Human Resources"){
+else if(Departments=="Human Resources"&&ieb=="9"){
 var gr5= new GlideRecord('sys_user');
 gr5.addQuery('email','siddharth.chaturvedi@isg-one.com');
 gr5.query();
 if(gr5.next())
 current.slc_members=gr5.sys_id;
 }
-else if(IEBValue=="GM Supplier and CL Mgt"||IEBValue=="Governance Services"||IEBValue=="Governance Supplier Analytics"||EBValue=="Governance Svcs-Managed Svcs"||IEBValue=="MS Overhead Non-Billable"||IEBValue=="OCM Billable"||
-IEBValue=="Supplier & CL Mgmt - NB"||IEBValue=="Supplier & CL Mgmt Bill"){
+else if((Departments=="OCM Billable"&&ieb=="2")||(Departments=="GM Supplier and CL Mgt"&&ieb=="1")||(Departments=="Governance Services"&&ieb=="1")||(Departments=="Governance Supplier Analytics"&&ieb=="1")||(Departments=="Governance Svcs-Managed Svcs"&&ieb=="1")||(Departments=="MS Overhead Non-Billable"&&ieb=="1")||(Departments=="Supplier & CL Mgmt - NB"&&ieb=="1")||(Departments=="Supplier & CL Mgmt Bill"&&ieb=="1")){
 var gr6= new GlideRecord('sys_user');
 gr6.addQuery('email','Sriram.Rangachary@isg-one.com');
 gr6.query();
 if(gr6.next())
 current.slc_members=gr6.sys_id;
 }
-else if(IEBValue=="Legal"){
+else if(Departments=="Legal"&&ieb=="7"){
 var gr7= new GlideRecord('sys_user');
 gr7.addQuery('email','Sunita.Bhardwaj@isg-one.com');
 gr7.query();
 if(gr7.next())
 current.slc_members=gr7.sys_id;
 }
-else if(IEBValue=="Finance"||IEBValue=="Global Marketing"||IEBValue=="Information Technology"||IEBValue=="Office Administration"){
+else if((Departments=="Finance"&&ieb=="7")||(Departments=="Information Technology"&&ieb=="7")||(Departments=="Global Marketing"&&ieb=="6")||(Departments=="Office Administration"&&ieb=="9")){
 var gr8= new GlideRecord('sys_user');
 gr8.addQuery('email','Vishwakumar.Nandagopal@isg-one.com');
 gr8.query();
@@ -105,7 +102,7 @@ current.slc_members=gr8.sys_id;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0d3173bddb3590506cb77b47f496190d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Update SLC</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -114,7 +111,7 @@ current.slc_members=gr8.sys_id;
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_script_0d3173bddb3590506cb77b47f496190d</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-07-05 11:53:08</sys_updated_on>
+        <sys_updated_on>2020-07-13 08:39:49</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
