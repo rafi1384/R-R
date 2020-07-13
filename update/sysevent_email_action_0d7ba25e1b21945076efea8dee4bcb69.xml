@@ -56,7 +56,7 @@
 <div><span style="font-family: georgia, palatino; font-size: 10pt;"><span style="font-size: 12pt;">Hi ${approver},<br /></span><br /></span></div>
 <div><span style="font-size: 12pt; font-family: georgia, palatino;">This is to inform you that a nomination request for Spot On has been submitted for your review and approval. </span></div>
 <div>&nbsp;</div>
-<div><span style="font-size: 12pt; font-family: georgia, palatino;">Since submission of the nomination has been in pending state from past 3 days. </span><span style="font-size: 12pt; font-family: georgia, palatino;">Please review and take appropriate action to aviod cancellation of the nomination.</span></div>
+<div><span style="font-size: 12pt; font-family: georgia, palatino;">Since submission of the nomination has been in pending state from past 3 days. </span><span style="font-size: 12pt; font-family: georgia, palatino;">Please review and take appropriate action to avoid cancellation of the nomination.</span></div>
 <div>&nbsp;</div>
 </td>
 </tr>
@@ -148,7 +148,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0d7ba25e1b21945076efea8dee4bcb69</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Sent Reminder 3 Days</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -157,7 +157,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_0d7ba25e1b21945076efea8dee4bcb69</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-06-24 09:57:55</sys_updated_on>
+        <sys_updated_on>2020-07-06 10:26:47</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
