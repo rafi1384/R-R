@@ -28,15 +28,13 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/){
-/*var rmcc = new GlideRecord('sys_user');
-	rmcc.addQuery('sys_id',current.rm_cc);
-	rmcc.addQuery();
-	if(rmcc.next()){
-	var dept=gr.department;	
-	gs.addInfoMessage(dept);	
-	}*/
+var UserID= new GlideRecord('sys_user');
+UserID.addQuery('sys_id',current.rm_cc);
+UserID.query();
+if(UserID.next()){
+var Departments = UserID.department.getDisplayValue();
+}
 	
-var Departments = current.department.getDisplayValue();
 var ieb = current.ieb;	
 if((Departments=="India ESO – Americas"||Departments=="India Leverage - Americas"&&ieb=="2")||(Departments=="Sourcing Solutions Billable"&&ieb=="10")||(Departments=="GSD India–Advisory Support Cen"&&ieb=="11")||(Departments=="India Leverage - SEMEA"&&ieb=="8")){
 var gr= new GlideRecord('sys_user');
@@ -110,7 +108,7 @@ current.slc_members=gr8.sys_id;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0d3173bddb3590506cb77b47f496190d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Update SLC</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -119,7 +117,7 @@ current.slc_members=gr8.sys_id;
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_script_0d3173bddb3590506cb77b47f496190d</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-07-13 09:44:19</sys_updated_on>
+        <sys_updated_on>2020-07-14 05:32:44</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
