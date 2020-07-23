@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>nominator</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Pull Details - Nominator</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+var eUsers = g_form.getReference('nominator',eBack);
+	
+	function eBack(eUsers){
+			g_form.setValue('nom_rm',eUsers.manager);
+	}
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-07-23 09:41:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>982b003bdbce90106cb77b47f49619d5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Pull Details - Nominator</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sys_script_client_982b003bdbce90106cb77b47f49619d5</sys_update_name>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-07-23 09:42:01</sys_updated_on>
+        <table>x_isgi_rr_spot_on</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RR">ee08628bdbccc050eb79c34405961975</application>
+        <file_path/>
+        <instance_id>69a78f219b99cb447ac36b8af359ff47</instance_id>
+        <instance_name>isggoverndev4</instance_name>
+        <name>sys_script_client_982b003bdbce90106cb77b47f49619d5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;nominator&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Pull Details - Nominator&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+var eUsers = g_form.getReference('nominator',eBack);
+	
+	function eBack(eUsers){
+			g_form.setValue('nom_rm',eUsers.manager);
+	}
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mohamed.rafiulla@isg-one.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-23 09:41:01&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;982b003bdbce90106cb77b47f49619d5&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Pull Details - Nominator&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="RR" source="x_isgi_rr"&gt;ee08628bdbccc050eb79c34405961975&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="RR"&gt;ee08628bdbccc050eb79c34405961975&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_982b003bdbce90106cb77b47f49619d5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mohamed.rafiulla@isg-one.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-23 09:42:01&lt;/sys_updated_on&gt;&lt;table&gt;x_isgi_rr_spot_on&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1949276461</payload_hash>
+        <record_name>Pull Details - Nominator</record_name>
+        <reverted_from/>
+        <source>cb0504b7db8e90106cb77b47f49619a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-07-23 09:42:01</sys_created_on>
+        <sys_id>325b487bdbce90106cb77b47f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737b0d12e80000001</sys_recorded_at>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-07-23 09:42:01</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>b65b487b14ce90101fa86bf8027a3cbd</update_guid>
+        <update_guid_history>b65b487b14ce90101fa86bf8027a3cbd:-1949276461,c15bc03b8dce9010a7206295249389ad:2072275609,102b003be8ce90104e159015068c4ed9:1246176680</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-07-23 09:43:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1c302cd1150f429c8b0128d283a2e724</sys_id>
+        <sys_metadata>982b003bdbce90106cb77b47f49619d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pull Details - Nominator</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_parent display_value="Spot On">9759ae0fdbccc050eb79c3440596193e</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_scope_delete display_value="">77069d9b78f8495d9d557a1f71415899</sys_scope_delete>
+        <sys_update_name>sys_script_client_982b003bdbce90106cb77b47f49619d5</sys_update_name>
+        <sys_update_version display_value="sys_script_client_982b003bdbce90106cb77b47f49619d5">325b487bdbce90106cb77b47f49619be</sys_update_version>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-07-23 09:43:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
