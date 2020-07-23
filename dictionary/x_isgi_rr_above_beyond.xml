@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Above &amp; Beyond" max_length="40" name="x_isgi_rr_above_beyond" type="collection">
+    <element audit="true" label="Above &amp; Beyond" max_length="40" name="x_isgi_rr_above_beyond" sizeclass="4" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Final Citation for certificate (50 words)" max_length="2000" name="citation" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="citation_just" type="string"/>
         <element label="Comments" max_length="4000" name="comments" type="journal_input"/>

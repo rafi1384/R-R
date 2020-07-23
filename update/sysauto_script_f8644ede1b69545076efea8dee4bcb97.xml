@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
     <sysauto_script action="INSERT_OR_UPDATE">
         <active>true</active>
+        <business_calendar/>
         <condition/>
         <conditional>false</conditional>
+        <entered_time/>
         <name>RR-SpotON-DailySchedule</name>
         <run_as display_value="Mohamed Rafiulla">bfdc2ff4dba613009a635858dc961933</run_as>
         <run_as_tz/>
@@ -47,6 +49,7 @@ gr.update();
         <sys_update_name>sysauto_script_f8644ede1b69545076efea8dee4bcb97</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
         <sys_updated_on>2020-06-24 06:29:38</sys_updated_on>
+        <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>
