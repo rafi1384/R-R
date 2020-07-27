@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="slc_members" table="x_isgi_rr_spot_on">
-        <active>false</active>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="slc" table="x_isgi_rr_spot_on">
+        <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes>no_sort=true,slushbucket_ref_no_expand=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>SLC</column_label>
+        <column_label>Senior Leadership Council</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,7 +22,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>slc_members</element>
+        <element>slc</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -33,7 +33,7 @@
         <name>x_isgi_rr_spot_on</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
@@ -47,18 +47,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-        <sys_created_on>2020-05-31 06:36:02</sys_created_on>
+        <sys_created_on>2020-07-27 09:06:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>e19cd33fdbc55410eb79c344059619a8</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>SLC</sys_name>
+        <sys_id>eaa9e005db9a9810eb79c344059619b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Senior Leadership Council</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
-        <sys_update_name>sys_dictionary_x_isgi_rr_spot_on_slc_members</sys_update_name>
+        <sys_update_name>sys_dictionary_x_isgi_rr_spot_on_slc</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-07-27 09:05:50</sys_updated_on>
+        <sys_updated_on>2020-07-27 09:06:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
