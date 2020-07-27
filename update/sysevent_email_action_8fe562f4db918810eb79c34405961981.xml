@@ -49,9 +49,11 @@
 <td style="border-top: 6px solid #ffffff; border-bottom: 6px solid #ffffff; width: 549.333px;">
 <div><span style="font-family: georgia, palatino; font-size: 12pt;">Hi ${nominator},<br /></span></div>
 <div><span style="font-size: 12pt; font-family: georgia, palatino;">&nbsp;</span></div>
-<div><span style="font-size: 12pt; font-family: georgia, palatino;">Sorry to let you know that, your nomination request for Dazzling Debut has been rejected.</span></div>
+<div><span style="font-size: 12pt; font-family: georgia, palatino;">Sorry to let you know, your nomination request for Dazzling Debut was not shortlisted.</span></div>
 <div>&nbsp;</div>
-<div><span style="font-size: 12pt; font-family: georgia, palatino;">Thank for your time and effort. Please continue to participate in Rewards and Recogination Program.</span></div>
+<div><span style="font-size: 12pt; font-family: georgia, palatino;">Thank you for your time and effort. </span></div>
+<div>&nbsp;</div>
+<div><span style="font-size: 12pt; font-family: georgia, palatino;">Please continue to participate in the Rewards and Recogination Program.</span></div>
 <div><span style="font-size: 10pt; font-family: georgia, palatino;">&nbsp;</span></div>
 </td>
 </tr>
@@ -139,7 +141,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8fe562f4db918810eb79c34405961981</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Nomination Rejected</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -148,7 +150,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_8fe562f4db918810eb79c34405961981</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-07-23 09:20:43</sys_updated_on>
+        <sys_updated_on>2020-07-27 07:52:57</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
