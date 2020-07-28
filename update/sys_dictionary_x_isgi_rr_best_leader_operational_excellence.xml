@@ -51,7 +51,7 @@ o Develops a pilot project, which helped in new business generation with the exi
         <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
         <sys_created_on>2020-02-06 10:37:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>9d9cd33fdbc55410eb79c3440596192c</sys_id>
+        <sys_id>f4d16195db1a1c10eb79c34405961913</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Significant sales or delivery effort</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -59,8 +59,8 @@ o Develops a pilot project, which helped in new business generation with the exi
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_dictionary_x_isgi_rr_best_leader_operational_excellence</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-06-04 07:53:37</sys_updated_on>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-07-28 07:50:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

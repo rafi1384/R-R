@@ -54,7 +54,7 @@
         <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
         <sys_created_on>2020-06-04 17:24:08</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>b92f1500db519410eb79c34405961995</sys_id>
+        <sys_id>81d16195db1a1c10eb79c344059619b3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Department</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -63,7 +63,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_dictionary_x_isgi_rr_above_beyond_department</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-06-04 17:24:08</sys_updated_on>
+        <sys_updated_on>2020-07-28 07:50:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

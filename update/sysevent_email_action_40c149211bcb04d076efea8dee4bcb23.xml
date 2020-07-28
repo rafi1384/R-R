@@ -2,7 +2,7 @@
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>false</action_insert>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
@@ -86,7 +86,7 @@
         <omit_watermark>true</omit_watermark>
         <order>400</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>name,nominator,rm_cc,approver,slc_members</recipient_fields>
+        <recipient_fields>name,nominator,rm_cc,approver</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -102,7 +102,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>40c149211bcb04d076efea8dee4bcb23</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Issue Spot On - Employee</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -111,7 +111,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_40c149211bcb04d076efea8dee4bcb23</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-06-20 08:16:42</sys_updated_on>
+        <sys_updated_on>2020-07-28 07:53:56</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

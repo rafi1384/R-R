@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Training Nomination" max_length="40" name="x_isgi_rr_training_nomination" sizeclass="0" type="collection">
+    <element label="Training Nomination" max_length="40" name="x_isgi_rr_training_nomination" type="collection">
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Already Nominated" max_length="1024" name="nominated" read_only="true" reference="sys_user" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Nominations" mandatory="true" max_length="1024" name="nomination" reference="sys_user" type="glide_list"/>
         <element label="Remaining Slots" max_length="40" name="remaining_slots" read_only="true" type="integer"/>

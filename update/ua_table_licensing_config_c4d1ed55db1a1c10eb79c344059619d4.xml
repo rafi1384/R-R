@@ -4,24 +4,24 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_isgi_rr_chairman_club</name>
+        <name>x_isgi_rr_dazzling_debut</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-        <sys_created_on>2019-09-27 06:59:57</sys_created_on>
+        <sys_created_on>2019-09-27 06:59:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>ed9cd33fdbc55410eb79c34405961991</sys_id>
+        <sys_id>c4d1ed55db1a1c10eb79c344059619d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_isgi_rr_chairman_club</sys_name>
+        <sys_name>x_isgi_rr_dazzling_debut</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
-        <sys_update_name>ua_table_licensing_config_ed9cd33fdbc55410eb79c34405961991</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_c4d1ed55db1a1c10eb79c344059619d4</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2019-09-27 06:59:57</sys_updated_on>
+        <sys_updated_on>2019-09-27 06:59:14</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

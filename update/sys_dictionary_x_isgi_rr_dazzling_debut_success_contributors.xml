@@ -53,7 +53,7 @@ o Regularly demonstrates behaviours reflecting diversity and inclusion</default_
         <sys_created_by>SaiThulasi.Kaditham@isg-one.com</sys_created_by>
         <sys_created_on>2019-09-30 10:13:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>ec9c933fdbc55410eb79c34405961945</sys_id>
+        <sys_id>c8d1ed55db1a1c10eb79c344059619c7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Attitude that contributes to the success of the team</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -61,8 +61,8 @@ o Regularly demonstrates behaviours reflecting diversity and inclusion</default_
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_dictionary_x_isgi_rr_dazzling_debut_success_contributors</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-06-04 07:53:49</sys_updated_on>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-07-28 07:51:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

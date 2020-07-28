@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Best Team" max_length="40" name="x_isgi_rr_best_team" sizeclass="4" type="collection">
+    <element audit="true" label="Best Team" max_length="40" name="x_isgi_rr_best_team" type="collection">
         <element attributes="edge_encryption_enabled=true" default="Work Schedule has always been met during the period under consideration&#13;&#10;Output of the team as a whole has surpassed the expected volumes and quality requirement&#13;&#10;Innovative approaches were successfully adopted resulting in substantial gains to the account/function" label="Impact On The Function/Business Performance" max_length="2000" name="business_performance" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="business_performance_just" type="string"/>
         <element label="Final Citation for Certificate(50 words)" max_length="2000" name="citation" type="string"/>
@@ -8,7 +8,7 @@
         <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
         <element attributes="edge_encryption_enabled=true" label="Complexity of the Assignment" max_length="2000" name="complexityoftheassignment" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="complexityoftheassignment_just" type="string"/>
-        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;var value = current.sys_created_by;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return value;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Created by" max_length="100" name="created_by" read_only="true" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;var value = current.sys_created_by;&#10;&#9;// Add your code here&#10;&#9;return value;  // return the calculated value&#10;&#10;})(current);" label="Created by" max_length="100" name="created_by" read_only="true" type="string" virtual="true"/>
         <element attributes="edge_encryption_enabled=true" default="CSAT score as targeted&#13;&#10;Appreciation emails from clients customers" label="Customer delight – CSAT Score" max_length="2000" name="customer_delight" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="customer_delight_just" type="string"/>
         <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" max_length="40" name="date" read_only="true" type="glide_date" use_dynamic_default="true"/>

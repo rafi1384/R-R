@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Best Manager" max_length="40" name="x_isgi_rr_best_manager" sizeclass="3" type="collection">
+    <element audit="true" label="Best Manager" max_length="40" name="x_isgi_rr_best_manager" type="collection">
         <element label="Final Citation for certificate (50 words)" max_length="2000" name="citation" type="string"/>
         <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
         <element default="o Anticipates and manage operational risk by planning&#13;&#10;o Accepts risk when benefits outweigh the cost&#13;&#10;o Does not accepo unnecessary risk" label="Risk Management" max_length="2000" name="continuous_improvement" read_only="true" type="string"/>
         <element label="Justification" max_length="2000" name="continuous_improvement_just" type="string"/>
-        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;var value = current.sys_created_by;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return value;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Created By" max_length="100" name="created_by" read_only="true" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;var value = current.sys_created_by;&#10;&#9;// Add your code here&#10;&#9;return value;  // return the calculated value&#10;&#10;})(current);" label="Created By" max_length="100" name="created_by" read_only="true" type="string" virtual="true"/>
         <element default="o Builds constructive relationships.&#13;&#10;o Enforces Accountability and Trustworthiness&#13;&#10;o Listens to and allows upward communication&#13;&#10;o Maintain maximum transparency to the extent possible so that there is no communication gap&#13;&#10;o Handles conflict effectively&#13;&#10;o Support and motivate for career development and improvement of efficiency.&#13;&#10;o Give value for suggestions and treat the suggestions with due respect and merit" label="People Management" max_length="2000" name="customer_delight" read_only="true" type="string"/>
         <element label="Justification" max_length="2000" name="customer_delight_just" type="string"/>
         <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" max_length="40" name="date" read_only="true" type="glide_date" use_dynamic_default="true"/>

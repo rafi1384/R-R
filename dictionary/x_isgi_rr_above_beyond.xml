@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Above &amp; Beyond" max_length="40" name="x_isgi_rr_above_beyond" sizeclass="4" type="collection">
+    <element audit="true" label="Above &amp; Beyond" max_length="40" name="x_isgi_rr_above_beyond" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Final Citation for certificate (50 words)" max_length="2000" name="citation" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="citation_just" type="string"/>
         <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
         <element attributes="edge_encryption_enabled=true" default="o Adds efficiency and accuracy&#13;&#10;o Takes initiative/works on process improvement" label="Continuous Improvement/Initiatives" max_length="2000" name="continuous_improvement" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="continuous_improvement_just" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;var value = current.sys_created_by;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return value;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Created by" max_length="100" name="created_by" read_only="true" type="string" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;var value = current.sys_created_by;&#10;&#9;// Add your code here&#10;&#9;return value;  // return the calculated value&#10;&#10;})(current);" label="Created by" max_length="100" name="created_by" read_only="true" type="string" virtual="true"/>
         <element attributes="edge_encryption_enabled=true" default="o Demonstrates a conscientious approach towards satisfying or exceeding internal and external customers needs&#13;&#10;o Uses tact to resolve differences and explores opportunities for offering additional value-added services&#13;&#10;o Outstanding Performance recognized/appreciated by customer" label="Customer Delight" max_length="2000" name="customer_delight" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="customer_delight_just" type="string"/>
         <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" max_length="40" name="date" read_only="true" type="glide_date" use_dynamic_default="true"/>
