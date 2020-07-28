@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_isgi_rr_dazzling_debut</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update SLC</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/){
+// new script tested and corrected.
+var UserID= new GlideRecord('sys_user');
+UserID.addQuery('sys_id',current.reporting_manager);
+UserID.query();
+if(UserID.next()){
+var Departments = UserID.department.getDisplayValue();
+//gs.addInfoMessage(Departments);
+}
+	
+pullieb();
+	
+function pullieb(){
+if(Departments=="Data and Analytics Billable"||Departments=="India ESO – Americas"||Departments=="India Leverage - Americas"||Departments=="OCM Billable"||Departments=="Research"||Departments=="IT"){
+	current.ieb="2";	
+	}
+else if(Departments=="GM Supplier and CL Mgt"||Departments=="Governance Services"||Departments=="Governance Supplier Analytics"||Departments=="Governance Svcs-Managed Svcs"||Departments=="MS Overhead Non-Billable"||Departments=="Supplier & CL Mgmt - NB"||Departments=="Tech GovernX"||Departments=="Technology Platform"||Departments=="Development"){
+	current.ieb="1";	
+	}
+else if(Departments=="ISG Insights Non-Billable"||Departments=="ISG Provider Lens Billable"||Departments=="ISG Provider Lens Non-Billable"||Departments=="ProBenchmark Non-Billable"||Departments=="Provider Services Billable"||Departments=="Provider Services Non-Billable"||Departments=="Research Advisory OH"||Departments=="Research Non-Bill"||Departments=="Research Sales OH"){
+	current.ieb="3";	
+	}
+else if(Departments=="Automation-Services Billable"||Departments=="Automation-Services Non-bill"){
+	current.ieb="4";	
+	}
+else if(Departments=="Network Advisory Billable"){
+	current.ieb="5";	
+	}
+else if(Departments=="Global Marketing"){
+	current.ieb="6";	
+	}
+else if(Departments=="Finance"||Departments=="Information Technology"||Departments=="Legal"||Departments=="Tech ProB"){
+	current.ieb="7";	
+	}
+else if(Departments=="India Leverage - SEMEA"){
+	current.ieb="8";	
+	}
+else if(Departments=="Human Resources"||Departments=="Office Administration"){
+	current.ieb="9";	
+	}
+else if(Departments=="Sourcing Solutions Billable"){
+	current.ieb="10";	
+	}		
+else if(Departments=="GSD India–Advisory Support Cen"){
+	current.ieb="11";	
+	}		
+	
+}	
+	
+var ieb = current.ieb;	
+	
+if((Departments=="India ESO – Americas"||Departments=="India Leverage - Americas"&&ieb=="2")||(Departments=="Sourcing Solutions Billable"&&ieb=="10")||(Departments=="GSD India–Advisory Support Cen"&&ieb=="11")||(Departments=="India Leverage - SEMEA"&&ieb=="8")){
+var gr= new GlideRecord('sys_user');
+gr.addQuery('email','Aasheesh.Mittal@isg-one.com');
+gr.query();
+if(gr.next())
+current.slc_team=gr.sys_id;
+}
+else if((Departments=="Network Advisory Billable"&& ieb=="5")){
+var gr1= new GlideRecord('sys_user');
+gr1.addQuery('email','Awanish.Pandey@isg-one.com');	
+gr1.query();
+if(gr1.next())
+current.slc_team=gr1.sys_id;
+}
+else if((Departments=="Research"&& ieb=="2")||(Departments=="ISG Insights Non-Billable"&& ieb=="3")||(Departments=="ISG Provider Lens Billable"&& ieb=="3")||(Departments=="ISG Provider Lens Non-Billable"&& ieb=="3")||(Departments=="ProBenchmark Non-Billable"&& ieb=="3")||(Departments=="Provider Services Billable"&& ieb=="3")||(Departments=="Provider Services Non-Billable"&& ieb=="3")||(Departments=="Research Advisory OH"&& ieb=="3")||(Departments=="Research Sales OH"&& ieb=="3")){
+var gr2= new GlideRecord('sys_user');
+gr2.addQuery('email','Namratha.Dharshan@isg-one.com');
+gr2.query();
+if(gr2.next())
+current.slc_team=gr2.sys_id;
+}
+else if((Departments=="Data and Analytics Billable"&& ieb=="2")||(Departments=="Tech GovernX"&& ieb=="1")||(Departments=="Technology Platform"&& ieb=="1")||(Departments=="Tech ProB"&& ieb=="7")){
+var gr3= new GlideRecord('sys_user');
+gr3.addQuery('email','Padmalatha.Giridhar@isg-one.com');
+gr3.query();
+if(gr3.next())
+current.slc_team=gr3.sys_id;
+}
+else if((Departments=="Automation-Services Billable"&& ieb=="4")||(Departments=="Automation-Services Non-bill"&& ieb=="4")){
+var gr4= new GlideRecord('sys_user');
+gr4.addQuery('email','Seshadri.Krishna@isg-one.com');
+gr4.query();
+if(gr4.next())
+current.slc_team=gr4.sys_id;
+}
+else if((Departments=="Human Resources"&&ieb=="9")||(Departments=="Finance"&&ieb=="7")||(Departments=="Global Marketing"&&ieb=="6")){
+var gr5= new GlideRecord('sys_user');
+gr5.addQuery('email','siddharth.chaturvedi@isg-one.com');
+gr5.query();
+if(gr5.next())
+current.slc_team=gr5.sys_id;
+}
+else if((Departments=="OCM Billable"&&ieb=="2")||(Departments=="GM Supplier and CL Mgt"&&ieb=="1")||(Departments=="Governance Services"&&ieb=="1")||(Departments=="Governance Supplier Analytics"&&ieb=="1")||(Departments=="Governance Svcs-Managed Svcs"&&ieb=="1")||(Departments=="MS Overhead Non-Billable"&&ieb=="1")||(Departments=="Supplier & CL Mgmt - NB"&&ieb=="1")||(Departments=="Supplier & CL Mgmt Bill"&&ieb=="1")){
+var gr6= new GlideRecord('sys_user');
+gr6.addQuery('email','Sriram.Rangachary@isg-one.com');
+gr6.query();
+if(gr6.next())
+current.slc_team=gr6.sys_id;
+}
+else if(Departments=="Legal"&&ieb=="7"){
+var gr7= new GlideRecord('sys_user');
+gr7.addQuery('email','Sunita.Bhardwaj@isg-one.com');
+gr7.query();
+if(gr7.next())
+current.slc_team=gr7.sys_id;
+}
+else if((Departments=="Finance"&&ieb=="7")||(Departments=="Information Technology"&&ieb=="7")||(Departments=="Global Marketing"&&ieb=="6")||(Departments=="Office Administration"&&ieb=="9")){
+var gr8= new GlideRecord('sys_user');
+gr8.addQuery('email','Vishwakumar.Nandagopal@isg-one.com');
+gr8.query();
+if(gr8.next())
+current.slc_team=gr8.sys_id;
+}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-07-28 10:07:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0f31025ddbda1c10eb79c34405961902</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Update SLC</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sys_script_0f31025ddbda1c10eb79c34405961902</sys_update_name>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-07-28 10:24:09</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=0f31025ddbda1c10eb79c34405961902"/>
+</record_update>

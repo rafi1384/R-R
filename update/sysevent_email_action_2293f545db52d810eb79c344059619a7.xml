@@ -42,7 +42,7 @@
 <table style="border-collapse: collapse; font-family: Montserrat, sans-serif; height: 693px;">
 <tbody>
 <tr style="height: 680px;">
-<td style="padding: 5px; border: 4px solid black; height: 680px; width: 856px;">
+<td style="padding: 5px; border: 4px solid #213862; height: 680px; width: 856px;">
 <table style="height: 525px;">
 <tbody>
 <tr style="height: 195px;">
@@ -130,7 +130,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2293f545db52d810eb79c344059619a7</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>SPOT On - Certificate  Final</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -139,7 +139,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_2293f545db52d810eb79c344059619a7</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-07-28 08:13:37</sys_updated_on>
+        <sys_updated_on>2020-07-28 09:25:15</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
