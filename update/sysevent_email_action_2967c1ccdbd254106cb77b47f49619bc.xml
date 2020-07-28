@@ -35,17 +35,63 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<div style="width: 850px; height: 680px; padding: 2px; text-align: center; border: 5px solid #787878;">
-<p><img style="align: baseline;" src="Qtr_Award.pngx" width="848" height="300" align="baseline" /></p>
-<p style="text-align: center;"><span style="font-size: 24pt;"><strong><span style="font-family: 'book antiqua', palatino;">SPOT ON AWARD</span></strong></span></p>
-<p style="text-align: center;"><span style="font-size: 18pt; font-family: 'book antiqua', palatino;">Presented To:</span></p>
-<p style="text-align: center;"><span style="font-size: 24pt; font-family: 'book antiqua', palatino;"><span style="font-size: 18pt;"><strong>${name}</strong></span><br /></span></p>
-<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'book antiqua', palatino;">For outstanding contribution, demonstrating postive behaviour and creating value.</span></p>
-<p style="text-align: center;">&nbsp;</p>
-<p style="text-align: right;">&nbsp;</p>
+        <message_html><![CDATA[<center>
+<table style="border-collapse: collapse; font-family: 'Montserrat', sans-serif;">
+<tbody>
+<tr>
+<td style="padding: 5px; border: 4px solid #808080;">
+<table style="height: 805px;" width="1018">
+<tbody>
+<tr style="height: 195px;">
+<td style="height: 195px; width: 1611.35px;"><img style="display: block; margin-left: auto; margin-right: auto;" title="" src="Qtr_Award.pngx" alt="" width="1016" height="301" align="baseline" border="" hspace="" vspace="" /></td>
+</tr>
+<tr style="height: 65px;">
+<td style="border-top: 6px solid #ffffff; height: 65px; width: 1611.35px;">
+<p style="background: #FFFFFF; color: #ffffff; border: 5px solid #FFFFFF; font-size: 14px; margin: 0px; text-align: center;"><span style="font-size: 36pt; font-family: 'book antiqua', palatino; color: #000000;">Dazzling Debut</span></p>
+</td>
+</tr>
+<tr style="height: 31px;">
+<td style="border-top: 6px solid #ffffff; border-bottom: 6px solid #ffffff; height: 31px; width: 1611.35px;">
+<div><span style="font-size: 13px;">&nbsp;</span></div>
+<div style="text-align: center;"><span style="font-size: 18pt; font-family: 'book antiqua', palatino;">Presented To:</span></div>
+</td>
+</tr>
+<tr style="height: 42px;">
+<td style="height: 42px; width: 1611.35px; text-align: center;">
+<p><span style="font-size: 24pt; font-family: 'book antiqua', palatino;"><strong>${name}<br /></strong></span></p>
+</td>
+</tr>
+<tr style="height: 42px;">
+<td style="height: 42px; width: 1611.35px; text-align: center;">
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; font-family: 'book antiqua', palatino;">For outstanding contribution, demonstrating postive behaviour and creating value.</span></p>
+<p><span style="font-size: 14pt; font-family: 'book antiqua', palatino;">For outstanding contribution, demonstrating postive behaviour and creating value. </span></p>
+<p><span style="font-size: 14pt; font-family: 'book antiqua', palatino;">For outstanding contribution, demonstrating postive behaviour and creating value. </span></p>
+</td>
+</tr>
+<tr style="height: 21px;">
+<td style="height: 21px; width: 1611.35px;">
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;"><strong>Nominator:</strong> ${nominator}</span></span></p>
 <p style="text-align: left;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;"><strong>Date</strong>: ${date}</span></span></p>
-</div>]]></message_html>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 11px;">
+<td style="height: 11px; width: 1611.35px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</center>
+<p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>SPOTON Cert Qtr</name>
@@ -68,7 +114,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2967c1ccdbd254106cb77b47f49619bc</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>SPOTON Cert Qtr</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -77,7 +123,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_2967c1ccdbd254106cb77b47f49619bc</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-07-27 08:58:36</sys_updated_on>
+        <sys_updated_on>2020-07-28 07:25:12</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

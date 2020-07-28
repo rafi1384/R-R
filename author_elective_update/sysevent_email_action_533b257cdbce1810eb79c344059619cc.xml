@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_isgi_rr_spot_on</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_isgi_rr.6days_reminder</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div style="width: 874px; height: 700px; padding: 4px; text-align: center; border: 4px solid #03254C;">
+<div style="width: 874x; height: 680px; padding: 2px; text-align: center; border: 1px solid #03254C;">
+<p><img style="align: baseline;" src="sys_attachment.do?sys_id=3994814cdbd254106cb77b47f49619e8" width="874" height="195" align="baseline" /></p>
+<p><span style="font-size: 36pt;"><strong><span style="font-family: 'book antiqua', palatino;">SPOT ON AWARD</span></strong></span></p>
+<p><span style="font-size: 18pt; font-family: 'book antiqua', palatino;">Presented To:</span></p>
+<p><span style="font-size: 24pt; font-family: 'book antiqua', palatino;"><strong>${name}</strong> &nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt; font-family: 'book antiqua', palatino;">For outstanding contribution, demonstrating postive behaviour and creating value.</span></p>
+<p style="text-align: right;">&nbsp;</p>
+<p style="text-align: left;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;"><strong>Nominator:</strong> ${nominator}</span></span></p>
+<p style="text-align: left;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;"><strong>Date</strong>: ${date}</span></span></p>
+</div>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>SPOTON Cert</name>
+        <omit_watermark>false</omit_watermark>
+        <order>800</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>bfdc2ff4dba613009a635858dc961933</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Good with border</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-07-14 08:59:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>533b257cdbce1810eb79c344059619cc</sys_id>
+        <sys_mod_count>69</sys_mod_count>
+        <sys_name>SPOTON Cert</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sysevent_email_action_533b257cdbce1810eb79c344059619cc</sys_update_name>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-07-27 10:36:46</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RR">ee08628bdbccc050eb79c34405961975</application>
+        <file_path/>
+        <instance_id>69a78f219b99cb447ac36b8af359ff47</instance_id>
+        <instance_name>isggoverndev4</instance_name>
+        <name>sysevent_email_action_533b257cdbce1810eb79c344059619cc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_isgi_rr_spot_on&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;x_isgi_rr.6days_reminder&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;div style="width: 874px; height: 700px; padding: 4px; text-align: center; border: 4px solid #03254C;"&gt;
+&lt;div style="width: 874x; height: 680px; padding: 2px; text-align: center; border: 1px solid #03254C;"&gt;
+&lt;p&gt;&lt;img style="align: baseline;" src="sys_attachment.do?sys_id=3994814cdbd254106cb77b47f49619e8" width="874" height="195" align="baseline" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 36pt;"&gt;&lt;strong&gt;&lt;span style="font-family: 'book antiqua', palatino;"&gt;SPOT ON AWARD&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 18pt; font-family: 'book antiqua', palatino;"&gt;Presented To:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 24pt; font-family: 'book antiqua', palatino;"&gt;&lt;strong&gt;${name}&lt;/strong&gt; &amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt; font-family: 'book antiqua', palatino;"&gt;For outstanding contribution, demonstrating postive behaviour and creating value.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: right;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 12pt; font-family: 'book antiqua', palatino;"&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;Nominator:&lt;/strong&gt; ${nominator}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 12pt; font-family: 'book antiqua', palatino;"&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;Date&lt;/strong&gt;: ${date}&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;SPOTON Cert&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;800&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups/&gt;&lt;recipient_users&gt;bfdc2ff4dba613009a635858dc961933&lt;/recipient_users&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Good with border&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mohamed.rafiulla@isg-one.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-14 08:59:09&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;533b257cdbce1810eb79c344059619cc&lt;/sys_id&gt;&lt;sys_mod_count&gt;69&lt;/sys_mod_count&gt;&lt;sys_name&gt;SPOTON Cert&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="RR" source="x_isgi_rr"&gt;ee08628bdbccc050eb79c34405961975&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="RR"&gt;ee08628bdbccc050eb79c34405961975&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_533b257cdbce1810eb79c344059619cc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mohamed.rafiulla@isg-one.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-27 10:36:46&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1402632889</payload_hash>
+        <record_name>SPOTON Cert</record_name>
+        <reverted_from/>
+        <source>cb0504b7db8e90106cb77b47f49619a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-07-27 10:36:46</sys_created_on>
+        <sys_id>fb3eb0c1db1e9810eb79c3440596194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1738fd8a5070000001</sys_recorded_at>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-07-27 10:36:46</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>f33eb0c1991e9810d17f695615cbbe4f</update_guid>
+        <update_guid_history>f33eb0c1991e9810d17f695615cbbe4f:1402632889,fdc7ac012e9a9810a5e2afd93d722a9b:1248759077,bb1164855c5a98108b57307d8bd857ad:-1090499366,3e381085611a9810d364cd494da01947:1248759077,24c4d401df1a9810ac2034e9a3a5cd8b:-1090499366,6517cac872da54105f30d44639a8e4d1:112993804,ffb6428862da541099ec7ee437e0a1ae:1827210966,fad8a9c0711a5410bc42f99d88572529:-1725444589,2c8825009a1a5410af1e8e09a19f0150:1349856789,3df72500c91a541060725dcc46e1013e:1040408830,86a6e1ccd5d654100f85862c07c272aa:-2008185651,def5e90c07d6541068ec4cbf69da8720:-465161068,dde5e90cc5d654102bcc347beb97f598:340419562,a5d229c087d65410f1987f85c970d6f4:-1309994571,9642a500a0d654107b1754c7316f8715:1774612858,c6226944a2d65410a28dbc8c7057ca13:-140372036,c1d065003ad65410788d4c67b2acb798:1354565441,c7ee5100b6d65410be07b4b93141870a:-92262125,469e1d8cde96541061c475c295e1667b:-938633897,7dad914cf1965410fef9863f9263824d:384612980,c08d158822965410ca751d1a03d375eb:1560435631,c81d91880f9654104839926cfccac6e0:1047982971,917cdd48ef965410e3731974ee4c11f6:-600670146,e09b19c4cb9654102ab2135abef75fb1:464184472,a55bd9840c965410670c17e5c30cee6a:1489073943,0a0b15447f965410c8d0493b7a962ccc:-1522798816,035a9984939654106b92fd0050373f9f:440929319,793a5544289654106e3de8c6e7461915:176711937,2729d9803496541057fe2774bb803c05:-1803730278,3f289d800d965410115418fbfff296ad:-1262646337,f6e7ddcc67565410925c8c7621779463:1036344285,21a755cc07565410691d8adafd3dc9ad:-1508441735,2f77ddcc1b5654107e5e34d5befcba5d:-1357288361,ef5599c85f565410b48f5a24999fa4be:-393981650,61c5cd0057165410ba63f9e91de34db3:45256076,6fa4c1cc4fd25410e3df9b7f3cc04716:-689172694,02f3058cb2d25410187df13c98171a5f:-592032461,68d38d4ccdd25410b6a1c33993459642:728820375,6763090c24d2541074a4c9c82b9f0d00:-592032461,57c189405ed25410e4027f2d49ef7789:1153625549,5e8f3840e2d2541099335ba0e8221f0d:-162594068,fcdc7c40cd925410b9b9c190e22cfcfa:-1016361569,1bf67cccc5525410120828b41dde4225:-173226708,cfc6f440ac925410fcfbeaa91529c53e:-200634976,4236788cf2525410b815c992c77ecf86:65503200,d2f5b48ce252541008cdd63abe96e538:-673211846,ded5b48cf152541052ca97d1e5c51282:-1498309032,16a5788cfd525410d51f6187beca8a8a:-1021241384,9df4384c15525410dddb731c67baabcb:-1215991582,5db47c0cfa5254106f590b4fc342bcde:758057290,0f34b80467525410911a4a3e7303fd1e:-892391285,95633048fb52541027d99ab91f16b603:1673983309,55037048d2525410a131524ed8ba6f9a:2126433870,37a0700016525410dec44b767b934bae:1262994694,793e20cc17125410623a87ac9941d4b5:-2065631825,8c2e2ccc37125410a7297872e51dfd64:2122642796,37cd20cce3125410721158d831c1a12e:1884702483,951d604c8e12541006262f9e299beaa2:1482242419,7dec244c8012541062a2aec2887221db:-1868259680,b3cc604c141254101373605ee081609a:89198853,a4ace40c31125410f2a0b58b4a830515:-704016052,489ce80cdf125410dad557657c7384e8:-362581461,b03ca488d4125410d520c54adcb64890:1138808902,e0cb648833125410b503e0ec640fe0c3:1977367894,9c8ba4889e125410963633cd1ee15f2a:859407773,274b6488b31254108f9af764a033dab9:-1334852842,f34be57c7dce18107add46c61ff2fe14:-1733450177,973b257c8dce1810e1419df86c8d38cf:-2100803864</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-07-27 11:28:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>2844695b9eff4b478d738c9e88573009</sys_id>
+        <sys_metadata>533b257cdbce1810eb79c344059619cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SPOTON Cert</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_parent display_value="Spot On">9759ae0fdbccc050eb79c3440596193e</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_scope_delete display_value="">77069d9b78f8495d9d557a1f71415899</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_533b257cdbce1810eb79c344059619cc</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_533b257cdbce1810eb79c344059619cc">fb3eb0c1db1e9810eb79c3440596194f</sys_update_version>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-07-27 11:28:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
