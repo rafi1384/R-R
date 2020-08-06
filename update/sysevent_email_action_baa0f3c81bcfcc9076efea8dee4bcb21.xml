@@ -131,7 +131,7 @@
         <omit_watermark>false</omit_watermark>
         <order>300</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>hr_approver,nominator,rm_cc,slc_members</recipient_fields>
+        <recipient_fields>hr_approver,nominator</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -147,7 +147,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>baa0f3c81bcfcc9076efea8dee4bcb21</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>HR- Nomination Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -156,7 +156,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_baa0f3c81bcfcc9076efea8dee4bcb21</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-07-07 06:20:48</sys_updated_on>
+        <sys_updated_on>2020-08-06 14:43:35</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
