@@ -76,21 +76,20 @@
 <table style="border-collapse: collapse; border: 1px solid black; width: 100%; height: 54px;" cellpadding="10">
 <tbody>
 <tr style="height: 13px;">
-<td style="border: 1px solid #FFFFFF; width: 261.111px; height: 13px; text-align: left;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;"><strong>Nominator:</strong> ${nominator}</span></span></td>
-<td style="border: 1px solid #FFFFFF; width: 263.333px; height: 13px;">&nbsp;</td>
-<td style="border: 1px solid #FFFFFF; width: 257.778px; height: 13px; text-align: center;"><img title="" src="sid_sig_2020_07_27.pngx" alt="" width="134" height="39" align="baseline" border="" hspace="" vspace="" /></td>
+<td style="border: 1px solid #FFFFFF; width: 62.5177%; height: 13px; text-align: left;">
+<p><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;"><strong>Nominator:&nbsp;</strong></span></span><span style="font-size: 14pt; font-family: 'book antiqua', palatino;">${nominator}</span></p>
+</td>
+<td style="border: 1px solid #FFFFFF; width: 31.4823%; height: 13px; text-align: center;"><img title="" src="sid_sig_2020_07_27.pngx" alt="" width="134" height="39" align="baseline" border="" hspace="" vspace="" /></td>
 </tr>
 <tr style="height: 13px;">
-<td style="border: 1px solid #FFFFFF; width: 261.111px; height: 13px; text-align: left;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;"><strong>Date</strong>: ${date}</span></span></td>
-<td style="border: 1px solid #FFFFFF; width: 263.333px; height: 13px;">&nbsp;</td>
-<td style="border: 1px solid #FFFFFF; width: 257.778px; height: 13px; text-align: center;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;">Siddharth Chaturvedi</span></span></td>
+<td style="border: 1px solid #FFFFFF; width: 62.5177%; height: 13px; text-align: left;">
+<p><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;"><strong>Date</strong>:&nbsp;</span></span><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;">${date}</span></span></p>
+</td>
+<td style="border: 1px solid #FFFFFF; width: 31.4823%; height: 13px; text-align: center;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;">Siddharth Chaturvedi</span></span></td>
 </tr>
 <tr style="height: 28px;">
-<td style="border: 1px solid #FFFFFF; width: 261.111px; height: 28px; text-align: left;">&nbsp;</td>
-<td style="border: 1px solid #FFFFFF; width: 263.333px; height: 28px; text-align: left;">
-<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;">&nbsp;</p>
-</td>
-<td style="border: 1px solid #FFFFFF; width: 257.778px; height: 28px; text-align: center;">&nbsp;</td>
+<td style="border: 1px solid #FFFFFF; width: 62.5177%; height: 28px; text-align: left;">&nbsp;</td>
+<td style="border: 1px solid #FFFFFF; width: 31.4823%; height: 28px; text-align: center;">&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -130,7 +129,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2293f545db52d810eb79c344059619a7</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>SPOT On - Certificate  Final</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -139,7 +138,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_2293f545db52d810eb79c344059619a7</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-07-28 09:25:15</sys_updated_on>
+        <sys_updated_on>2020-07-29 10:53:55</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
