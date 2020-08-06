@@ -6,9 +6,9 @@
         <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
-        <delete_access>false</delete_access>
+        <delete_access>true</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
         <label>User Management</label>
@@ -26,7 +26,7 @@
         <sys_created_on>2020-08-06 09:14:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>604bc814dbe2dc50eb79c3440596190e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>User Management</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
@@ -34,8 +34,8 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_db_object_604bc814dbe2dc50eb79c3440596190e</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-08-06 09:14:49</sys_updated_on>
-        <update_access>false</update_access>
+        <sys_updated_on>2020-08-06 14:49:41</sys_updated_on>
+        <update_access>true</update_access>
         <user_role display_value="x_isgi_rr.user" name="x_isgi_rr.user">320826cbdbccc050eb79c344059619c6</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
