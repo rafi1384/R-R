@@ -6,10 +6,10 @@
         <attributes>no_sort=true,slushbucket_ref_no_expand=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Senior Leadership Council</column_label>
+        <column_label>SLC</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -50,15 +50,15 @@
         <sys_created_on>2020-07-27 09:06:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>45d16195db1a1c10eb79c3440596198b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Senior Leadership Council</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SLC</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_dictionary_x_isgi_rr_spot_on_slc</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-07-28 07:51:13</sys_updated_on>
+        <sys_updated_on>2020-08-06 14:56:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
