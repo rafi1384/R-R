@@ -43,7 +43,7 @@
 <tbody>
 <tr style="height: 26px;">
 <td style="border-top: 6px solid #ffffff; height: 26px; width: 633.333px;">
-<p style="background: #225281; color: #fff; border: 5px solid #225281; font-size: 14px; margin: 0px;"><span style="font-family: georgia, palatino;">&nbsp;&nbsp;&nbsp;<span style="font-size: 10pt;">${workflow_state}</span></span></p>
+<p style="background: #225281; color: #fff; border: 5px solid #225281; font-size: 14px; margin: 0px;"><span style="font-family: georgia, palatino;"> <span style="font-size: 10pt;">${workflow_state}</span></span></p>
 </td>
 </tr>
 <tr style="height: 71px;">
@@ -123,7 +123,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>nominator,slc_team,reporting_manager</recipient_fields>
+        <recipient_fields>nominator</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -139,7 +139,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>50bc9a7cdb518810eb79c34405961978</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Nomination Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -148,7 +148,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_50bc9a7cdb518810eb79c34405961978</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:31:18</sys_updated_on>
+        <sys_updated_on>2020-08-07 08:37:14</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
