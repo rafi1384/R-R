@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Best Team - Consolidated" section_id="b6db70ee1b4f5410af1ef436464bcb46" sys_domain="global" table="x_isgi_rr_consolidate_best_team" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>best_team_id</element>
+            <position>0</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-09-07 09:23:58</sys_created_on>
+            <sys_id>fa50cdaa1b8f5410af1ef436464bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Best Team - Consolidated" display_value="Best Team - Consolidated" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">b6db70ee1b4f5410af1ef436464bcb46</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-09-07 09:23:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nominators</element>
+            <position>1</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-09-07 09:23:58</sys_created_on>
+            <sys_id>7250cdaa1b8f5410af1ef436464bcbf3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Best Team - Consolidated" display_value="Best Team - Consolidated" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">b6db70ee1b4f5410af1ef436464bcb46</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-09-07 09:23:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>team_name</element>
+            <position>2</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-09-07 09:23:58</sys_created_on>
+            <sys_id>f650cdaa1b8f5410af1ef436464bcbf3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Best Team - Consolidated" display_value="Best Team - Consolidated" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">b6db70ee1b4f5410af1ef436464bcb46</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-09-07 09:23:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>team_size</element>
+            <position>3</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-09-07 09:23:58</sys_created_on>
+            <sys_id>7e50cdaa1b8f5410af1ef436464bcbf3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Best Team - Consolidated" display_value="Best Team - Consolidated" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">b6db70ee1b4f5410af1ef436464bcb46</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-09-07 09:23:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager_name</element>
+            <position>4</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-09-07 09:23:58</sys_created_on>
+            <sys_id>f250cdaa1b8f5410af1ef436464bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Best Team - Consolidated" display_value="Best Team - Consolidated" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">b6db70ee1b4f5410af1ef436464bcb46</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-09-07 09:23:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-09-07 09:23:58</sys_created_on>
+            <sys_id>7a50cdaa1b8f5410af1ef436464bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Best Team - Consolidated" display_value="Best Team - Consolidated" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">b6db70ee1b4f5410af1ef436464bcb46</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-09-07 09:23:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reporting_manager</element>
+            <position>6</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-09-07 09:23:58</sys_created_on>
+            <sys_id>fe50cdaa1b8f5410af1ef436464bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Best Team - Consolidated" display_value="Best Team - Consolidated" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">b6db70ee1b4f5410af1ef436464bcb46</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-09-07 09:23:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>7</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-09-07 09:23:58</sys_created_on>
+            <sys_id>7650cdaa1b8f5410af1ef436464bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Best Team - Consolidated" display_value="Best Team - Consolidated" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">b6db70ee1b4f5410af1ef436464bcb46</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-09-07 09:23:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quarter</element>
+            <position>8</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-09-07 09:23:58</sys_created_on>
+            <sys_id>fa50cdaa1b8f5410af1ef436464bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Best Team - Consolidated" display_value="Best Team - Consolidated" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">b6db70ee1b4f5410af1ef436464bcb46</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-09-07 09:23:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hr_approver</element>
+            <position>9</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-09-07 09:23:58</sys_created_on>
+            <sys_id>7250cdaa1b8f5410af1ef436464bcbf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Best Team - Consolidated" display_value="Best Team - Consolidated" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">b6db70ee1b4f5410af1ef436464bcb46</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-09-07 09:23:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>workflow_state</element>
+            <position>10</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-09-07 09:23:58</sys_created_on>
+            <sys_id>f650cdaa1b8f5410af1ef436464bcbf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Best Team - Consolidated" display_value="Best Team - Consolidated" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">b6db70ee1b4f5410af1ef436464bcb46</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-09-07 09:23:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Best Team - Consolidated</caption>
+            <header>false</header>
+            <name>x_isgi_rr_consolidate_best_team</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-09-07 09:04:18</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6db70ee1b4f5410af1ef436464bcb46</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Best Team - Consolidated</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+            <sys_update_name>sys_ui_section_b6db70ee1b4f5410af1ef436464bcb46</sys_update_name>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-09-07 09:23:57</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

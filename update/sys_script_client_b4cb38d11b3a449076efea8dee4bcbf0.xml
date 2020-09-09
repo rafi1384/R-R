@@ -4,7 +4,7 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>rm_cc</field>
+        <field>best_team_id</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
@@ -16,7 +16,7 @@
 	var fields = g_form.getEditableFields();
 	readOnly(true);
 	g_form.setReadOnly('comments', false);
-	if (g_form.getValue('workflow_state')=='1' && g_user.userName==g_form.getValue('created_by')){
+	if (g_form.getValue('workflow_state')=='1' && g_user.userName==g_form.getValue('created_by')||g_user.hasRole('x_isgi_rr.hr')){
 		setMandtory();
 		readOnly(false);
 		g_form.setReadOnly('workflow_state', true);
@@ -59,7 +59,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b4cb38d11b3a449076efea8dee4bcbf0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Mandatory-Readonly Policy</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -68,7 +68,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_script_client_b4cb38d11b3a449076efea8dee4bcbf0</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-06-04 17:32:20</sys_updated_on>
+        <sys_updated_on>2020-09-07 08:48:36</sys_updated_on>
         <table>x_isgi_rr_best_team</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

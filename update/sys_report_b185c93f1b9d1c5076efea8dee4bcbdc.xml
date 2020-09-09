@@ -44,7 +44,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>workflow_state</field>
         <field_list/>
-        <filter table="x_isgi_rr_above_beyond">departmentISNOTEMPTY<item endquery="false" field="department" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        <filter table="x_isgi_rr_above_beyond">ieb!=<item display_value="-- None --" endquery="false" field="ieb" goto="false" newquery="false" operator="!=" or="false" value=""/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -104,7 +104,7 @@
         <sys_created_on>2020-06-16 07:09:05</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b185c93f1b9d1c5076efea8dee4bcbdc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Above and Beyond Details</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
@@ -112,13 +112,13 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_report_b185c93f1b9d1c5076efea8dee4bcbdc</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-06-16 07:09:35</sys_updated_on>
+        <sys_updated_on>2020-09-09 06:31:44</sys_updated_on>
         <table>x_isgi_rr_above_beyond</table>
         <title>Above and Beyond Details</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>department</trend_field>
+        <trend_field>ieb</trend_field>
         <type>horizontal_bar</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
@@ -150,7 +150,7 @@
         <y_axis_label_size>11</y_axis_label_size>
         <y_axis_label_tilt>0</y_axis_label_tilt>
         <y_axis_opposite>false</y_axis_opposite>
-        <y_axis_title>Department</y_axis_title>
+        <y_axis_title>IEB</y_axis_title>
         <y_axis_title_bold>true</y_axis_title_bold>
         <y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color>
         <y_axis_title_size>12</y_axis_title_size>
