@@ -44,7 +44,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>workflow_state</field>
         <field_list/>
-        <filter table="x_isgi_rr_above_beyond">ieb!=<item display_value="-- None --" endquery="false" field="ieb" goto="false" newquery="false" operator="!=" or="false" value=""/>
+        <filter table="x_isgi_rr_above_beyond">ieb!=<item endquery="false" field="ieb" goto="false" newquery="false" operator="!=" or="false" value=""/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>

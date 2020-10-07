@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Best Manager" max_length="40" name="x_isgi_rr_best_manager" sizeclass="0" type="collection">
+    <element audit="true" label="Best Manager" max_length="40" name="x_isgi_rr_best_manager" sizeclass="1" type="collection">
         <element label="Final Citation for certificate (50 words)" max_length="2000" name="citation" type="string"/>
         <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
         <element default="o Anticipates and manage operational risk by planning&#13;&#10;o Accepts risk when benefits outweigh the cost&#13;&#10;o Does not accepo unnecessary risk" label="Risk Management" max_length="2000" name="continuous_improvement" read_only="true" type="string"/>

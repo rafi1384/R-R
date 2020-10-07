@@ -4,41 +4,41 @@
             <element>user_id</element>
             <position>0</position>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-08-06 10:01:46</sys_created_on>
-            <sys_id>e4261814db26dc50eb79c344059619fb</sys_id>
+            <sys_created_on>2020-10-06 07:39:40</sys_created_on>
+            <sys_id>f99e35331ba750149d4e6392f54bcb0e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_isgi_rr_user_management" sys_domain="global" view="Default view">2672181cdbe2dc50eb79c344059619ed</sys_ui_section>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-08-06 10:01:46</sys_updated_on>
+            <sys_updated_on>2020-10-06 07:39:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>email</element>
+            <element>ieb</element>
             <position>1</position>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-08-06 10:01:46</sys_created_on>
-            <sys_id>6c261814db26dc50eb79c344059619fb</sys_id>
+            <sys_created_on>2020-10-06 07:39:40</sys_created_on>
+            <sys_id>719e35331ba750149d4e6392f54bcb0f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_isgi_rr_user_management" sys_domain="global" view="Default view">2672181cdbe2dc50eb79c344059619ed</sys_ui_section>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-08-06 10:01:46</sys_updated_on>
+            <sys_updated_on>2020-10-06 07:39:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>department</element>
+            <element>slc</element>
             <position>2</position>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-08-06 10:01:46</sys_created_on>
-            <sys_id>e0261814db26dc50eb79c344059619fc</sys_id>
+            <sys_created_on>2020-10-06 07:39:40</sys_created_on>
+            <sys_id>f59e35331ba750149d4e6392f54bcb0f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_isgi_rr_user_management" sys_domain="global" view="Default view">2672181cdbe2dc50eb79c344059619ed</sys_ui_section>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-08-06 10:01:46</sys_updated_on>
+            <sys_updated_on>2020-10-06 07:39:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,83 +46,97 @@
             <element>group</element>
             <position>3</position>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-08-06 10:01:46</sys_created_on>
-            <sys_id>68261814db26dc50eb79c344059619fc</sys_id>
+            <sys_created_on>2020-10-06 07:39:40</sys_created_on>
+            <sys_id>7d9e35331ba750149d4e6392f54bcb0f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_isgi_rr_user_management" sys_domain="global" view="Default view">2672181cdbe2dc50eb79c344059619ed</sys_ui_section>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-08-06 10:01:46</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>4</position>
-            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-08-06 10:01:46</sys_created_on>
-            <sys_id>ec261814db26dc50eb79c344059619fc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_isgi_rr_user_management" sys_domain="global" view="Default view">2672181cdbe2dc50eb79c344059619ed</sys_ui_section>
-            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-08-06 10:01:46</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>emp_id</element>
-            <position>5</position>
-            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-08-06 10:01:46</sys_created_on>
-            <sys_id>64261814db26dc50eb79c344059619fd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_isgi_rr_user_management" sys_domain="global" view="Default view">2672181cdbe2dc50eb79c344059619ed</sys_ui_section>
-            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-08-06 10:01:46</sys_updated_on>
+            <sys_updated_on>2020-10-06 07:39:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>
+            <position>4</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-10-06 07:39:40</sys_created_on>
+            <sys_id>f19e35331ba750149d4e6392f54bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_isgi_rr_user_management" sys_domain="global" view="Default view">2672181cdbe2dc50eb79c344059619ed</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-10-06 07:39:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-10-06 07:39:40</sys_created_on>
+            <sys_id>799e35331ba750149d4e6392f54bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_isgi_rr_user_management" sys_domain="global" view="Default view">2672181cdbe2dc50eb79c344059619ed</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-10-06 07:39:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
             <position>6</position>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-08-06 10:01:46</sys_created_on>
-            <sys_id>e8261814db26dc50eb79c344059619fd</sys_id>
+            <sys_created_on>2020-10-06 07:39:40</sys_created_on>
+            <sys_id>fd9e35331ba750149d4e6392f54bcb10</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_isgi_rr_user_management" sys_domain="global" view="Default view">2672181cdbe2dc50eb79c344059619ed</sys_ui_section>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-08-06 10:01:46</sys_updated_on>
+            <sys_updated_on>2020-10-06 07:39:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>ieb</element>
+            <element>emp_id</element>
             <position>7</position>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-08-06 10:01:46</sys_created_on>
-            <sys_id>60261814db26dc50eb79c344059619fe</sys_id>
+            <sys_created_on>2020-10-06 07:39:40</sys_created_on>
+            <sys_id>759e35331ba750149d4e6392f54bcb11</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_isgi_rr_user_management" sys_domain="global" view="Default view">2672181cdbe2dc50eb79c344059619ed</sys_ui_section>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-08-06 10:01:46</sys_updated_on>
+            <sys_updated_on>2020-10-06 07:39:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>slc</element>
+            <element>email</element>
             <position>8</position>
             <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-            <sys_created_on>2020-08-06 10:01:46</sys_created_on>
-            <sys_id>e4261814db26dc50eb79c344059619fe</sys_id>
+            <sys_created_on>2020-10-06 07:39:40</sys_created_on>
+            <sys_id>f99e35331ba750149d4e6392f54bcb11</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_isgi_rr_user_management" sys_domain="global" view="Default view">2672181cdbe2dc50eb79c344059619ed</sys_ui_section>
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-08-06 10:01:46</sys_updated_on>
+            <sys_updated_on>2020-10-06 07:39:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>9</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-10-06 07:39:40</sys_created_on>
+            <sys_id>719e35331ba750149d4e6392f54bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_isgi_rr_user_management" sys_domain="global" view="Default view">2672181cdbe2dc50eb79c344059619ed</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-10-06 07:39:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

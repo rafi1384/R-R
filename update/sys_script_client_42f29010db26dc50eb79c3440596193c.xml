@@ -21,6 +21,7 @@ var eUsers = g_form.getReference('user_id',eBack);
 		g_form.setValue('name',eUsers.name);
 		g_form.setValue('email',eUsers.email);
 		g_form.setValue('department',eUsers.department);
+		g_form.setValue('active',eUsers.active);
 		
 	}
    //Type appropriate comment here, and begin script below
@@ -33,7 +34,7 @@ var eUsers = g_form.getReference('user_id',eBack);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>42f29010db26dc50eb79c3440596193c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Update Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -42,7 +43,7 @@ var eUsers = g_form.getReference('user_id',eBack);
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_script_client_42f29010db26dc50eb79c3440596193c</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-08-06 09:57:38</sys_updated_on>
+        <sys_updated_on>2020-10-06 07:37:38</sys_updated_on>
         <table>x_isgi_rr_user_management</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
