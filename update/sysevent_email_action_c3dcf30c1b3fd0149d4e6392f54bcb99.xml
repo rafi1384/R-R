@@ -80,7 +80,7 @@
 <td style="border: 1px solid #FFFFFF; width: 21.1921%; height: 13px; text-align: center;">&nbsp;</td>
 </tr>
 <tr style="height: 13px;">
-<td style="border: 1px solid #FFFFFF; width: 69.3157%; height: 13px; text-align: left;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;"><strong>Nominator:</strong> ${nominator}</span></span></td>
+<td style="border: 1px solid #FFFFFF; width: 69.3157%; height: 13px; text-align: left;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;"><strong>Nominator:</strong> ${created_by}<br /><br /></span></span></td>
 <td style="border: 1px solid #FFFFFF; width: 21.1921%; height: 13px; text-align: center;"><img title="" src="sid_sig_2020_07_27.pngx" alt="" width="134" height="39" align="baseline" border="" hspace="" vspace="" /></td>
 </tr>
 <tr style="height: 28px;">
@@ -117,7 +117,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Congratulations ${name}</subject>
+        <subject>Congratulations ${employee_id}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
@@ -126,7 +126,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c3dcf30c1b3fd0149d4e6392f54bcb99</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Certificate</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -135,7 +135,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_c3dcf30c1b3fd0149d4e6392f54bcb99</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-10-07 12:09:31</sys_updated_on>
+        <sys_updated_on>2020-10-08 13:27:14</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

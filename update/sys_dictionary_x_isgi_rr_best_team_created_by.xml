@@ -17,7 +17,7 @@ var value = current.sys_created_by;
         <column_label>Created by</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>javascript:gs.getUser().firstName</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -25,7 +25,7 @@ var value = current.sys_created_by;
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
-        <dynamic_default_value/>
+        <dynamic_default_value display_value="My First Name">629e0b76eb330100d4360c505206fefa</dynamic_default_value>
         <dynamic_ref_qual/>
         <element>created_by</element>
         <element_reference>false</element_reference>
@@ -55,7 +55,7 @@ var value = current.sys_created_by;
         <sys_created_on>2020-06-04 17:34:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>2cd12195db1a1c10eb79c3440596197f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Created by</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
@@ -63,14 +63,14 @@ var value = current.sys_created_by;
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_dictionary_x_isgi_rr_best_team_created_by</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-07-28 07:51:03</sys_updated_on>
+        <sys_updated_on>2020-10-08 13:26:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
+        <use_dynamic_default>true</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>true</virtual>
+        <virtual>false</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
