@@ -67,8 +67,7 @@
 </tr>
 <tr style="height: 11px;">
 <td style="height: 11px; width: 1015px; text-align: center;">
-<p><span style="font-family: 'book antiqua', palatino; font-size: 14pt;">for outstanding contribution, exceptional customer feedback and</span></p>
-<p><span style="font-family: 'book antiqua', palatino; font-size: 14pt;">distintive client impact.</span></p>
+<p><span style="font-family: 'book antiqua', palatino; font-size: 14pt;">for outstanding contribution, exceptional customer feedback and distintive client impact. </span></p>
 </td>
 </tr>
 <tr style="height: 186px;">
@@ -126,7 +125,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c3dcf30c1b3fd0149d4e6392f54bcb99</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Certificate</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -135,7 +134,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_c3dcf30c1b3fd0149d4e6392f54bcb99</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-10-08 13:27:14</sys_updated_on>
+        <sys_updated_on>2020-10-08 13:46:52</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
