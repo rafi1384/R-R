@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Best Team" max_length="40" name="x_isgi_rr_best_team" sizeclass="2" type="collection">
+    <element audit="true" label="Best Team" max_length="40" name="x_isgi_rr_best_team" sizeclass="6" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="Work Schedule has always been met during the period under consideration&#13;&#10;Output of the team as a whole has surpassed the expected volumes and quality requirement&#13;&#10;Innovative approaches were successfully adopted resulting in substantial gains to the account/function" label="Impact On The Function/Business Performance" max_length="2000" name="business_performance" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="business_performance_just" type="string"/>
         <element label="Final Citation for Certificate(50 words)" max_length="2000" name="citation" type="string"/>
@@ -8,7 +9,7 @@
         <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
         <element attributes="edge_encryption_enabled=true" label="Complexity of the Assignment" max_length="2000" name="complexityoftheassignment" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="complexityoftheassignment_just" type="string"/>
-        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;var value = current.sys_created_by;&#10;&#9;// Add your code here&#10;&#9;return value;  // return the calculated value&#10;&#10;})(current);" default="javascript:gs.getUser().firstName" dynamic_default_value="629e0b76eb330100d4360c505206fefa" label="Created by" max_length="100" name="created_by" read_only="true" type="string" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" calculation="var gr = new GlideRecord('sys_user');&#13;&#10;if (gr.get('user_name', current.sys_updated_by)){&#13;&#10;   current.created_by = gr.name;&#13;&#10;}" label="Created by" max_length="100" name="created_by" read_only="true" type="string" virtual="true"/>
         <element attributes="edge_encryption_enabled=true" default="CSAT score as targeted&#13;&#10;Appreciation emails from clients customers" label="Customer delight – CSAT Score" max_length="2000" name="customer_delight" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="customer_delight_just" type="string"/>
         <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" max_length="40" name="date" read_only="true" type="glide_date" use_dynamic_default="true"/>
@@ -29,7 +30,19 @@
         </element>
         <element label="HR Approver" max_length="32" name="hr_approver" read_only="true" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.hr^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" choice_field="ieb" choice_table="x_isgi_rr_dazzling_debut" label="IEB" max_length="40" name="ieb" read_only="true" type="string">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Americas" sequence="0" value="2"/>
+                <element inactive_on_update="false" label="Asia" sequence="1" value="10"/>
+                <element inactive_on_update="false" label="Automation" sequence="2" value="4"/>
+                <element inactive_on_update="false" label="GovernX" sequence="3" value="1"/>
+                <element inactive_on_update="false" label="NaSa" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="One Platform:Finance" sequence="5" value="One Platform:Finance"/>
+                <element inactive_on_update="false" label="One Platform:Glob Mark" sequence="6" value="One Platform:Glob Mark"/>
+                <element inactive_on_update="false" label="One Platform:HR" sequence="7" value="9"/>
+                <element inactive_on_update="false" label="One Platform:India ASC" sequence="8" value="11"/>
+                <element inactive_on_update="false" label="Research" sequence="9" value="3"/>
+                <element inactive_on_update="false" label="SEMEA" sequence="10" value="8"/>
+            </choice>
         </element>
         <element label="Manager Name" max_length="32" name="name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Team Members" max_length="32" name="nominator" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
