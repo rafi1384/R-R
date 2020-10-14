@@ -7,17 +7,17 @@
         <element attributes="encode_utf8=false" label="Group" max_length="32" name="group" reference="sys_user_group" reference_qual="nameLIKER&amp;R^EQ" reference_qual_condition="nameLIKER&amp;R^EQ" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="IEB" mandatory="true" max_length="40" name="ieb" type="string">
             <choice>
-                <element inactive_on_update="false" label="Americas" value="2"/>
-                <element inactive_on_update="false" label="Asia" value="10"/>
-                <element inactive_on_update="false" label="Automation" value="4"/>
-                <element inactive_on_update="false" label="GovernX" value="1"/>
-                <element inactive_on_update="false" label="NaSa" value="5"/>
-                <element inactive_on_update="false" label="One Platform:Finance,IT,Legal" value="7"/>
-                <element inactive_on_update="false" label="One Platform:Glob Mark, IS" value="6"/>
-                <element inactive_on_update="false" label="One Platform:HR" value="9"/>
-                <element inactive_on_update="false" label="One Platform:India ASC" value="11"/>
-                <element inactive_on_update="false" label="Research" value="3"/>
-                <element inactive_on_update="false" label="SEMEA" value="8"/>
+                <element inactive_on_update="false" label="GovernX" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Americas" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Research" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Automation" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="NaSa" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="One Platform:Glob Mark, IS" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="One Platform:Finance,IT,Legal" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="SEMEA" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="One Platform:HR" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Asia" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="One Platform:India ASC" sequence="10" value="11"/>
             </choice>
         </element>
         <element label="Name" max_length="100" name="name" read_only="true" type="string"/>
