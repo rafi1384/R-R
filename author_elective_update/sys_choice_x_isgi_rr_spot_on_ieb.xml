@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="DELETE" field="ieb" table="x_isgi_rr_spot_on" version="3">
-        <sys_choice_set action="DELETE">
+    <sys_choice action="INSERT_OR_UPDATE" field="ieb" table="x_isgi_rr_spot_on" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
             <element>ieb</element>
             <name>x_isgi_rr_spot_on</name>
             <sys_class_name>sys_choice_set</sys_class_name>

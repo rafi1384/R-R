@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="created_by" table="x_isgi_rr_best_team">
-        <active>true</active>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="request_for1" table="x_isgi_rr_request">
+        <active>false</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation><![CDATA[var gr = new GlideRecord('sys_user');
-if (gr.get('user_name', current.sys_created_by)){
-   current.created_by = gr.name;
-}]]></calculation>
-        <choice/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Created by</column_label>
+        <column_label>Request for</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -25,18 +27,18 @@ if (gr.get('user_name', current.sys_created_by)){
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>created_by</element>
+        <element>request_for1</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
-        <max_length>100</max_length>
-        <name>x_isgi_rr_best_team</name>
+        <max_length>40</max_length>
+        <name>x_isgi_rr_request</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -50,25 +52,25 @@ if (gr.get('user_name', current.sys_created_by)){
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-        <sys_created_on>2020-06-04 17:34:54</sys_created_on>
+        <sys_created_on>2020-11-13 10:59:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>2cd12195db1a1c10eb79c3440596197f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Created by</sys_name>
+        <sys_id>e788920c1ba4ec50af1ef436464bcb2c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Request for</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
-        <sys_update_name>sys_dictionary_x_isgi_rr_best_team_created_by</sys_update_name>
+        <sys_update_name>sys_dictionary_x_isgi_rr_request_request_for1</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-10-14 11:13:23</sys_updated_on>
+        <sys_updated_on>2020-11-19 13:24:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>true</virtual>
+        <virtual>false</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

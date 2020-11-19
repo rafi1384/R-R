@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="request_for1" table="x_isgi_rr_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>request_for1</element>
+            <name>x_isgi_rr_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-11-13 11:02:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>3d899e4c1ba4ec50af1ef436464bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>request_for1</sys_name>
+            <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+            <sys_update_name>sys_choice_x_isgi_rr_request_request_for1</sys_update_name>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-11-13 11:02:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_for1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Best Leader</label>
+            <language>en</language>
+            <name>x_isgi_rr_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-11-13 11:02:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c69120c1ba4ec50af1ef436464bcbe0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-11-13 11:04:03</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_for1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Best Manager</label>
+            <language>en</language>
+            <name>x_isgi_rr_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-11-13 11:03:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd89d60c1ba4ec50af1ef436464bcb56</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-11-13 11:04:06</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

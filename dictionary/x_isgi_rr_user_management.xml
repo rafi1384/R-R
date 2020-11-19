@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="User Management" max_length="40" name="x_isgi_rr_user_management" sizeclass="3" type="collection">
+    <element label="User Management" max_length="40" name="x_isgi_rr_user_management" sizeclass="9" type="collection">
         <element label="Active" max_length="40" name="active" read_only="true" type="boolean"/>
         <element attributes="encode_utf8=false" label="Department" max_length="32" name="department" read_only="true" reference="cmn_department" type="reference"/>
         <element label="Email" max_length="100" name="email" read_only="true" type="string"/>
