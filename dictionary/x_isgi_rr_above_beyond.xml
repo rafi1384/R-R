@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Above &amp; Beyond" max_length="40" name="x_isgi_rr_above_beyond" sizeclass="3" type="collection">
+    <element audit="true" label="Above &amp; Beyond" max_length="40" name="x_isgi_rr_above_beyond" sizeclass="4" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Final Citation for certificate (50 words)" max_length="2000" name="citation" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="citation_just" type="string"/>
         <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
@@ -35,7 +35,7 @@
         <element label="Request ID" max_length="32" name="request_id" read_only="true" reference="x_isgi_rr_request" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Rejection Comments" max_length="1000" name="rj_comm" type="string"/>
         <element active="false" attributes="encode_utf8=false" label="Reporting Manager" max_length="32" name="rm_cc" read_only="true" reference="sys_user" type="reference"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="SLC" max_length="1024" name="slc_team" read_only="true" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.slc^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.slc^EQ" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="SLC" max_length="1024" name="slc_team" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.slc^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.slc^EQ" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" default="o Maintains a positive attitude towards his/her job, customers and team members&#13;&#10;o Understands own and others' roles and works collaboratively with team members to achieve team goals&#13;&#10;o Self motivated and motivates others in the team&#13;&#10;o Responsible and accountable, takes on additional responsibilities&#13;&#10;o Regularly demonstrates behaviours reflecting diversity and inclusion" label="Attitude that contributes to the success of the team" max_length="2000" name="success_contributors" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="success_contributors_just" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Workflow State" max_length="40" name="workflow_state" type="string">

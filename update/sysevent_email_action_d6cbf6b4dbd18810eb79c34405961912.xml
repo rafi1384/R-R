@@ -2,12 +2,12 @@
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>false</action_insert>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
-        <collection>x_isgi_rr_best_team</collection>
-        <condition table="x_isgi_rr_best_team">workflow_stateCHANGESTO3^EQ<item display_value="Approved" endquery="false" field="workflow_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+        <collection>x_isgi_rr_consolidate_best_team</collection>
+        <condition table="x_isgi_rr_consolidate_best_team">workflow_stateCHANGESTO3^EQ<item display_value="Approved" endquery="false" field="workflow_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -38,23 +38,23 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<center>
-<table style="border-collapse: collapse; font-family: Montserrat, sans-serif; height: 433px;" width="537">
+<table style="border-collapse: collapse; font-family: Montserrat, sans-serif; height: 359px;" width="537">
 <tbody>
 <tr style="height: 26px;">
-<td style="border-top: 6px solid #ffffff; height: 26px; width: 533.333px;">
-<p style="background: #225281; color: #fff; border: 5px solid #225281; font-size: 14px; margin: 0px;"><span style="font-family: georgia, palatino; font-size: 10pt;">&nbsp;&nbsp;&nbsp;${workflow_state}</span></p>
+<td style="border-top: 6px solid #ffffff; height: 26px; width: 533px;">
+<p style="background: #225281; color: #fff; border: 5px solid #225281; font-size: 14px; margin: 0px;"><span style="font-family: georgia, palatino; font-size: 10pt;">${workflow_state}</span></p>
 </td>
 </tr>
 <tr style="height: 43px;">
-<td style="border-top: 6px solid #ffffff; border-bottom: 6px solid #ffffff; height: 43px; width: 533.333px;">
-<div><span style="font-size: 12pt; font-family: georgia, palatino;">Hi ${nominator},<br /></span></div>
+<td style="border-top: 6px solid #ffffff; border-bottom: 6px solid #ffffff; height: 43px; width: 533px;">
+<div><span style="font-size: 12pt; font-family: georgia, palatino;">Hi,<br /></span></div>
 <div><span style="font-size: 12pt; font-family: georgia, palatino;">&nbsp;</span></div>
 <div><span style="font-size: 12pt; font-family: georgia, palatino;">This is to inform you that, your nomination for&nbsp;Best Team has been Approved.</span></div>
 <div>&nbsp;</div>
 </td>
 </tr>
 <tr style="height: 250px;">
-<td style="height: 250px; width: 533.333px;">
+<td style="height: 250px; width: 533px;">
 <table style="border-collapse: collapse; border: 1px solid black; width: 100%;" cellpadding="10">
 <tbody>
 <tr>
@@ -64,10 +64,10 @@
 </tr>
 <tr>
 <td style="border: 1px solid #225281;">
-<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"><span style="font-family: georgia, palatino; font-size: 10pt;">Nominator</span></p>
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"><span style="font-family: georgia, palatino; font-size: 10pt;">Nominators</span></p>
 </td>
 <td style="border: 1px solid #225281;">
-<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"><span style="font-family: georgia, palatino; font-size: 10pt;">${nominator}<br /></span></p>
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"><span style="font-family: georgia, palatino; font-size: 10pt;">${nominators}<br /><br /></span></p>
 </td>
 </tr>
 <tr>
@@ -75,7 +75,7 @@
 <p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"><span style="font-family: georgia, palatino; font-size: 10pt;">Team Name</span></p>
 </td>
 <td style="border: 1px solid #225281;">
-<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"><span style="font-family: georgia, palatino; font-size: 10pt;">${employee_id}</span></p>
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"><span style="font-family: georgia, palatino; font-size: 10pt;">${team_name}<br /></span></p>
 </td>
 </tr>
 <tr>
@@ -83,7 +83,7 @@
 <p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"><span style="font-family: georgia, palatino; font-size: 10pt;">Quarter<br /></span></p>
 </td>
 <td style="border: 1px solid #225281;">
-<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"><span style="font-family: georgia, palatino; font-size: 10pt;">${quarter}</span></p>
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"><span style="font-family: georgia, palatino; font-size: 10pt;">${quarter}<br /></span></p>
 </td>
 </tr>
 <tr>
@@ -91,7 +91,7 @@
 <p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #000; font-size: 13px; font-weight: bold;"><span style="font-family: georgia, palatino; font-size: 10pt;">Final Citation<br /></span></p>
 </td>
 <td style="border: 1px solid #225281;">
-<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"><span style="font-family: georgia, palatino; font-size: 10pt;">${citation}</span></p>
+<p style="border-top: 8px solid #FFF; border-bottom: 5px solid #FFF; margin: 0px 10px 0px 10px; color: #433f40; font-size: 13px;"><span style="font-family: georgia, palatino; font-size: 10pt;">${citation}<br /></span></p>
 </td>
 </tr>
 </tbody>
@@ -99,7 +99,7 @@
 </td>
 </tr>
 <tr style="height: 40px;">
-<td style="height: 40px; width: 533.333px;">
+<td style="height: 40px; width: 533px;">
 <table style="width: fit-content;" border="0" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
@@ -121,7 +121,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>nominator,slc_team,reporting_manager</recipient_fields>
+        <recipient_fields>reporting_manager,slc</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -137,7 +137,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d6cbf6b4dbd18810eb79c34405961912</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Nomination Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -146,7 +146,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_d6cbf6b4dbd18810eb79c34405961912</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-10-07 11:39:13</sys_updated_on>
+        <sys_updated_on>2020-11-26 13:43:37</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

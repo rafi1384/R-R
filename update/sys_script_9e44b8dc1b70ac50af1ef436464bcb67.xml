@@ -3,7 +3,7 @@
         <abort_action>false</abort_action>
         <access>package_private</access>
         <action_delete>false</action_delete>
-        <action_insert>false</action_insert>
+        <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
         <active>true</active>
@@ -15,13 +15,11 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_isgi_rr_consolidate_best_team">best_team_idISNOTEMPTY^EQ<item endquery="false" field="best_team_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </filter_condition>
+        <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Pull info</name>
-        <order>100</order>
+        <name>Update SLC</name>
+        <order>200</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -29,34 +27,32 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-var gr = new GlideRecord('x_isgi_rr_best_team');
-	gr.addQuery('request_id',current.best_team_id);
-	gr.addQuery();
-	while(gr.next()){
-		current.department=gr.department;
-		current.update();
-	}
-})(current, previous);]]></script>
+        <script><![CDATA[var gr = new GlideRecord('x_isgi_rr_user_management');
+gr.addQuery('user_id',current.manager_name);
+gr.query();
+if(gr.next()){
+current.ieb=gr.ieb;
+current.slc=gr.slc;
+}]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-        <sys_created_on>2020-09-07 09:19:53</sys_created_on>
+        <sys_created_on>2020-11-26 08:34:47</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>1afd3ce21b8f5410af1ef436464bcb00</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Pull info</sys_name>
+        <sys_id>9e44b8dc1b70ac50af1ef436464bcb67</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Update SLC</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
-        <sys_update_name>sys_script_1afd3ce21b8f5410af1ef436464bcb00</sys_update_name>
+        <sys_update_name>sys_script_9e44b8dc1b70ac50af1ef436464bcb67</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-09-07 09:27:53</sys_updated_on>
+        <sys_updated_on>2020-11-26 08:47:29</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=1afd3ce21b8f5410af1ef436464bcb00"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=9e44b8dc1b70ac50af1ef436464bcb67"/>
 </record_update>

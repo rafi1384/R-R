@@ -9,12 +9,12 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>DETAIL</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
         <mobile_title>Combin Best Manager</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_isgi_rr_best_team</name>
-        <order>400.5</order>
+        <name>x_isgi_rr_consolidate_best_team</name>
+        <order>401</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -28,8 +28,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8767bc261b4f5410af1ef436464bcb0f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Combin Best Team</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Best Team Consolidated</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
@@ -37,9 +37,9 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_app_module_8767bc261b4f5410af1ef436464bcb0f</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-09-07 08:46:30</sys_updated_on>
+        <sys_updated_on>2020-11-26 08:39:13</sys_updated_on>
         <timeline_page/>
-        <title>Combin Best Team</title>
+        <title>Best Team Consolidated</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

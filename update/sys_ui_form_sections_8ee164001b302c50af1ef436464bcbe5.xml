@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="8ee164001b302c50af1ef436464bcbe5" sys_domain="global" table="x_isgi_rr_consolidate_best_team" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-11-25 12:36:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42e164001b302c50af1ef436464bcbe9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_isgi_rr_consolidate_best_team" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">8ee164001b302c50af1ef436464bcbe5</sys_ui_form>
+            <sys_ui_section caption="Best Team - Consolidated" display_value="Best Team - Consolidated" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">b6db70ee1b4f5410af1ef436464bcb46</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-11-25 12:36:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-11-25 12:36:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02e1a4001b302c50af1ef436464bcb5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_isgi_rr_consolidate_best_team" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">8ee164001b302c50af1ef436464bcbe5</sys_ui_form>
+            <sys_ui_section caption="Consolidated Citation" display_value="Consolidated Citation" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">4ee164001b302c50af1ef436464bcbe3</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-11-25 12:36:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-11-26 13:36:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d269b1981bb8ac50af1ef436464bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_isgi_rr_consolidate_best_team" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">8ee164001b302c50af1ef436464bcbe5</sys_ui_form>
+            <sys_ui_section caption="Comments" display_value="Comments" name="x_isgi_rr_consolidate_best_team" sys_domain="global" view="Default view">de69b1981bb8ac50af1ef436464bcb31</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-11-26 13:36:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_isgi_rr_consolidate_best_team</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-11-25 12:36:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ee164001b302c50af1ef436464bcbe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_isgi_rr_consolidate_best_team</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8ee164001b302c50af1ef436464bcbe5</sys_update_name>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-11-25 12:36:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

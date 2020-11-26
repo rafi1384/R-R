@@ -28,7 +28,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="">glide_list</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>1024</max_length>
         <name>x_isgi_rr_consolidate_best_team</name>
         <next_element/>
@@ -39,10 +39,8 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>workflow_state=2^EQ</reference_qual>
-        <reference_qual_condition table="x_isgi_rr_best_team">workflow_state=2^EQ<item display_value="Nominated" endquery="false" field="workflow_state" goto="false" newquery="false" operator="=" or="false" value="2"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
@@ -52,7 +50,7 @@
         <sys_created_on>2020-09-07 09:13:10</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>fced74e21b8f5410af1ef436464bcbf2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Best Team ID</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
@@ -60,7 +58,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_dictionary_x_isgi_rr_consolidate_best_team_best_team_id</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-09-07 09:26:09</sys_updated_on>
+        <sys_updated_on>2020-11-25 08:39:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

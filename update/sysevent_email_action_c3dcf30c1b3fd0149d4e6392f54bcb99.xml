@@ -6,8 +6,8 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
-        <collection>x_isgi_rr_best_team</collection>
-        <condition table="x_isgi_rr_best_team">workflow_stateCHANGESTO3^EQ<item display_value="Approved" endquery="false" field="workflow_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+        <collection>x_isgi_rr_consolidate_best_team</collection>
+        <condition table="x_isgi_rr_consolidate_best_team">workflow_stateCHANGESTO3^EQ<item display_value="Approved" endquery="false" field="workflow_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -62,7 +62,7 @@
 </tr>
 <tr style="height: 11px;">
 <td style="height: 11px; width: 1015px; text-align: center;">
-<p><span style="font-size: 14pt; font-family: 'book antiqua', palatino;">This Certificate is awarded to <strong><span style="text-decoration: underline;">${employee_id}<br /></span></strong></span></p>
+<p><span style="font-size: 14pt; font-family: 'book antiqua', palatino;">This Certificate is awarded to Team Name: <strong>${team_name}</strong><strong><span style="text-decoration: underline;"><br /></span></strong></span></p>
 </td>
 </tr>
 <tr style="height: 11px;">
@@ -79,11 +79,14 @@
 <td style="border: 1px solid #FFFFFF; width: 21.1921%; height: 13px; text-align: center;">&nbsp;</td>
 </tr>
 <tr style="height: 13px;">
-<td style="border: 1px solid #FFFFFF; width: 69.3157%; height: 13px; text-align: left;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;"><strong>Nominator:</strong> ${created_by}<br /><br /></span></span></td>
+<td style="border: 1px solid #FFFFFF; width: 69.3157%; height: 13px; text-align: left;">
+<p><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;"><strong>Nominator: </strong></span></span><span style="font-size: 12pt; font-family: 'book antiqua', palatino;">${nominators}</span></p>
+<p><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;"><br /><br /></span></span></p>
+</td>
 <td style="border: 1px solid #FFFFFF; width: 21.1921%; height: 13px; text-align: center;"><img title="" src="sid_sig_2020_07_27.pngx" alt="" width="134" height="39" align="baseline" border="" hspace="" vspace="" /></td>
 </tr>
 <tr style="height: 28px;">
-<td style="border: 1px solid #FFFFFF; width: 69.3157%; height: 28px; text-align: left;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;"><strong>Date</strong>: ${date}</span></span></td>
+<td style="border: 1px solid #FFFFFF; width: 69.3157%; height: 28px; text-align: left;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;"><strong>Quarter</strong>: <span style="font-size: 12pt;">${quarter}</span><br /></span></span></td>
 <td style="border: 1px solid #FFFFFF; width: 21.1921%; height: 28px; text-align: center;"><span style="font-size: 12pt; font-family: 'book antiqua', palatino;"><span style="font-size: 14pt;">Siddharth Chaturvedi</span></span></td>
 </tr>
 </tbody>
@@ -109,7 +112,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>name,slc_team,nominator,reporting_manager</recipient_fields>
+        <recipient_fields>manager_name,nominators,slc,reporting_manager</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -125,7 +128,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c3dcf30c1b3fd0149d4e6392f54bcb99</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Certificate</sys_name>
         <sys_overrides/>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -134,7 +137,7 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sysevent_email_action_c3dcf30c1b3fd0149d4e6392f54bcb99</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-10-08 13:46:52</sys_updated_on>
+        <sys_updated_on>2020-11-26 13:49:21</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
