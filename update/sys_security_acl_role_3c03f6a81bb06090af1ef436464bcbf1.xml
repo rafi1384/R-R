@@ -2,20 +2,20 @@
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
-        <sys_created_on>2020-09-07 09:03:34</sys_created_on>
+        <sys_created_on>2020-11-27 12:27:06</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>88bbb8ae1b4f5410af1ef436464bcb70</sys_id>
+        <sys_id>3c03f6a81bb06090af1ef436464bcbf1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_isgi_rr_consolidate_best_team.x_isgi_rr.user</sys_name>
+        <sys_name>x_isgi_rr_consolidate_best_team.admin</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
-        <sys_security_acl display_value="x_isgi_rr_consolidate_best_team">c8bbb8ae1b4f5410af1ef436464bcb6b</sys_security_acl>
-        <sys_update_name>sys_security_acl_role_88bbb8ae1b4f5410af1ef436464bcb70</sys_update_name>
+        <sys_security_acl display_value="x_isgi_rr_consolidate_best_team">18bbb8ae1b4f5410af1ef436464bcb86</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3c03f6a81bb06090af1ef436464bcbf1</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-09-07 09:03:34</sys_updated_on>
-        <sys_user_role display_value="x_isgi_rr.user" name="x_isgi_rr.user">320826cbdbccc050eb79c344059619c6</sys_user_role>
+        <sys_updated_on>2020-11-27 12:27:06</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

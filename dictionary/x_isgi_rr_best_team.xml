@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Best Team" max_length="40" name="x_isgi_rr_best_team" sizeclass="13" type="collection">
+    <element audit="true" label="Best Team" max_length="40" name="x_isgi_rr_best_team" sizeclass="9" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="Work Schedule has always been met during the period under consideration&#13;&#10;Output of the team as a whole has surpassed the expected volumes and quality requirement&#13;&#10;Innovative approaches were successfully adopted resulting in substantial gains to the account/function" label="Impact On The Function/Business Performance" max_length="2000" name="business_performance" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="business_performance_just" type="string"/>
