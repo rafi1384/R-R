@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Rewards and Recognition">aba68cc4db1e14106cb77b47f496192e</application>
+        <filter/>
+        <name>Consolidates</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_isgi_rr.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-07-24 04:00:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2fa68cc4db1e14106cb77b47f4961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Consolidates</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sys_ui_module_2fa68cc4db1e14106cb77b47f4961931</sys_update_name>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-07-24 04:00:03</sys_updated_on>
+        <table>x_isgi_rr_consolidate</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RR">ee08628bdbccc050eb79c34405961975</application>
+        <file_path/>
+        <instance_id>69a78f219b99cb447ac36b8af359ff47</instance_id>
+        <instance_name>isggoverndev4</instance_name>
+        <name>sys_ui_module_2fa68cc4db1e14106cb77b47f4961931</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Rewards and Recognition">aba68cc4db1e14106cb77b47f496192e</application>
+        <filter/>
+        <name>Consolidates</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_isgi_rr.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-07-24 04:00:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2fa68cc4db1e14106cb77b47f4961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Consolidates</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sys_ui_module_2fa68cc4db1e14106cb77b47f4961931</sys_update_name>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-07-24 04:00:03</sys_updated_on>
+        <table>x_isgi_rr_consolidate</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>]]></payload>
+        <payload_hash>1842905931</payload_hash>
+        <record_name>Consolidates</record_name>
+        <reverted_from/>
+        <source>2f41ed91db1a1c10eb79c34405961925</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-07-28 07:51:37</sys_created_on>
+        <sys_id>5202a5d5db1a1c10eb79c3440596194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1739467cd150000001</sys_recorded_at>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-07-28 07:51:37</sys_updated_on>
+        <type>Module</type>
+        <update_guid>9e02a5d5111a1c10b2c6e24181b5f64d</update_guid>
+        <update_guid_history>9e02a5d5111a1c10b2c6e24181b5f64d:0,c68165156d1a1c101a78ec6dd486d9b3:227777883,efa68cc4ed1e1410424a9df29e9cc833:835400358</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-12-02 01:08:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>0068163831bc42ac8001f03e859137f9</sys_id>
+        <sys_metadata>2fa68cc4db1e14106cb77b47f4961931</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Consolidates</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_scope_delete display_value="">77069d9b78f8495d9d557a1f71415899</sys_scope_delete>
+        <sys_update_name>sys_ui_module_2fa68cc4db1e14106cb77b47f4961931</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_2fa68cc4db1e14106cb77b47f4961931">5202a5d5db1a1c10eb79c3440596194e</sys_update_version>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-12-02 01:08:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

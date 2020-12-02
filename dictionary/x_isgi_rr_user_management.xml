@@ -10,7 +10,7 @@
                 <element inactive_on_update="false" label="GovernX" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Americas" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Research" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Automation" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Automation" sequence="4" value="4"/>
                 <element inactive_on_update="false" label="NaSa" sequence="4" value="5"/>
                 <element inactive_on_update="false" label="One Platform:Glob Mark, IS" sequence="5" value="6"/>
                 <element inactive_on_update="false" label="One Platform:Finance,IT,Legal" sequence="6" value="7"/>

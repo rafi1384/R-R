@@ -6,17 +6,17 @@
         <element attributes="encode_utf8=false" label="HR Approver" max_length="32" name="hr_approver" read_only="true" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="IEB" max_length="40" name="ieb" read_only="true" type="string">
             <choice>
-                <element inactive_on_update="false" label="Americas" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="GovernX" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="GovernX" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Americas" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Research" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Automation" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Automation" sequence="4" value="4"/>
                 <element inactive_on_update="false" label="NaSa" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="One Platform:Glob Mark" sequence="5" value="One Platform:Glob Mark"/>
-                <element inactive_on_update="false" label="One Platform:Finance" sequence="7" value="One Platform:Finance"/>
-                <element inactive_on_update="false" label="SEMEA" sequence="10" value="8"/>
-                <element inactive_on_update="false" label="One Platform:HR" sequence="11" value="9"/>
-                <element inactive_on_update="false" label="Asia" sequence="12" value="10"/>
-                <element inactive_on_update="false" label="One Platform:India ASC" sequence="13" value="11"/>
+                <element inactive_on_update="false" label="One Platform:Glob Mark, IS" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="One Platform:Finance,IT,Legal" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="SEMEA" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="One Platform:HR" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Asia" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="One Platform:India ASC" sequence="10" value="11"/>
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Manager Name" mandatory="true" max_length="32" name="manager_name" reference="sys_user" type="reference"/>
