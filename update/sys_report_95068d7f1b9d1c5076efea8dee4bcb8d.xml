@@ -26,7 +26,7 @@
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
-        <column>function</column>
+        <column>sys_created_on</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <created_by_user display_value="Mohamed Rafiulla">bfdc2ff4dba613009a635858dc961933</created_by_user>
@@ -42,9 +42,9 @@
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>name</field>
+        <field>workflow_state</field>
         <field_list/>
-        <filter table="x_isgi_rr_best_leader">ieb!=<item display_value="-- None --" endquery="false" field="ieb" goto="false" newquery="false" operator="!=" or="false" value=""/>
+        <filter table="x_isgi_rr_consolidate_best_leader">ieb!=<item display_value="-- None --" endquery="false" field="ieb" goto="false" newquery="false" operator="!=" or="false" value=""/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -76,7 +76,7 @@
         <report_drilldown/>
         <report_source/>
         <roles>snc_internal</roles>
-        <row>function</row>
+        <row>sys_created_on</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
@@ -104,7 +104,7 @@
         <sys_created_on>2020-06-16 07:11:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>95068d7f1b9d1c5076efea8dee4bcb8d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Best Leader Details</sys_name>
         <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
         <sys_policy/>
@@ -112,8 +112,8 @@
         <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
         <sys_update_name>sys_report_95068d7f1b9d1c5076efea8dee4bcb8d</sys_update_name>
         <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
-        <sys_updated_on>2020-09-09 06:34:20</sys_updated_on>
-        <table>x_isgi_rr_best_leader</table>
+        <sys_updated_on>2021-01-07 10:16:19</sys_updated_on>
+        <table>x_isgi_rr_consolidate_best_leader</table>
         <title>Best Leader Details</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>

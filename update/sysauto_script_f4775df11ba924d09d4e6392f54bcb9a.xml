@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Deactivate User Management Record based of User Active Status</name>
+        <run_as display_value="Shiv Suryawanshi">2dcef98cdb36d4d0eb79c3440596194e</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-01-07 09:46:24</run_start>
+        <run_time>1969-12-31 18:30:00</run_time>
+        <run_type>weekly</run_type>
+        <script><![CDATA[try{
+	
+	var x_isgi_rr_user_managementGR = new GlideRecord("x_isgi_rr_user_management");
+	x_isgi_rr_user_managementGR.query();
+	while(x_isgi_rr_user_managementGR.next()){
+		
+		var user = x_isgi_rr_user_managementGR.user_id;
+		var sys_userGr = new GlideRecord("sys_user");
+		if(sys_userGr.get(user)){
+			
+			if(!sys_userGr.active){
+				x_isgi_rr_user_managementGR.active = false;
+				x_isgi_rr_user_managementGR.update();
+			}				
+		}		
+	}
+	
+}catch(error){
+	gs.error("Inside Scheduled Job, error is " + error.message);
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>shiv.s@servicestack.io</sys_created_by>
+        <sys_created_on>2021-01-07 09:53:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f4775df11ba924d09d4e6392f54bcb9a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Deactivate User Management Record based of User Active Status</sys_name>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sysauto_script_f4775df11ba924d09d4e6392f54bcb9a</sys_update_name>
+        <sys_updated_by>shiv.s@servicestack.io</sys_updated_by>
+        <sys_updated_on>2021-01-07 10:10:47</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_isgi_rr_consolidate_best_leader</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_isgi_rr_consolidate_best_leader">workflow_state=1^EQ<item display_value="Draft" endquery="false" field="workflow_state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Consolidate</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/){
+getRecordInfo();
+
+function getRecordInfo(){
+var getInfo = new GlideRecord('x_isgi_rr_best_leader');
+getInfo.addQuery('name',current.leader_name);
+getInfo.addQuery('workflow_state',"2");
+getInfo.addQuery('consolidate',false);
+getInfo.query();
+if(getInfo.next()){
+current.quarter=getInfo.quarter;
+current.hr_approver=getInfo.hr_approver;
+}
+}
+	
+getNominators();	
+
+function getNominators(){
+var BT =[];
+var ID=[];
+var CT=[];	
+var gr = new GlideRecord('x_isgi_rr_best_leader');
+gr.addQuery('name',current.leader_name);
+gr.addQuery('consolidate',false);
+gr.addQuery('workflow_state',"2");	
+gr.query();
+while(gr.next()){
+BT.push(gr.nominator.getDisplayValue());
+ID.push(gr.number.getDisplayValue());
+CT.push(gr.citation.toString());	
+}
+var BTValue = BT.join(',');
+var IDValue=ID.join(',');
+var CTValue=CT.join(','+'\r\n');
+// gs.addInfoMessage(BTValue);
+// gs.addInfoMessage(IDValue);
+// gs.addInfoMessage(CTValue);	
+current.nominators=BTValue;
+current.best_leader_nominations=IDValue;
+current.citation=CTValue;
+}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+        <sys_created_on>2020-12-02 03:53:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c96d2a0a1b706c90af1ef436464bcb94</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Consolidate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
+        <sys_update_name>sys_script_c96d2a0a1b706c90af1ef436464bcb94</sys_update_name>
+        <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+        <sys_updated_on>2020-12-02 07:06:28</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c96d2a0a1b706c90af1ef436464bcb94"/>
+</record_update>

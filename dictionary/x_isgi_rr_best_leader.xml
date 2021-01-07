@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="Best Leader" max_length="40" name="x_isgi_rr_best_leader" sizeclass="1" type="collection">
+    <element audit="true" label="Best Leader" max_length="40" name="x_isgi_rr_best_leader" sizeclass="6" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Final Citation" max_length="2000" name="citation" type="string"/>
         <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Consolidate" max_length="40" name="consolidate" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="o Acts as advocate for the change at his/her level in the organization and won't let the change initiative die from lack of attention&#13;&#10;o Demonstrates the behaviors and attitudes that are expected of everyone else&#13;&#10;o Provides the motivation to change, creates a sense of urgency and importance about the change, and show commitment and passion about getting things done&#13;&#10;o Holds people in the organization accountable for the change" label="Change leader" max_length="2000" name="continuous_improvement" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="continuous_improvement_just" type="string"/>
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;var value=current.sys_created_by;&#10;&#9;// Add your code here&#10;&#9;return value;  // return the calculated value&#10;&#10;})(current);" label="Created By" max_length="100" name="created_by" read_only="true" type="string" virtual="true"/>
@@ -22,7 +24,19 @@
         </element>
         <element label="HR Approver" max_length="32" name="hr_approver" read_only="true" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.hr^EQ" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" choice_field="ieb" choice_table="x_isgi_rr_dazzling_debut" label="IEB" max_length="40" name="ieb" read_only="true" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="GovernX" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Americas" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Research" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Automation" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="NaSa" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="One Platform:Glob Mark" sequence="5" value="One Platform:Glob Mark"/>
+                <element inactive_on_update="false" label="One Platform:Finance" sequence="7" value="One Platform:Finance"/>
+                <element inactive_on_update="false" label="SEMEA" sequence="10" value="8"/>
+                <element inactive_on_update="false" label="One Platform:HR" sequence="11" value="9"/>
+                <element inactive_on_update="false" label="Asia" sequence="12" value="10"/>
+                <element inactive_on_update="false" label="One Platform:India ASC" sequence="13" value="11"/>
+            </choice>
         </element>
         <element label="Leader Name" max_length="32" name="name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Nominator" max_length="32" name="nominator" read_only="true" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>

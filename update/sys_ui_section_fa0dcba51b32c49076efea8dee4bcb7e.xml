@@ -3,140 +3,154 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>operational_excellence</element>
             <position>0</position>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:37:52</sys_created_on>
-            <sys_id>870d4fa51b32c49076efea8dee4bcb13</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:05:53</sys_created_on>
+            <sys_id>ae79978e1bb46c90af1ef436464bcb3c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_best_leader" sys_domain="global" view="Default view">fa0dcba51b32c49076efea8dee4bcb7e</sys_ui_section>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:37:52</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:05:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>operational_excellence_just</element>
             <position>1</position>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:37:52</sys_created_on>
-            <sys_id>0b0d4fa51b32c49076efea8dee4bcb13</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:05:53</sys_created_on>
+            <sys_id>6a79978e1bb46c90af1ef436464bcb3d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_best_leader" sys_domain="global" view="Default view">fa0dcba51b32c49076efea8dee4bcb7e</sys_ui_section>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:37:52</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:05:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>customer_delight</element>
             <position>2</position>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:37:52</sys_created_on>
-            <sys_id>8b0d4fa51b32c49076efea8dee4bcb13</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:05:53</sys_created_on>
+            <sys_id>ee79978e1bb46c90af1ef436464bcb3d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_best_leader" sys_domain="global" view="Default view">fa0dcba51b32c49076efea8dee4bcb7e</sys_ui_section>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:37:52</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:05:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>customer_delight_just</element>
             <position>3</position>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:37:52</sys_created_on>
-            <sys_id>0f0d4fa51b32c49076efea8dee4bcb13</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:05:53</sys_created_on>
+            <sys_id>6679978e1bb46c90af1ef436464bcb3e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_best_leader" sys_domain="global" view="Default view">fa0dcba51b32c49076efea8dee4bcb7e</sys_ui_section>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:37:52</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:05:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>success_contributors</element>
             <position>4</position>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:37:52</sys_created_on>
-            <sys_id>8f0d4fa51b32c49076efea8dee4bcb13</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:05:53</sys_created_on>
+            <sys_id>ea79978e1bb46c90af1ef436464bcb3e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_best_leader" sys_domain="global" view="Default view">fa0dcba51b32c49076efea8dee4bcb7e</sys_ui_section>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:37:52</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:05:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>success_contributors_just</element>
             <position>5</position>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:37:52</sys_created_on>
-            <sys_id>030d4fa51b32c49076efea8dee4bcb14</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:05:53</sys_created_on>
+            <sys_id>6279978e1bb46c90af1ef436464bcb3f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_best_leader" sys_domain="global" view="Default view">fa0dcba51b32c49076efea8dee4bcb7e</sys_ui_section>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:37:52</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:05:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>continuous_improvement</element>
             <position>6</position>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:37:52</sys_created_on>
-            <sys_id>830d4fa51b32c49076efea8dee4bcb14</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:05:53</sys_created_on>
+            <sys_id>e679978e1bb46c90af1ef436464bcb3f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_best_leader" sys_domain="global" view="Default view">fa0dcba51b32c49076efea8dee4bcb7e</sys_ui_section>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:37:52</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:05:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>continuous_improvement_just</element>
             <position>7</position>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:37:52</sys_created_on>
-            <sys_id>070d4fa51b32c49076efea8dee4bcb14</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:05:53</sys_created_on>
+            <sys_id>6e79978e1bb46c90af1ef436464bcb3f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_best_leader" sys_domain="global" view="Default view">fa0dcba51b32c49076efea8dee4bcb7e</sys_ui_section>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:37:52</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:05:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>value_champion</element>
             <position>8</position>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:37:52</sys_created_on>
-            <sys_id>870d4fa51b32c49076efea8dee4bcb14</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:05:53</sys_created_on>
+            <sys_id>e279978e1bb46c90af1ef436464bcb40</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_best_leader" sys_domain="global" view="Default view">fa0dcba51b32c49076efea8dee4bcb7e</sys_ui_section>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:37:52</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:05:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>value_champion_just</element>
             <position>9</position>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:37:52</sys_created_on>
-            <sys_id>0b0d4fa51b32c49076efea8dee4bcb14</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:05:53</sys_created_on>
+            <sys_id>6a79978e1bb46c90af1ef436464bcb40</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_best_leader" sys_domain="global" view="Default view">fa0dcba51b32c49076efea8dee4bcb7e</sys_ui_section>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:37:52</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:05:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>citation</element>
+            <position>10</position>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:05:53</sys_created_on>
+            <sys_id>ee79978e1bb46c90af1ef436464bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reason For Nomination" display_value="Reason For Nomination" name="x_isgi_rr_best_leader" sys_domain="global" view="Default view">fa0dcba51b32c49076efea8dee4bcb7e</sys_ui_section>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:05:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

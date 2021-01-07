@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>Human Resource</description>
         <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_isgi_rr.hr</name>

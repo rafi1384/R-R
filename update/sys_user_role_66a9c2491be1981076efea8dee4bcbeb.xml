@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>SLC Team Members</description>
         <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_isgi_rr.slc</name>

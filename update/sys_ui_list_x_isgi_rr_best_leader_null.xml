@@ -3,152 +3,107 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e05903a11b32c49076efea8dee4bcb56</list_id>
+            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bab89fca1bb46c90af1ef436464bcbad</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:21:36</sys_created_on>
-            <sys_id>2c5903a11b32c49076efea8dee4bcb56</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:02:37</sys_created_on>
+            <sys_id>beb85b0e1bb46c90af1ef436464bcbdb</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:21:36</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:02:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e05903a11b32c49076efea8dee4bcb56</list_id>
+            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bab89fca1bb46c90af1ef436464bcbad</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:21:36</sys_created_on>
-            <sys_id>ac5903a11b32c49076efea8dee4bcb56</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:02:37</sys_created_on>
+            <sys_id>76b85b0e1bb46c90af1ef436464bcbdc</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:21:36</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>comments</element>
-            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e05903a11b32c49076efea8dee4bcb56</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:21:36</sys_created_on>
-            <sys_id>205903a11b32c49076efea8dee4bcb57</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:21:36</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>date</element>
-            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e05903a11b32c49076efea8dee4bcb56</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>3</position>
-            <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:21:36</sys_created_on>
-            <sys_id>a05903a11b32c49076efea8dee4bcb57</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:21:36</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:02:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>employee_id</element>
-            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e05903a11b32c49076efea8dee4bcb56</list_id>
+            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bab89fca1bb46c90af1ef436464bcbad</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>4</position>
+            <position>2</position>
             <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:21:36</sys_created_on>
-            <sys_id>245903a11b32c49076efea8dee4bcb57</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:02:37</sys_created_on>
+            <sys_id>f6b85b0e1bb46c90af1ef436464bcbdc</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:21:36</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>function</element>
-            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e05903a11b32c49076efea8dee4bcb56</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>5</position>
-            <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:21:36</sys_created_on>
-            <sys_id>a45903a11b32c49076efea8dee4bcb57</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:21:36</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>hr_approver</element>
-            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e05903a11b32c49076efea8dee4bcb56</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>6</position>
-            <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:21:36</sys_created_on>
-            <sys_id>285903a11b32c49076efea8dee4bcb57</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:21:36</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:02:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>nominator</element>
-            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e05903a11b32c49076efea8dee4bcb56</list_id>
+            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bab89fca1bb46c90af1ef436464bcbad</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>7</position>
+            <position>3</position>
             <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:21:36</sys_created_on>
-            <sys_id>a85903a11b32c49076efea8dee4bcb57</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:02:37</sys_created_on>
+            <sys_id>7ab85b0e1bb46c90af1ef436464bcbdc</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:21:36</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:02:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>hr_approver</element>
+            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bab89fca1bb46c90af1ef436464bcbad</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:02:37</sys_created_on>
+            <sys_id>fab85b0e1bb46c90af1ef436464bcbdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:02:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>quarter</element>
-            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e05903a11b32c49076efea8dee4bcb56</list_id>
+            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bab89fca1bb46c90af1ef436464bcbad</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>8</position>
+            <position>5</position>
             <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:21:36</sys_created_on>
-            <sys_id>2c5903a11b32c49076efea8dee4bcb57</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:02:37</sys_created_on>
+            <sys_id>7eb85b0e1bb46c90af1ef436464bcbdc</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:21:36</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:02:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>request_id</element>
-            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e05903a11b32c49076efea8dee4bcb56</list_id>
+            <element>workflow_state</element>
+            <list_id display_value="x_isgi_rr_best_leader" element="NULL" name="x_isgi_rr_best_leader" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bab89fca1bb46c90af1ef436464bcbad</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>9</position>
+            <position>6</position>
             <sum>false</sum>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:21:36</sys_created_on>
-            <sys_id>ac5903a11b32c49076efea8dee4bcb57</sys_id>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:02:37</sys_created_on>
+            <sys_id>feb85b0e1bb46c90af1ef436464bcbdc</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:21:36</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:02:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -161,12 +116,12 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>ramesh.r@isg-one.com</sys_created_by>
-            <sys_created_on>2020-02-06 10:21:36</sys_created_on>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2020-12-02 07:02:37</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e05903a11b32c49076efea8dee4bcb56</sys_id>
+            <sys_id>bab89fca1bb46c90af1ef436464bcbad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_isgi_rr_best_leader</sys_name>
             <sys_package display_value="RR" source="x_isgi_rr">ee08628bdbccc050eb79c34405961975</sys_package>
@@ -174,8 +129,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="RR">ee08628bdbccc050eb79c34405961975</sys_scope>
             <sys_update_name>sys_ui_list_x_isgi_rr_best_leader_null</sys_update_name>
-            <sys_updated_by>ramesh.r@isg-one.com</sys_updated_by>
-            <sys_updated_on>2020-02-06 10:21:36</sys_updated_on>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2020-12-02 07:02:37</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="consolidate_best_leader" max_length="40" name="x_isgi_rr_consolidate_best_leader" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    <element label="Consolidate Best Leader" max_length="40" name="x_isgi_rr_consolidate_best_leader" sizeclass="1" type="collection">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Best Leader Nominations" max_length="1024" name="best_leader_nominations" reference="x_isgi_rr_best_leader" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Citation" max_length="4000" name="citation" type="string"/>
+        <element attributes="encode_utf8=false" label="Department" max_length="32" name="department" read_only="true" reference="cmn_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Leader Employee ID" max_length="100" name="employee_id" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="HR Approver" max_length="32" name="hr_approver" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IEB" max_length="40" name="ieb" type="string">
+            <choice>
+                <element inactive_on_update="false" label="GovernX" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Americas" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Research" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Automation" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="NaSa" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="One Platform:Glob Mark, IS" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="One Platform:Finance,IT,Legal" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="SEMEA" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="One Platform:HR" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Asia" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="One Platform:India ASC" sequence="10" value="11"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Leader Name" mandatory="true" max_length="32" name="leader_name" reference="sys_user" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Nominators" max_length="1024" name="nominators" reference="x_isgi_rr_best_leader" type="glide_list"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quarter" max_length="40" name="quarter" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Workflow State" max_length="40" name="workflow_state" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Nominated" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="leader_name"/>
+        </index>
+        <index name="index2">
+            <element name="department"/>
+        </index>
+        <index name="index3">
+            <element name="hr_approver"/>
+        </index>
     </element>
 </database>
