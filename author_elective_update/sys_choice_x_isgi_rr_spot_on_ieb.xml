@@ -18,5 +18,214 @@
             <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
             <sys_updated_on>2020-07-05 10:29:53</sys_updated_on>
         </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ieb</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GovernX</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>0</sequence>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2021-01-20 00:09:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>faffcef51bbde850af1ef436464bcbeb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2021-01-20 00:13:46</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ieb</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Americas</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>1</sequence>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2021-01-20 00:09:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f0052791bbde850af1ef436464bcb17</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2021-01-20 00:13:46</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ieb</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Research</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>2</sequence>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2021-01-20 00:09:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>95101a791bbde850af1ef436464bcba7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2021-01-20 00:13:46</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ieb</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Automation</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>3</sequence>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2021-01-20 00:09:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d71052791bbde850af1ef436464bcb34</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2021-01-20 00:13:46</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ieb</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NaSa</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>4</sequence>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2021-01-20 00:10:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15201a791bbde850af1ef436464bcba8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2021-01-20 00:13:46</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ieb</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>One Platform:Glob Mark, IS</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>5</sequence>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2021-01-20 00:10:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f309ab91bbde850af1ef436464bcbd4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2021-01-20 00:13:46</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ieb</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>One Platform:Finance,IT,Legal</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>6</sequence>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2021-01-20 00:10:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>094052b91bbde850af1ef436464bcb90</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2021-01-20 00:14:41</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ieb</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SEMEA</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>7</sequence>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2021-01-20 00:10:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a240de791bbde850af1ef436464bcb5c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2021-01-20 00:14:48</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ieb</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>One Platform:HR</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>8</sequence>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2021-01-20 00:10:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>185096b91bbde850af1ef436464bcb5b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2021-01-20 00:14:44</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ieb</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>9</sequence>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2021-01-20 00:10:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a5052791bbde850af1ef436464bcb19</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2021-01-20 00:14:15</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ieb</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>One Platform:India ASC</label>
+            <language>en</language>
+            <name>x_isgi_rr_spot_on</name>
+            <sequence>10</sequence>
+            <sys_created_by>mohamed.rafiulla@isg-one.com</sys_created_by>
+            <sys_created_on>2021-01-20 00:10:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9460dab91bbde850af1ef436464bcb42</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mohamed.rafiulla@isg-one.com</sys_updated_by>
+            <sys_updated_on>2021-01-20 00:14:46</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
     </sys_choice>
 </record_update>

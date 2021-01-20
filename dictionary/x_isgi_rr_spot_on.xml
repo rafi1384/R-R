@@ -10,8 +10,20 @@
         <element calculation="(function calculatedFieldValue(current){&#10;var ID = current.name;&#10;var user = new GlideRecord('sys_user');&#10;user.addQuery('sys_id',ID);&#10;user.query();&#10;if ( user.next() ) {&#10;var answer = current.setValue('employee_id', user.department);&#10;}&#10;&#10;return answer;  // return the calculated value&#10;&#10;})(current);" label="Employee Id" max_length="100" name="employee_id" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Department" max_length="100" name="function" type="string"/>
         <element label="HR" max_length="32" name="hr_approver" read_only="true" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.hr^EQ" type="reference"/>
-        <element choice="1" choice_field="ieb" choice_table="x_isgi_rr_user_management" label="IEB" max_length="40" name="ieb" read_only="true" type="choice">
-            <choice/>
+        <element choice="1" choice_field="ieb" label="IEB" max_length="40" name="ieb" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="GovernX" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Americas" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Research" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Automation" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="NaSa" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="One Platform:Glob Mark, IS" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="One Platform:Finance,IT,Legal" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="SEMEA" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="One Platform:HR" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Asia" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="One Platform:India ASC" sequence="10" value="11"/>
+            </choice>
         </element>
         <element label="Employee Name" max_length="32" name="name" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.empl^ORroles=x_isgi_rr.slc^ORroles=x_isgi_rr.mgr^ORroles=x_isgi_rr.rlsm^ORroles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.empl^ORroles=x_isgi_rr.slc^ORroles=x_isgi_rr.mgr^ORroles=x_isgi_rr.rlsm^ORroles=x_isgi_rr.hr^EQ" type="reference"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Nominator" max_length="32" name="nominator" read_only="true" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dynamic_default="true"/>
