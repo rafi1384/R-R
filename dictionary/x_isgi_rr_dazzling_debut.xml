@@ -24,7 +24,7 @@
             </choice>
         </element>
         <element label="HR Approver" max_length="32" name="hr_approver" read_only="true" reference="sys_user" reference_qual="active=true^roles=x_isgi_rr.hr^EQ" reference_qual_condition="active=true^roles=x_isgi_rr.hr^EQ" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" choice_field="ieb" choice_table="x_isgi_rr_user_management" label="IEB" max_length="40" name="ieb" read_only="true" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="ieb" label="IEB" max_length="40" name="ieb" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="GovernX" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Americas" sequence="1" value="2"/>
